@@ -1,0 +1,35 @@
+{
+    "package": "ScratchWiiU",
+    "info": {
+        "title": "Scratch Everywhere!",
+        "author": "NateXS and Grady Link",
+        "category": "tool",
+        "version": "0.27",
+        "url": "https://github.com/ScratchEverywhere/ScratchEverywhere",
+        "license": "Lesser GPLv3",
+        "description": "Play Scratch games on your Wii U!",
+        "details": "A custom Scratch runtime that allows you to run Scratch 3 projects on your Wii U! This is an official port of the original runtime for the 3DS.\\n\\nSee the Github README for more info on what features are supported.\\n\\nMouse\\n3DS: Glide your finger/stylus on the bottom screen to move the mouse, and tap the bottom screen to click.\\nWii U GamePad: You can use the touchscreen on the GamePad.\\nWii Remote: You can use the Wii sensor bar to control the mouse.\\nOther Controllers: Enter Mouse Mode by holding L. Use the D-pad to move the mouse, and press R to click."
+    },
+    "changelog": "v0.27\\nTHE GREAT PORTENING\\n\\n DS Port!\\n- They thought it was impossible... but impossible is my middle name.\\n- It's recommended that you read the README for the limitations of this port!\\n- You will likely come across many crashes, so please open up a GitHub issue if you experience them!\\n- KNOWN ISSUES\\n - Unpacking projects and changing controls crash the system\\n - Cloud variables will not be supported\\n - RAM is very limited, so try to keep projects small\\n - A bunch of Audio limitations, see README for details\\n- Via pull request 362!\\n\\n Web Port!\\n- @gradylink has ported the Runtime to WebAssembly!\\n- With this, ScratchBox: https://scratchbox.grady.link is also updated to use SE! \\n- Via pull request 334!\\n\\n PS4 Port!\\n- @PwLDev has spent over 3 months porting SE! to the PS4!\\n- Now all 3.5 modded PS4 users can enjoy Scratch games on the big screen!\\n- KNOWN ISSUES\\n - Cloud variables is not currently supported\\n- Via pull request 278!\\n\\n\\n Runtime Changes\\n- Optimized Sprite rendering performance\\n- Fixed huge memory leak with If else block\\n- Fixed Main Menu and audio memory leaks\\n- Switch costume to blocks with a number as an input now chooses the correct costume\\n- Fixed positioning of Monitors (Visible Variables)\\n- Changed the look of Monitors look a bit more like Scratch\\n- Added support for more Monitor types\\n- Added Scratch Everywhere! controller custom block\\n - Returns the current controller being used\\n- [SDL2 Platforms]- Fixed scaling of Pen stamped Sprites\\n\\n 3DS Changes\\n- Fixed rendering with the Pen extension\\n- The Pen extension can now be used in dual screen mode\\n- The mouse can no longer go off screen\\n- Fixed compilation error when ENABLE_AUDIO is off\\n\\n Wii Changes\\n- Fixed projects being at an unplayable Framerate\\n\\n Wii U Changes\\n- The Stop \"All\" block now correctly takes you back to the Main Menu\\n\\n Vita Changes\\n- Sounds from the stage now play as Streamed audio\\n\\n Switch Changes\\n- Fixed keyboard menu not closing when closing the software keyboard",
+    "assets": [
+        {
+            "url": "https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.27/scratch-wiiu.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/scratch-wiiu/**/*",
+                    "dest": "/wiiu/apps/scratch-wiiu",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        }
+    ]
+}

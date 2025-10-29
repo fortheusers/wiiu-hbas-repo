@@ -1,0 +1,47 @@
+name: Build repo and deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container: python:3.12
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      BSKY_AUTH: ${{ secrets.BSKY_AUTH }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: Load override update list from commit message
+        run: python parse_packages_from_commit.py "${{ github.event.head_commit.message }}"
+      - name: Install 7zip
+        run: apt-get update && apt-get install -y 7zip tree
+      - name: Build HBAS Repo
+        run: "cd packages && python ../spinarak/spinarak.py -c https://wiiu2.cdn.fortheusers.org/repo.json $(cat ../packages_in_commit.txt | tr '\n' ' ')"
+      - name: Deploy to BunnyCDN
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: ayeressian/bunnycdn-storage-deploy@09ef6b87542c012f56c7f548b5966e1ea2f9099e
+        with:
+          source: "packages/public"
+          destination: "/"
+          storageZoneName: "${{ secrets.STORAGE_ZONE_NAME }}"
+          storageEndpoint: "storage.bunnycdn.com"
+          storagePassword: "${{ secrets.STORAGE_PASSWORD }}"
+          accessKey: "${{ secrets.STORAGE_KEY }}"
+          pullZoneId: "${{ secrets.PULL_ZONE_ID }}"
+          upload: "true"
+          remove: "false"
+          purgePullZone: "false" # purging will be handled by magnezone2
+      - name: Refresh merged repo via Magnezone2
+        if: ${{ github.event_name != 'pull_request' }}
+        run: "curl --header \"AccessKey: ${{ secrets.STORAGE_KEY }}\" \"https://magnezone2.fortheusers.org/refresh?repo=primary&packages=$(cat ./packages/updated_packages.txt)\""
+      - name: Notify update
+        if: ${{ github.event_name != 'pull_request' }}
+        run: "pip install requests atproto && python notify_update.py"
