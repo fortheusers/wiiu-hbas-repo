@@ -1,0 +1,1 @@
+Copy your NFC Figure dumps to this folder. Subfolders are also supported and can be browsed from the configuration menu.
