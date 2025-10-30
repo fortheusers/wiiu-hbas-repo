@@ -1,0 +1,41 @@
+{
+    "package": "RadiiU",
+    "info": {
+        "title": "RadiiU",
+        "author": "Daniel K. O.",
+        "category": "_misc",
+        "version": "0.1.4",
+        "url": "https://github.com/dkosmari/RadiiU",
+        "license": "GPLv3",
+        "description": "Internet radio app",
+        "details": "RadiiU is an internet radio player app for the Wii U.\\nRadio stations are obtained from https://www.radio-browser.info/, but you can also manually add your own station."
+    },
+    "changelog": "v0.1.4\\nBrowser tab:\\n- Added ordering by clicks.\\n- Filtered out some bogus tags.\\n- Some UI improvements for tags and country fields.\\nUpdate vote count after voting.\\n- Player tab:\\n- Remember expanded state of stream details and track history.\\nRecent tab:\\n- Allow favoriting stations.\\nGeneral:\\n- Changed colors to a Halloween scheme.\\n- Fixed a bug that prevented shutting down the console while RadiiU was running.\\n\\nv0.1.3\\n- General: changed icons font from Symbola to FontAwesome.\\n- General: station icons are now downscaled when they exceed 256x256.\\n- Browser tab: tag filter is selected from a list obtained from the server.\\n- Browser tab: country filter is selected from a list obtained from the server.\\n- Browser tab: simplified sort order selection.\\n- Player tab: codec details is more compact.\\n- Player tab: track history shows time in a more compact form.\\n\\nv0.1.2\\nChanges from 0.1.1:\\n- Settings tab: added button to reset all options to default.\\n- Settings tab: fixed the default value for the buffer size; it was set to 8 MiB instead of 8 KiB by mistake.\\nIf you used any previous version of RadiiU, and didn't get any sound (because the buffer was too large), go to the Settings tab, and press the \"Reset\" button (or just drag down the \"Player buffer\" slider).\\n\\nChanges since 0.1:\\n- Recent tab: station info button \"(i)\" now works.\\n- Player tab: station info button \"(i)\" now works.\\n- Player tab: stream details and track history are now collapsible.\\n- Settings tab: added option to put the gamepad on standby after 5 mins of inactivity. This requires the \"burn-in reduction\" option to be enabled in System Settings. Sound will stop playing from the gamepad while on standby.\\n\\nv0.1\\nFirst public release.\\n\\nCurrently only MP3 streams are supported, so only MP3 stations are listed. More codecs will be supported in the future.",
+    "assets": [
+        {
+            "url": "https://github.com/dkosmari/RadiiU/releases/download/0.1.4/radiiu.wuhb",
+            "dest": "/wiiu/apps/RadiiU/radiiu.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/banner.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/radiiu-browser.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/radiiu-favorites.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/radiiu-player.png"
+        }
+    ]
+}
