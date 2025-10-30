@@ -25,7 +25,7 @@
         },
         {
             "url": "./README.txt",
-            "dest": "/wiiu/re_nsyshid/README.TXT",
+            "dest": "/wiiu/re_nsyshid/README.txt",
             "type": "update"
         },
         {
