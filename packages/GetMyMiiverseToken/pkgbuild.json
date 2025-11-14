@@ -1,0 +1,25 @@
+{
+    "package": "GetMyMiiverseToken",
+    "info": {
+        "title": "Get My Miiverse Token!",
+        "author": "not Yoshiomi KURISU",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/dwyazzo90/GetMyMiiverseToken/",
+        "license": "Affero GPLv3",
+        "description": "Gets Miiverse auth data for PC usage",
+        "details": "Do not download/use if you dont know what this is for, please.\\n\\nGets Miiverse auth data like your X-Nintendo-ServiceToken, and X-Nintendo-ParamPack so you can access your Miiverse instance outside the Wii U!\\n\\nFor more information, check the github page:\\n\\nhttps://github.com/dwyazzo90/GetMyMiiverseToken"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/dwyazzo90/GetMyMiiverseToken/releases/download/1.0.1/GetMyMiiverseToken.wuhb",
+            "dest": "/wiiu/apps/GetMyMiiverseToken/GetMyMiiverseToken.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        }
+    ],
+    "changelog": "Initial release / minor bugfix"
+}
