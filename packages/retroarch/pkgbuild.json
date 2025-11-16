@@ -2,7 +2,7 @@
     "package": "RetroNX",
     "info": {
         "title": "Retroarch",
-        "author": "m4xw, libretro, and more",
+        "author": "Libretro",
         "category": "emu",
         "version": "1.22.1",
         "url": "https://github.com/libretro/RetroArch/releases",
