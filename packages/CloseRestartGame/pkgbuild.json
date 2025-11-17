@@ -1,0 +1,29 @@
+{
+    "package": "CloseRestartGame",
+    "info": {
+        "title": "Close/Restart Game",
+        "author": "Lynx64",
+        "category": "aroma",
+        "version": "0.4",
+        "url": "https://github.com/Lynx64/CloseRestartGamePlugin",
+        "license": "GPLv3",
+        "description": "Restart or close a game shortcut plugin",
+        "details": "Restart or close a game from the plugin config menu, even while the HOME Button Menu is inaccessible (you may not notice this at first as the options aren't shown in the Wii U Menu).\\n\\nAlso adds button shortcuts to close or restart to the HOME Button Menu (press X to close, hold X to restart). These can be disabled in the settings.\\n\\nUsage:\\nOpen the plugin config menu by pressing L, DPAD Down and Minus on the GamePad, Pro Controller or Classic Controller, or B, DPAD Down and Minus on a Wii Remote.\\n\\n'Press X to close' is disabled by default to avoid accidental presses."
+    },
+    "changelog": "0.4\\n\\nAdds option to delete the current game's save data for the current user. Hidden by default.\\nAdds option to temporarily show the delete save data options.\\nDefaults and resets to false/hidden each time the plugin is loaded.\\nYou will need to reopen the plugin menu after enabling.\\nAdds notification support to display the status (success/failure) of a delete.\\n\\n0.3\\n\\nUpdate to WUPS 0.8.1.\\nAdd game option to manage save data (jumps to System Settings Data Management).\\n(Normally you will require a GamePad so I recommend the Better Settings plugin so you can also use a Pro Controller.)\\nAdd Shutdown option.\\nOption to Launch Menu directly (no splash) (calls \"LaunchMenuFromHomeButtonMenu\" functions).\\n(Only use case I've found is sometimes it will load slightly faster.)\\n\\n0.2\\n\\nFurther improvements to overall stability and other minor adjustments have been made to enhance the user experience.\\nThe config menu options are now shown in homebrew.\\nLowered the time to hold to restart on the HBM.",
+    "assets": [
+        {
+            "url": "https://github.com/Lynx64/CloseRestartGamePlugin/releases/download/v0.4/CloseRestartGamePlugin.wps",
+            "dest": "/wiiu/environments/aroma/plugins/CloseRestartGamePlugin.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
