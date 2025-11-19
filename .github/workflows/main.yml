@@ -42,6 +42,19 @@ jobs:
       - name: Refresh merged repo via Magnezone2
         if: ${{ github.event_name != 'pull_request' }}
         run: "curl --header \"AccessKey: ${{ secrets.STORAGE_KEY }}\" \"https://magnezone2.fortheusers.org/refresh?repo=primary&packages=$(cat ./packages/updated_packages.txt)\""
+      - name: Prepare PR comment with build results
+        if: ${{ github.event_name == 'pull_request' }}
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: "python post_pr_comment.py https://wiiu.cdn.fortheusers.org"
+      - name: Upload PR comment data
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-comment-data
+          path: |
+            comment.md
+            pr_number.txt
       - name: Notify update
         if: ${{ github.event_name != 'pull_request' }}
         run: "pip install requests atproto && python notify_update.py"
