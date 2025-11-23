@@ -55,6 +55,9 @@ jobs:
           path: |
             comment.md
             pr_number.txt
+      - name: Sleep for 10 seconds
+        if: ${{ github.event_name != 'pull_request' }}
+        run: sleep 10
       - name: Notify update
         if: ${{ github.event_name != 'pull_request' }}
         run: "pip install requests atproto && python notify_update.py"
