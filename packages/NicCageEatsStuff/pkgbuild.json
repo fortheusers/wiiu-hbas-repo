@@ -1,0 +1,29 @@
+{
+    "package": "NicCageEatsStuff",
+    "info": {
+        "title": "Nic Cage Eats Stuff",
+        "author": "Cart1416",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/Cart1416/nces-wiiu",
+        "license": "MIT",
+        "description": "Collect the chicken and dodge celery!",
+        "details": "A port of my Nic Cage Eats Stuff game to the Wii U. The game is simple, collect chicken and dodge the celery, try to get the highest score. Tip: hold a for invincibility\\n\\nOriginal games are available on ahf2139.pythonanywhere.com."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Cart1416/nces-wiiu/releases/download/1.0/nces-wiiu.wuhb",
+            "dest": "/wiiu/apps/NicCageEatsStuff/nces-wiiu.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "1.0\\nI managed to make this game in 2 days as my first C++ game. This is just the base game but I might add some more games like all the mods I made in JavaScript."
+}
