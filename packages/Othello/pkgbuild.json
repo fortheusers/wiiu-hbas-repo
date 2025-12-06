@@ -1,0 +1,29 @@
+{
+    "package": "Othello",
+    "info": {
+        "title": "Othello",
+        "author": "Martin Butler",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/MartinButlerAAA/Othello",
+        "license": "MIT",
+        "description": "Othello game",
+        "details": "This is a Wii U Homebrew version of the Othello game.\\n\\nThe player plays against the computer, alternating who plays first. The aim is to surround and flip the opponents pieces to your colour; the one with the most at the end is the winner.\\n\\nTh full Rules and Instructions for the game can be found here:\\nhttps://www.mastersofgames.com/rules/reversi-othello-rules.htm\\n\\nHope you like it."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/MartinButlerAAA/Othello/releases/download/1.0.0/Othello.wuhb",
+            "dest": "/wiiu/apps/Othello/Othello.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release after review and test."
+}
