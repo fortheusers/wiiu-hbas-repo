@@ -4,7 +4,7 @@
         "title": "Othello",
         "author": "Martin Butler",
         "category": "game",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "url": "https://github.com/MartinButlerAAA/Othello",
         "license": "MIT",
         "description": "Othello game",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/MartinButlerAAA/Othello/releases/download/1.2.0/Othello.wuhb",
+            "url": "https://github.com/MartinButlerAAA/Othello/releases/download/1.3.0/Othello.wuhb",
             "dest": "/wiiu/apps/Othello/Othello.wuhb",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.2.0\\nImproved algorithm to make computer harder to play. Computer now favours moves that leave the opponent with fewer options.\\n\\nInitial release after review and test."
+    "changelog": "v1.3.0\\nUpdate to add selectable difficulty level, now that the game is fairly hard to play.\\n\\nv1.2.0\\nImproved algorithm to make computer harder to play. Computer now favours moves that leave the opponent with fewer options.\\n\\nInitial release after review and test."
 }
