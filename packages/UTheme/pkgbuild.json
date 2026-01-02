@@ -1,0 +1,34 @@
+{
+    "package": "UTheme",
+    "info": {
+        "title": "UTheme",
+        "author": "Xziip",
+        "category": "tool",
+        "version": "0.2B",
+        "url": "https://github.com/xziip/UTheme",
+        "license": "GPLv2",
+        "description": "All-in-one theme downloader for Wii U",
+        "details": "A Wii U theme manager and installer with network download support. Download, preview, install and manage Wii U themes directly from your console!\\n\\nUTheme powered by Themezer API!\\nThanks to Themezer for providing the public API; without it, this software wouldn't exist.\\n\\nWebsite: uthe.me\\n\\nFeatures:\\n\\nBrowse & Download Themes - Access themes from online repository\\nHD Preview - View high-quality theme previews before installing\\nOne-Click Install - Automatic theme patching.\\nTheme Management - View, update, and uninstall installed themes\\nMulti-Language - Support for Chinese, English, and Japanese\\nSettings - Customize logging, language, and music preferences\\n\\nIf you encounter any issues or have questions:\\nCheck the logs in sd:/wiiu/logs/utheme.log (enable logging in settings)\\nOpen an issue on github.\\n\\nSupport me on ko-fi: https://ko-fi.com/xziip"
+    },
+    "changelog": "v0.2B\\nInstall local theme support\\nFull-screen preview of theme images\\nUpdate the correct credits on the About screen\\nMusic Player Update: Background downloads won't freeze. Correctly displays music titles and artists",
+    "assets": [
+        {
+            "url": "https://github.com/xziip/UTheme/releases/download/V0.2B/UTheme.wuhb",
+            "dest": "/wiiu/apps/UTheme/UTheme.wuhb",
+            "type": "update"
+        },
+        {
+            "url": "https://github.com/xziip/UTheme/releases/download/V0.2B/UTheme.rpx",
+            "dest": "/wiiu/apps/UTheme/UTheme.rpx",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
