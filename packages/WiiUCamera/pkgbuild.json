@@ -1,0 +1,29 @@
+{
+    "package": "WiiUCamera",
+    "info": {
+        "title": "WiiUCamera",
+        "author": "ClaudiWolf2056",
+        "category": "aroma",
+        "version": "1.2.0",
+        "url": "https://github.com/ClaudiWolf2056/WiiUCamera",
+        "license": "GPLv3",
+        "description": "Take photos and more!",
+        "details": "A Nintendo Wii U application that transforms your GamePad into a functional camera with recording capabilities, filters, and a gallery.\\n\\n. Main Features\\n. Photo Mode: Take photographs and save them to the SD card.\\n. Video Mode: Record video clips in AVI format (m-jpeg).\\n. Effects: Apply real-time filters to the camera feed.\\n. Integrated Gallery: View your photos and videos without leaving the application.\\n. Music & SFX: Interface with background audio and sound effects.\\n. \ud83c\uddfa\ud83c\uddf8/\ud83c\uddea\ud83c\uddf8 Multi-language: Support for English and Spanish (changeable via the menu).\\n\\n Controls\\nButton\tAction\\nD-Pad / Left Stick\tNavigate the menu\\nA Button\tSelect / Take Photo / Start Recording\\nB Button\tGo Back / Stop Recording\\nTouch Screen\tFull interface navigation\\nHOME Button\tExit application (Clean close)"
+    },
+    "changelog": "v1.2.0\\nFIX: Perfect, error-free photos.\\nNEW: New editor with effects, improved gallery, and secure saves in v1.2.0.\\nFIX: The app is much more user-friendly!\\nℹ​NEW: Email support, touch controls, and much more!\\nv1.1.8\\n\\n FIX: The app now closes instantly without freezing the console (thanks to libwhb implementation).\\n NEW: Simplified installation! Assets (images/fonts) are now packed inside the .wuhb. Just copy one file and play.\\n FIX: Corrected video orientation in the Gallery.\\n NEW: Added on-screen instructions for camera modes.\\n\\n",
+    "assets": [
+        {
+            "url": "https://github.com/ClaudiWolf2056/WiiUCamera/releases/download/v1.2.0/WiiUCamera.wuhb",
+            "dest": "/wiiu/apps/WiiUCamera/WiiUCamera.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
