@@ -4,16 +4,16 @@
         "title": "Ristretto",
         "author": "ItzSwirlz",
         "category": "aroma",
-        "version": "1.2",
+        "version": "1.2.1",
         "url": "https://github.com/wiiu-smarthome/Ristretto",
         "license": "BSD v2",
         "description": "Server for IoT/smart home communication.",
         "details": "Ristretto is a plugin for Aroma that provides a foundation for smart home automation on the Wii U with a HTTP server. This will allow for other devices to communicate with the Wii U, and can then be used to extend existing home automation sofftware.\\n\\nCurrently, integrations exist for Homebridge and Home Assistant, with hopefully more in the future. These platforms can serve as a bridge for an external service, like Google Home or Alexa, to integrate with the console. Have fun!\\n\\nThere are some technical limitations. For more information, see the Wii U Smart Home Project on GitHub and Ristretto's README."
     },
-        "changelog": "- (Experimental) HDMI-CEC support (#22)\\n- Added that consolidate title and device info (#26)\\n- Added basic account endpoints (#29)\\n- Added endpoint for SD card mount status (f54fefb)\\n- Added endpoint for getting the current title type (df2204c)\\n- Added endpoints that get all device and title information via MCP and ACP, respectively (190855d)\\n- Added endpoint for getting gamepad software version (e5dd936)\\n- Added some friends presence endpoints: logged in, online, current comment (daaf032)\\n- Added endpoint for getting loaded Aroma plugins list (380b52d)\\n- Added easter egg 418 endpoint for wipe console settings (5351172) - I will not be adding this for safety reasons\\n\\n- Cleanup: create endpoint namespaces by (#32)\\n- Ristretto's thread now has a proper name and runs on CPU2 (should help with activity when applets are open): (a1dd876)\\n- /device/info: return all info from MCPSysProdSettings (#31)\\n- Fixed issues related to disabling the server and causing crashes (22cfe42)",
+    "changelog": "v1.2.1\\nWhat's Changed\\n- sdhc.cpp header include fix by @Otamay in https://github.com/wiiu-smarthome/Ristretto/pull/33\\n- Fixed an issue with the VPADRead hook that caused a NPD sometimes\\n   - see https://github.com/wiiu-smarthome/Ristretto/commit/5cc2a220579fb0f784ab3228b02ed3d4c53005db and https://github.com/wiiu-smarthome/Ristretto/commit/6cdaab105c508813e0378ae98010ad9b45ab2f46 (which checked for other things)\\n   - Thanks to @GaryOderNichts, @Ingunar, @Maschell\\n\\n New Contributors\\n- @Otamay made their first contribution in https://github.com/wiiu-smarthome/Ristretto/pull/33\\n\\n- (Experimental) HDMI-CEC support (#22)\\n- Added that consolidate title and device info (#26)\\n- Added basic account endpoints (#29)\\n- Added endpoint for SD card mount status (f54fefb)\\n- Added endpoint for getting the current title type (df2204c)\\n- Added endpoints that get all device and title information via MCP and ACP, respectively (190855d)\\n- Added endpoint for getting gamepad software version (e5dd936)\\n- Added some friends presence endpoints: logged in, online, current comment (daaf032)\\n- Added endpoint for getting loaded Aroma plugins list (380b52d)\\n- Added easter egg 418 endpoint for wipe console settings (5351172) - I will not be adding this for safety reasons\\n\\n- Cleanup: create endpoint namespaces by (#32)\\n- Ristretto's thread now has a proper name and runs on CPU2 (should help with activity when applets are open): (a1dd876)\\n- /device/info: return all info from MCPSysProdSettings (#31)\\n- Fixed issues related to disabling the server and causing crashes (22cfe42)",
     "assets": [
         {
-            "url": "https://github.com/wiiu-smarthome/Ristretto/releases/download/1.2/Ristretto.wps",
+            "url": "https://github.com/wiiu-smarthome/Ristretto/releases/download/1.2.1/Ristretto.wps",
             "dest": "/wiiu/environments/aroma/plugins/Ristretto.wps",
             "type": "update"
         },
