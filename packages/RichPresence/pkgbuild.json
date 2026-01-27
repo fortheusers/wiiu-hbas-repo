@@ -1,0 +1,29 @@
+{
+    "package": "RichPresence",
+    "info": {
+        "title": "Rich Presence",
+        "author": "Flaming19",
+        "category": "aroma",
+        "version": "2.0",
+        "url": "https://github.com/FlamingNineteen/RichPresenceWUPS",
+        "license": "GPLv3",
+        "description": "Plugin for showing Discord Rich Presence",
+        "details": "This plugin works with an application running on a computer (Downloadable from https://github.com/FlamingNineteen/RichPresenceWUPS/releases) to update Discord Rich Presence with the Wii U game you are playing. This is done by sending info structured as json through UDP port 5005.\\n\\nMore information on the required computer app can be found in the plugin's configuration settings, or in the plugin's repository."
+    },
+    "changelog": "v2.0\\nWii U Plugin\\n\\nAdded an option to display an icon of the currently used network (Nintendo Network, Pretendo Network).",
+    "assets": [
+        {
+            "url": "https://github.com/FlamingNineteen/RichPresenceWUPS/releases/download/v2.0/RichPresence.wps",
+            "dest": "/wiiu/environments/aroma/plugins/RichPresence.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
