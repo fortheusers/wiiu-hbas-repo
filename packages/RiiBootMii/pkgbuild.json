@@ -1,0 +1,29 @@
+{
+    "package": "RiiBootMii",
+    "info": {
+        "title": "RiiBootMii",
+        "author": "SudoTronics",
+        "category": "aroma",
+        "version": "1.0",
+        "url": "https://github.com/Sudachi-E/RiiBootMii",
+        "license": "GPLv3",
+        "description": "A Plugin that reboots your Wii U",
+        "details": "RiibootMii provides two fast ways to reboot your Wii U: hold the button combo (default: L + R + Y + D-Pad Down) (configurable from the config menu), or select \u201cReboot now\u201d in the plugin\u2019s config menu and press A."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Sudachi-E/RiiBootMii/releases/download/V1.0/RiibootMii.wps",
+            "dest": "/wiiu/environments/aroma/plugins/RiibootMii.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release"
+}
