@@ -1,0 +1,29 @@
+{
+    "package": "HomebrewLoader",
+    "info": {
+        "title": "Homebrew Loader",
+        "author": "SudoTronics",
+        "category": "aroma",
+        "version": "1.0",
+        "url": "https://github.com/Sudachi-E/Homebrew-Loader",
+        "license": "GPLv3",
+        "description": "Launch homebrew from the config menu",
+        "details": "An Aroma plugin for launching homebrew from the config menu. It scans sd:/wiiu/apps recursively to discover both .wuhb and .rpx titles. (Depending on the amount of homebrew on the SD card, It can take a while for the config menu to load)\\n\\nNavigate with the D-Pad, press A to launch homebrew, and use Y to favorite, this appears as its own menu entry for rapid access and X to remove from favorites (Closing and reopening the config menu is required for the config menu to update favorites list)"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Sudachi-E/Homebrew-Loader/releases/download/V1.0/HomebrewLoader.wps",
+            "dest": "/wiiu/environments/aroma/plugins/HomebrewLoader.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release"
+}
