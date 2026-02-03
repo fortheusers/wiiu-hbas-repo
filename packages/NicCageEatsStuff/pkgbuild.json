@@ -4,7 +4,7 @@
         "title": "Nic Cage Eats Stuff",
         "author": "Cart1416",
         "category": "game",
-        "version": "2.0",
+        "version": "3.0",
         "url": "https://github.com/Cart1416/nces-wiiu",
         "license": "MIT",
         "description": "Collect the chicken and dodge celery!",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Cart1416/nces-wiiu/releases/download/2.0/nces-wiiu.wuhb",
+            "url": "https://github.com/Cart1416/nces-wiiu/releases/download/3.0/nces-wiiu.wuhb",
             "dest": "/wiiu/apps/NicCageEatsStuff/nces-wiiu.wuhb",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v2.0\\nRelease 2.0\\n - Added a menu\\n - Added 2 new game modes\\n        - Impossible Nic Cage Eats Stuff\\n        - Easy Nic Cage Eats Stuff\\n - Press - to access menu\\n\\n1.0\\nI managed to make this game in 2 days as my first C++ game. This is just the base game but I might add some more games like all the mods I made in JavaScript."
+    "changelog": "v3.0\\nAdded multiplayer support (up to 4)\\nAdded Nic Cage Eats Stuff 2\\nAdded Nic Crash\\nAdded Joystick support\\n\\nv2.0\\nRelease 2.0\\n - Added a menu\\n - Added 2 new game modes\\n        - Impossible Nic Cage Eats Stuff\\n        - Easy Nic Cage Eats Stuff\\n - Press - to access menu\\n\\n1.0\\nI managed to make this game in 2 days as my first C++ game. This is just the base game but I might add some more games like all the mods I made in JavaScript."
 }
