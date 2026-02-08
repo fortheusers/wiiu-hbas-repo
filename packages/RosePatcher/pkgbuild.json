@@ -1,19 +1,19 @@
 {
     "package": "RosePatcher",
     "info": {
-        "title": "Ros\u00e9 Patcher",
-        "author": "Project Ros\u00e9 Team",
+        "title": "Rosé Patcher",
+        "author": "Project Rosé Team",
         "category": "aroma",
-        "version": "1.2.5",
+        "version": "1.2.6",
         "url": "https://github.com/Project-Rose/RosePatcher/",
         "license": "GPLv2",
-        "description": "This is Ros\u00e9 Patcher! The Aroma plugin that revives Nintendo TVii icon from the Wii U Menu and Home Menu, as well as the applet from inside!",
-        "details": "This plugin restores the Nintendo TVii app icon on both the HBM and Wii U Menu, it also patches the app to use the Project Ros\u00e9 revival.\\n\\nAs of the time of release, the service is currently not available, and the app will display a screen saying this, eventually the app will be released and it will be functional again! For more information, check the Discord server linked in our website (projectrose.cafe)\\n\\nExtras:\\n- Adds support for reminders (Aroma notifications, W.I.P)"
+        "description": "This is Rosé Patcher! The Aroma plugin that revives Nintendo TVii icon from the Wii U Menu and Home Menu, as well as the applet from inside!",
+        "details": "This plugin restores the Nintendo TVii app icon on both the HBM and Wii U Menu, it also patches the app to use the Project Rosé revival.\\n\\nAs of the time of release, the service is currently not available, and the app will display a screen saying this, eventually the app will be released and it will be functional again! For more information, check the Discord server linked in our website (projectrose.cafe)\\n\\nExtras:\\n- Adds support for reminders (Aroma notifications, W.I.P)"
     },
-    "changelog": "- Adds country code to token.\\n- adds paid dlc",
+    "changelog": "v1.2.6\\nUpdate for 1-day public beta.\\n\\n- Adds country code to token.\\n- adds paid dlc",
     "assets": [
         {
-            "url": "https://github.com/Project-Rose/RosePatcher/releases/download/1.2.5/RosePatcher.wps",
+            "url": "https://github.com/Project-Rose/RosePatcher/releases/download/1.2.6/RosePatcher.wps",
             "dest": "/wiiu/environments/aroma/plugins/RosePatcher.wps",
             "type": "update"
         },
