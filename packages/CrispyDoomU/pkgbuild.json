@@ -1,0 +1,29 @@
+{
+    "package": "CrispyDoomU",
+    "info": {
+        "title": "Crispy Doom U",
+        "author": "hamstabuds",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/strejf79/crispy-doom-u-aroma",
+        "license": "All Rights Reserved",
+        "description": "A Crispy Doom Port for the Wii U",
+        "details": "A Crispy Doom Port for the Wii U, Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/strejf79/crispy-doom-u-aroma/releases/download/v1.1-graphics-fix/crispy-doom-u.rpx",
+            "dest": "/wiiu/apps/CrispyDoomU/CrispyDoomU.rpx"
+        }
+    ],
+    "changelog": ""
+}
