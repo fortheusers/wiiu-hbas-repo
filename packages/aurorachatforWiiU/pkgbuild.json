@@ -1,0 +1,29 @@
+{
+    "package": "aurorachatforWiiU",
+    "info": {
+        "title": "aurorachat for Wii U",
+        "author": "Funtum",
+        "category": "_misc",
+        "version": "v0.0.5.1",
+        "url": "https://github.com/ItsFuntum/aurorachat-wiiu",
+        "license": "MIT",
+        "description": "A chatting application.",
+        "details": "A chatting application originally for the Nintendo 3DS and 2DS systems, now on Wii U.\\n\\nTo use the app, create an account or log in to an existing one.\\nUsers can send and receive real-time messages online. All messages are moderated, and users are expected to follow the rules. The Code of Conduct is available in the GitHub repository."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.0.5.1/aurorachat-wiiu.rpx",
+            "dest": "/wiiu/apps/aurorachatforWiiU/aurorachatforWiiU.rpx"
+        }
+    ],
+    "changelog": ""
+}
