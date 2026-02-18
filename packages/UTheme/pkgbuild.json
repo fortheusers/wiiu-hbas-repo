@@ -4,7 +4,7 @@
         "title": "UTheme",
         "author": "Xziip",
         "category": "tool",
-        "version": "0.3B",
+        "version": "0.3B-fix",
         "url": "https://github.com/xziip/UTheme",
         "license": "GPLv3",
         "description": "All-in-one theme downloader for Wii U",
@@ -13,13 +13,8 @@
     "changelog": "v0.3B\\nThis version brings many new features to UTheme!\\nSpecial thanks to the community and the dev team for the hard work!\\n\\n What's New:\\n\\n- Multi-language Support: Now supports 13 different languages for a more global experience.\\n\\n- Search Functionality: Integrated swkbd (Software? Keyboard) support, allowing you to search for themes directly.\\n\\n- Random Theme: Added a \"Random Theme\" feature\\n\\n- StyleMiiU Integration: Full support for StyleMiiU configuration. (Special thanks to @Fangal-Airbag for the implementation!)\\n\\n- Storage Management: Added SD card remaining space detection to ensure safe installations.\\n\\n- Safe Theme Saving: Themes are now saved using safe filenames.\\n\\n- Enhanced UI: Added a touch-screen back button.\\n\\n- Remote Notifications: Support for remote notification alerts.\\n\\n- JSON Parser Update: Replaced the simple parser with a more robust implementation for better stability.\\n\\n- Installation Optimization: Improved the theme installation logic to be faster and more reliable.\\n\\n A Note from the Author:\\nI'm releasing V0.3B today to celebrate the Lunar New Year.\\n\\nI am aware of the background music (BGM) glitches and some specific library conflicts reported by the team. Since I'll be taking a short break for the holidays, these issues will be addressed in the next version.\\n\\nHappy New Year to everyone, and enjoy the new UTheme!\\n\\nv0.2B\\nInstall local theme support\\nFull-screen preview of theme images\\nUpdate the correct credits on the About screen\\nMusic Player Update: Background downloads won't freeze. Correctly displays music titles and artists",
     "assets": [
         {
-            "url": "https://github.com/xziip/UTheme/releases/download/V0.2B/UTheme.wuhb",
+            "url": "https://github.com/xziip/UTheme/releases/download/V0.3B/UTheme.wuhb",
             "dest": "/wiiu/apps/UTheme/UTheme.wuhb",
-            "type": "update"
-        },
-        {
-            "url": "https://github.com/xziip/UTheme/releases/download/V0.2B/UTheme.rpx",
-            "dest": "/wiiu/apps/UTheme/UTheme.rpx",
             "type": "update"
         },
         {
