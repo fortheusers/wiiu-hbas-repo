@@ -36,6 +36,10 @@
         {
             "type": "screenshot",
             "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/radiiu-player.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/RadiiU/refs/heads/main/assets/hbas/radiiu-browser-search.png"
         }
     ]
 }
