@@ -4,7 +4,7 @@
         "title": "aurorachat for Wii U",
         "author": "Funtum",
         "category": "_misc",
-        "version": "0.0.5.1",
+        "version": "0.0.5.2",
         "url": "https://github.com/ItsFuntum/aurorachat-wiiu",
         "license": "MIT",
         "description": "A chatting application.",
@@ -20,15 +20,15 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.0.5.1/aurorachat-wiiu.rpx",
+            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.0.5.2/aurorachat-wiiu.rpx",
             "type": "update",
             "dest": "/wiiu/apps/aurorachatforWiiU/aurorachat-wiiu.rpx"
         },
         {
-            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.0.5.1/aurorachat-wiiu.wuhb",
+            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.0.5.2/aurorachat-wiiu.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/aurorachatforWiiU/aurorachat-wiiu.wuhb"
         }
     ],
-    "changelog": ""
+    "changelog": "v0.0.5.2\\nThis release brings new formatting to the versioning to coincide with the 3DS client (v0.5.2 instead of v0.0.5.2).\\n\\n What's new\\n- Fixed several issues that caused the login to fail.- If you still have issues signing up or logging in, it should now display more information regarding why it failed.\\n- Chat is now scrollable with the D-PAD.\\n- Added themes from aurorachat on 3DS.- You can also reverse the themes, swapping the colors with the TV and GamePad.\\n- You can now view the rules by pressing the Y button when chatting.[^1]- There's also a QR Code for the Unitendo Discord server on the last page.\\n- Just like the 3DS and Wii, the Wii U now sends a tag showing the console you are on."
 }
