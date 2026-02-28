@@ -4,13 +4,13 @@
         "title": "re_nsyshid",
         "author": "deReeperJosh",
         "category": "aroma",
-        "version": "0.4.4",
+        "version": "0.4.5",
         "url": "https://github.com/deReeperJosh/re_nsyshid",
         "license": "GPLv2",
         "description": "Reimplementation of the nsyshid library",
         "details": "re_nsyshid is a plugin that overrides calls to the nsyshid.rpl library, allowing you to emulate USB Toys-to-Life USB peripheral devices.\\n\\nFull usage details can be found here:\\nhttps://github.com/deReeperJosh/re_nsyshid#usage"
     },
-    "changelog": "v0.4.4\\nFixes Skylander Creation, where all UIDS were just 0000 instead of a random number\\n\\nv0.4.3\\n-Give re_nsyshid a Website! by @deReeperJosh in #35\\n-FS Utils Read/Write fix by @deReeperJosh in #36\\n\\nv0.4.2\\n- Use Wii U FS to Read/Write Figure Dumps by @deReeperJosh in #31\\n\\nv0.4.1\\nhttps://github.com/deReeperJosh/re_nsyshid/compare/v0.3.4...v0.4.1",
+    "changelog": "v0.4.5\\nWhat's Changed\\n- Fix Skylander Creation when no Figure Selected by @deReeperJosh in https://github.com/deReeperJosh/re_nsyshid/pull/41\\n\\nv0.4.4\\nFixes Skylander Creation, where all UIDS were just 0000 instead of a random number\\n\\nv0.4.3\\n-Give re_nsyshid a Website! by @deReeperJosh in #35\\n-FS Utils Read/Write fix by @deReeperJosh in #36\\n\\nv0.4.2\\n- Use Wii U FS to Read/Write Figure Dumps by @deReeperJosh in #31\\n\\nv0.4.1\\nhttps://github.com/deReeperJosh/re_nsyshid/compare/v0.3.4...v0.4.1",
     "assets": [
         {
             "url": "https://github.com/user-attachments/files/23207268/re_nsyshid.zip",
