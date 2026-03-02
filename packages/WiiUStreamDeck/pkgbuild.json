@@ -12,14 +12,32 @@
     },
     "assets": [
         {
-            "data": "icon.png",
-            "format": "base64",
+            "url": "https://github.com/FarZenDev/WiiUStreamDeck/releases/download/release/release-aroma.rar",
+            "type": "rar",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/FarZenDev/WiiUStreamDeck/releases/download/release/release-tiramisu.rar",
+            "type": "rar",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
             "type": "icon",
             "url": "icon.png"
         },
         {
-            "data": "screen.png",
-            "format": "base64",
             "type": "banner",
             "url": "screen.png"
         }
