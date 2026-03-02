@@ -16,8 +16,8 @@
             "type": "rar",
             "rar": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/release-aroma/WiiUStreamDeck.wuhb",
+                    "dest": "/wiiu/apps/WiiUStreamDeck/WiiUStreamDeck.wuhb",
                     "type": "update"
                 }
             ]
@@ -27,8 +27,8 @@
             "type": "rar",
             "rar": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/release-tiramisu/WiiUStreamDeck.rpx",
+                    "dest": "/wiiu/apps/WiiUStreamDeck/WiiUStreamDeck.rpx",
                     "type": "update"
                 }
             ]
