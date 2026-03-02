@@ -14,7 +14,7 @@
         {
             "url": "https://github.com/FarZenDev/WiiUStreamDeck/releases/download/release/release-aroma.rar",
             "type": "rar",
-            "zip": [
+            "rar": [
                 {
                     "path": "/**/*",
                     "dest": "/",
@@ -25,7 +25,7 @@
         {
             "url": "https://github.com/FarZenDev/WiiUStreamDeck/releases/download/release/release-tiramisu.rar",
             "type": "rar",
-            "zip": [
+            "rar": [
                 {
                     "path": "/**/*",
                     "dest": "/",
