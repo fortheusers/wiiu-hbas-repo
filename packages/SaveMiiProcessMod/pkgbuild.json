@@ -1,0 +1,46 @@
+{
+    "package": "SaveMiiProcessMod",
+    "info": {
+        "title": "SaveMii /ProcessMod",
+        "author": "Ryuzaki-MrL (w3irDv mod)",
+        "category": "tool",
+        "version": "1.8.0",
+        "url": "https://github.com/w3irDv/savemii",
+        "license": "GPLv3",
+        "description": "WiiU/vWii Save + Mii Manager",
+        "details": "WiiU/vWii Save + Mii Manager\\\\n\\\\nOriginal by Ryuzaki-MrL - Mod by GabyPCGeek - WUT Port by DaThinkingChair - /ProcessMod + /SaveMyMiis by w3irDv\\\\n\\\\nThis homebrew allows you to back up your Wii U/vWii games savedata and your Miis to the SD card, and restore them later.\\\\n\\\\n/ProcessMod expands the capabilities of the original SaveMii:\\\\n- allows you to manage titles in bulk. Multiple titles can be saved, restored, and deleted at once using batch functions.\\\\n- allows you to easily move save data between Wii U profiles, simplifying the setup of Pretendo network.\\\\- allows you to backup & restore Wii U/vWii Mii databases, and import/export/transform Miis\\\\n- copy saves from NAND-USB if title is installed to both, and export/import Loadiine savedata"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/w3irDv/savemii/releases/download/1.8.0/SaveMiiProcessMod-Aroma.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/w3irDv/savemii/releases/download/1.8.0/SaveMiiProcessMod-HBL.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "v1.8.0\\\\n\\\\n- Uninitialized Wii U and vWii inject titles savedata restore: it is no longer necessary to play games before restoring their savedata\\\\n- Wii U System titles savedata management: backup/restore/wipe\\\\n- Mii Databases management: Backup/Restore/Wipe/Initialize full Mii Databases (Wii U , vWii, Account Wii U)\\\\n- Mii management: Export / Import / Wipe individual Miis from any database\\\\n- Transform Miis:\\\\n-- Make a Mii local to the console, transfer ownership from one Mii to another, transfer physical attributes from one Mii to another, convert between Normal/Special/Temporal Miis, togle copy and share attributes, update Mii Id, make a Mii a favorite one, update its CRC checksum\\\\n- Support for ffsd/ffcd/cfsd/cfcd/rsd mii file types, and miigx SaveGameManager GX files\\\\n- Improved support for Loadiine export/import tasks\\\\n-- Menus to select versions to export/import\\\\n-- Shared/dedicated savedata mode can be selected\\\\n- Nomal backup slots accept Loadiine shared savedata mode, and transform it to standard Wii U savedata\\\\n- Wipe can optionally delete metadata (as the standard Wii U Data Management does)\\\\n- Backup includes saveinfo.xml (individual statistics by profile )\\\\n- Wii U and vWii injects backup/restore preserve owner and permissions\\\\n- Backup savedata files with FAT32 forbidden characters\\\\n- Standard PO files for message i8n\\\\n- A lot of code refactoring (new namespaces: FSUtils, Console, StartupUtils, TitleUtils, AccountUtils, improved prompt functions)\\\\n"
+}
