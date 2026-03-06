@@ -14,12 +14,12 @@
         {
             "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.0/Cafe-Xplorer.rpx",
             "type": "update",
-            "dest": "/wiiu/apps/CafXplorer/Cafe-Xplorer.rpx"
+            "dest": "/wiiu/apps/Cafe-Xplorer/Cafe-Xplorer.rpx"
         },
         {
             "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.0/Cafe-Xplorer.wuhb",
             "type": "update",
-            "dest": "/wiiu/apps/CafXplorer/Cafe-Xplorer.wuhb"
+            "dest": "/wiiu/apps/Cafe-Xplorer/Cafe-Xplorer.wuhb"
         },
         {
             "type": "icon",
