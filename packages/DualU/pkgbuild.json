@@ -1,0 +1,35 @@
+{
+    "package": "DualU",
+    "info": {
+        "title": "Dual U",
+        "author": "tech-will",
+        "category": "aroma",
+        "version": "Official-Release",
+        "url": "https://github.com/tech-will/Dual-U",
+        "license": "MIT",
+        "description": "Connect 2 gamepads at the same time!",
+        "details": "Dual-U\\nThis Wii U plugin allows to connect 2 Wii U gamepads at the same time! It can stream sound and controls.\\n\\nBack in E3 2012, Nintendo announced that two Wii U gamepads can be connected to the console at the same time. This feature was never released, but it is still in the system files and can be used in homebrew applications. This plugin allows you to play some games with two gamepads!\\n\\nFeatures\\n- Pair the Wii U gamepads\\n\\n- Turn the plugin on and off\\n\\n- Switch controller mode between mirrored (acts as the same controller for both Wii U gamepads) and Separate (The second gamepad pretends to be a Wii U pro controller)\\n\\n- Reload Wii U button to easily connect both of the gamepads\\n\\nControls\\n\u2022 Press left stick and right stick together to disconnect the second gamepad\\n\\nVisit the GitHub: https://github.com/tech-will/Dual-U for more information."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/tech-will/Dual-U/releases/download/Official-Release/Dual_U.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
