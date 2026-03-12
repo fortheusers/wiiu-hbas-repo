@@ -4,7 +4,7 @@
         "title": "Dual U",
         "author": "tech-will",
         "category": "aroma",
-        "version": "0.2",
+        "version": "0.3",
         "url": "https://github.com/tech-will/Dual-U",
         "license": "MIT",
         "description": "Connect 2 gamepads at the same time!",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/tech-will/Dual-U/releases/download/0.2/Dual_U.zip",
+            "url": "https://github.com/tech-will/Dual-U/releases/download/0.3/Dual_U.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v0.2\\nFixed some bugs where some games didn't work with separate controllers. This release also added the ability to use the gamepad on the Wii U menu in Separate mode, so it no longer shows a greyed-out hand."
+    "changelog": "v0.3\\nAdded Rumble to the second gamepad.\\n\\nv0.2\\nFixed some bugs where some games didn't work with separate controllers. This release also added the ability to use the gamepad on the Wii U menu in Separate mode, so it no longer shows a greyed-out hand."
 }
