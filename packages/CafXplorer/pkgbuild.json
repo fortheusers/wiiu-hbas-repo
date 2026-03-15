@@ -4,7 +4,7 @@
         "title": "Café-Xplorer",
         "author": "SudoTronics",
         "category": "tool",
-        "version": "1.0",
+        "version": "1.2",
         "url": "https://github.com/Sudachi-E/Cafe-Xplorer",
         "license": "GPLv3",
         "description": "A multi-purpose file manager",
@@ -12,12 +12,12 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.0/Cafe-Xplorer.rpx",
+            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.2/Cafe-Xplorer.rpx",
             "type": "update",
             "dest": "/wiiu/apps/Cafe-Xplorer/Cafe-Xplorer.rpx"
         },
         {
-            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.0/Cafe-Xplorer.wuhb",
+            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.2/Cafe-Xplorer.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/Cafe-Xplorer/Cafe-Xplorer.wuhb"
         },
@@ -58,5 +58,5 @@
             "url": "screen-6.png"
         }
     ],
-    "changelog": ""
+    "changelog": "v1.2\\n- Fixed crash when returning to Wii U Menu.\\n\\nv1.1\\nWhat's new :\\n\\n- Fixed HOME button exit to the suspended menu instead of exiting immediately.\\n- Added panning and zooming when viewing images (Left stick : panning / Right stick : zoom)\\n- Added access to the full Wii U file system.\\n- Can now open .rpx and .wuhb files directly on the SD Card and Wii U formatted drives.\\n- Minor UI/UX improvements for a better user experience."
 }
