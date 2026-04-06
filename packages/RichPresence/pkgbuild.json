@@ -4,16 +4,16 @@
         "title": "Rich Presence",
         "author": "Flaming19",
         "category": "aroma",
-        "version": "2.0",
+        "version": "2.1",
         "url": "https://github.com/FlamingNineteen/RichPresenceWUPS",
         "license": "GPLv3",
         "description": "Plugin for showing Discord Rich Presence",
         "details": "This plugin works with an application running on a computer (Downloadable from https://github.com/FlamingNineteen/RichPresenceWUPS/releases) to update Discord Rich Presence with the Wii U game you are playing. This is done by sending info structured as json through UDP port 5005.\\n\\nMore information on the required computer app can be found in the plugin's configuration settings, or in the plugin's repository."
     },
-    "changelog": "v2.0\\nWii U Plugin\\n\\nAdded an option to display an icon of the currently used network (Nintendo Network, Pretendo Network).",
+    "changelog": "v2.1\\nWii U Plugin\\nFour new configuration options were added:\\n- Enable or disable the plugin\\n- Choose whether or not to conform to Daylight Savings Time\\n- Change the UDP port number\\n- Enable or disable the plugin when playing Call of Duty games (43)\\n\\n\\n Discord App\\nmacOS builds are here! No longer do you have to manually compile the repository: you can expect macOS downloads in future releases.\\nA new command line argument was added. Type port followed by a number to change the default UDP port.\\nThe program will now tell you if there is a new update.\\n\\nv2.0\\nWii U Plugin\\n\\nAdded an option to display an icon of the currently used network (Nintendo Network, Pretendo Network).",
     "assets": [
         {
-            "url": "https://github.com/FlamingNineteen/RichPresenceWUPS/releases/download/v2.0/RichPresence.wps",
+            "url": "https://github.com/FlamingNineteen/RichPresenceWUPS/releases/download/v2.1/RichPresence.wps",
             "dest": "/wiiu/environments/aroma/plugins/RichPresence.wps",
             "type": "update"
         },
