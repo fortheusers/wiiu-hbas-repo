@@ -1,0 +1,26 @@
+{
+    "package": "dolphinemulater",
+    "info": {
+        "title": "dolphin emulater",
+        "author": "venom",
+        "category": "emu",
+        "version": "360",
+        "url": "https://dolphin-emu.org/",
+        "license": "All Rights Reserved",
+        "description": "game cube emulater",
+        "details": "this is a really good gamecube emulater"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
