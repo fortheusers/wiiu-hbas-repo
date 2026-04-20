@@ -1,0 +1,37 @@
+{
+    "package": "Button-Break",
+    "info": {
+        "title": "Button Break",
+        "author": "Nightkingale",
+        "category": "game",
+        "version": "1.0.1",
+        "url": "https://github.com/Nightkingale/Button-Break",
+        "license": "MIT",
+        "description": "A game that tests the buttons on a Wii U GamePad.",
+        "details": "Button Break is a very simple game made in order to test basic functionality of the Wii U GamePad controller. This was a project that's been held back from release for over a year because of its simplicity, but is finally being released because of the ever-growing homebrew scene.\\n\\nInstallation:\\n\\nA Wii U homebrew file will be bundled with each release. It should be placed on your SD card, particularly in wiiu/apps/.\\n\\nIt's important to have the Aroma environment installed for Button Break to work. Please visit our hacking guide and the Aroma webpage if you would like to softmod your Wii U console.\\n\\nCredits:\\n\\nI hope that I am able to express my thanks as much as possible to those who made this repository possible.\\n\\nQuarkTheAwesome, for writing the ProgrammingOnTheU tutorials that inspired me to make Button Break."
+    },
+    "changelog": "v1.0.1\\n\\nThe author name shown in the game was updated to reflect my new alias, as I no longer go by the old name.",
+    "assets": [
+        {
+            "url": "https://github.com/Nightkingale/Button-Break/releases/download/v1.0.1/Button_Break.wuhb",
+            "dest": "/wiiu/apps/Button_Break.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        }
+    ]
+}
