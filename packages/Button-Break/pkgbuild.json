@@ -14,7 +14,7 @@
     "assets": [
         {
             "url": "https://github.com/Nightkingale/Button-Break/releases/download/v1.0.1/Button_Break.wuhb",
-            "dest": "/wiiu/apps/Button_Break.wuhb",
+            "dest": "/wiiu/apps/Button-Break/Button_Break.wuhb",
             "type": "update"
         },
         {
