@@ -4,7 +4,7 @@
         "title": "Homebrew Loader",
         "author": "SudoTronics",
         "category": "aroma",
-        "version": "1.0",
+        "version": "1.1",
         "url": "https://github.com/Sudachi-E/Homebrew-Loader",
         "license": "GPLv3",
         "description": "Launch homebrew from the config menu",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Sudachi-E/Homebrew-Loader/releases/download/V1.0/HomebrewLoader.wps",
+            "url": "https://github.com/Sudachi-E/Homebrew-Loader/releases/download/V1.1/HomebrewLoader.wps",
             "dest": "/wiiu/environments/aroma/plugins/HomebrewLoader.wps",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "Initial release"
+    "changelog": "v1.1\\nWii U Plugin changes :\\n- Support for Aroma Beta 26 and WUPS 0.9.1. (1)\\n\\nPlugin Fixes :\\n\\n- Fixed an issue that caused saved homebrew from failing to open sometimes.\\n\\nInitial release"
 }
