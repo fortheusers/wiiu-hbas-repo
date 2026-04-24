@@ -1,0 +1,29 @@
+{
+    "package": "SDL2GameControllerTest",
+    "info": {
+        "title": "SDL2 Game Controller Test",
+        "author": "Daniel K. O.",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/dkosmari/SDL2-Game-Controller-Test",
+        "license": "GPLv3",
+        "description": "A tool to test your controllers.",
+        "details": "This is a simple application to test game controllers, using the SDL2 library, and ImGui.\\n\\nBoth the low-level \"Joystick\" and the high-level \"GameController\" inputs are shown.\\n\\nReal-time graphs show movement of sticks and button presses.\\n\\nNote that not all SDL2 features exist yet in the Wii U port, so some parts of the UI are unresponsive (like rumble.) This is not a bug, it's just a missing feature."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dkosmari/SDL2-Game-Controller-Test/releases/download/v1.0/sdl2-game-controller-test.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/SDL2GameControllerTest/sdl2-game-controller-test.wuhb"
+        }
+    ],
+    "changelog": "1.0 is the first release."
+}
