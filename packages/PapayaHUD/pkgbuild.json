@@ -1,0 +1,29 @@
+{
+    "package": "PapayaHUD",
+    "info": {
+        "title": "Papaya HUD",
+        "author": "Daniel K. O.",
+        "category": "aroma",
+        "version": "0.4.2",
+        "url": "https://github.com/dkosmari/Papaya-HUD",
+        "license": "GPLv3",
+        "description": "HUD plugin for Aroma.",
+        "details": "This is a HUD plugin that can display some system information, such as frames per second, GPU utilization, CPU utilization, network bandwidth, filesystem read rate.\\nThe current implementation is very simple, the HUD rendering uses Aroma's Notification module, and can only show single line of text. This will be changed for version 1.0 later, to more closely resemble Mango HUD."
+    },
+    "changelog": "v0.4.2\\nUpdated WUPS for Aroma b26.\\nToggling the HUD enabled state with the button combo shortcut is now saved again. The saving had been disabled due to some obscure crashes in the past, that don't seem to exist anymore with current Aroma.",
+    "assets": [
+        {
+            "url": "https://github.com/dkosmari/Papaya-HUD/releases/download/v0.4.2/papaya-hud.wps",
+            "dest": "/wiiu/environments/aroma/plugins/papaya-hud.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

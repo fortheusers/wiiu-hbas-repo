@@ -1,0 +1,29 @@
+{
+    "package": "Turbiine",
+    "info": {
+        "title": "Turbiine",
+        "author": "Daniel K. O.",
+        "category": "aroma",
+        "version": "1.1",
+        "url": "https://github.com/dkosmari/Turbiine",
+        "license": "GPLv3",
+        "description": "A turbo plugin.",
+        "details": "This is an Aroma plugin to turn any Wii U controller into a turbo controller.\\n\\nUsage:\\n\\nPress the toggle button combo (e.g. TV + ZL on the Gamepad).\\nPress a button; it will toggle between normal and turbo mode.\\n\\nNote: Turbo action is disabled every time you start a game, or return to the Wii U Menu."
+    },
+    "changelog": "1.1\\nTurbo action is now based on time (milliseconds) instead of samples.\\nThe core code was rewritten, and hopefully should work for more games.\\nPre-release versions of 1.1 were depending on a modified ButtonComboModule to work properly. The final release is compatible with the official ButtonComboModule.",
+    "assets": [
+        {
+            "url": "https://github.com/dkosmari/Turbiine/releases/download/v1.1/turbiine.wps",
+            "dest": "/wiiu/environments/aroma/plugins/turbiine.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

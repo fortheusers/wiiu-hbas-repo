@@ -1,0 +1,29 @@
+{
+    "package": "ScreenshotUnlocker",
+    "info": {
+        "title": "Screenshot Unlocker",
+        "author": "Daniel K. O.",
+        "category": "aroma",
+        "version": "1.1",
+        "url": "https://github.com/dkosmari/Screenshot-Unlocker",
+        "license": "GPLv3",
+        "description": "Unlocks screenshot uploads.",
+        "details": "Some Wii U games and apps disable the upload of screenshots to Miiverse and Web Browser. This plugin removes this restriction, to always enable screenshot uploads.\\n\\nNote: this plugin has no relationship to the official Screenshot plugin from Aroma."
+    },
+    "changelog": "v1.1\\nUpdated WUPS for Aroma b26.",
+    "assets": [
+        {
+            "url": "https://github.com/dkosmari/Screenshot-Unlocker/releases/download/v1.1/screenshot-unlocker.wps",
+            "dest": "/wiiu/environments/aroma/plugins/screenshot-unlocker.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

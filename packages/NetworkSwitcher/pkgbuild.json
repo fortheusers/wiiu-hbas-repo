@@ -1,0 +1,29 @@
+{
+    "package": "NetworkSwitcher",
+    "info": {
+        "title": "Network Switcher",
+        "author": "Daniel K. O.",
+        "category": "aroma",
+        "version": "1.2",
+        "url": "https://github.com/dkosmari/Network-Switcher",
+        "license": "GPLv3",
+        "description": "Switch network profiles.",
+        "details": "This is an Aroma plugin to switch between network profiles on the Wii U.\\n\\nUsage:\\nOpen the Wii U Plugin System Config Menu (press L + \ud83e\udc53 + SELECT)\\nEnter the Network Switcher settings.\\nSelect the network profile you want to use and press A.\\n\\nNote: this change is not permanent. The Wii U will always try to use the default profile when it boots up.\\n\\nYou can also change which profile is the default in the plugin."
+    },
+    "changelog": "v1.2\\nUpdated WUPS for Aroma Beta 26 compatibility.",
+    "assets": [
+        {
+            "url": "https://github.com/dkosmari/Network-Switcher/releases/download/v1.2/network-switcher.wps",
+            "dest": "/wiiu/environments/aroma/plugins/network-switcher.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

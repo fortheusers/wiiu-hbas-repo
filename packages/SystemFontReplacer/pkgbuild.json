@@ -1,0 +1,34 @@
+{
+    "package": "SystemFontReplacer",
+    "info": {
+        "title": "System Font Replacer",
+        "author": "Daniel K. O.",
+        "category": "aroma",
+        "version": "1.3",
+        "url": "https://github.com/dkosmari/System-Font-Replacer",
+        "license": "GPLv3",
+        "description": "Replace the system font.",
+        "details": "This is a plugin that safely replaces (in RAM only) the system font, by a custom one from the SD card. It affects the Wii U Menu font, so it's ideal for complementing a custom Wii U Menu theme.\\n\\nThe NAND is NOT modified in any way, so you do not need to worry about bricks.\\n\\nIt also comes with the System Font Replacer Helper app, that automatically converts \".bps\" patches into \".ttf\" fonts, in the SD card.\\n\\nFor more detailed information and usage instructions, see the project page: https://github.com/dkosmari/System-Font-Replacer\\n\\nIf you get a custom font in the form of a .bps patch, to be applied to one of the system fonts, you can use the System Font Replacer Helper to easily convert them.\\n\\nSimply put your .bps patches in SD:/wiiu/fonts/, and run the Helper app. It will then automatically convert all .bps patches in that folder into .ttf fonts."
+    },
+    "changelog": "1.3\\nFont selection in the plugin config menu is now simplified: only fonts from SD:/wiiu/fonts/ are shown. Use left/right to change the font.\\nUpdated WUPS for compatibility with Aroma Beta 26.",
+    "assets": [
+        {
+            "url": "https://github.com/dkosmari/System-Font-Replacer/releases/download/v1.2/system-font-replacer-helper.wuhb",
+            "dest": "/wiiu/apps/SystemFontReplacer/system-font-replacer-helper.wuhb",
+            "type": "update"
+        },
+        {
+            "url": "https://github.com/dkosmari/System-Font-Replacer/releases/download/v1.3/system-font-replacer.wps",
+            "dest": "/wiiu/environments/aroma/plugins/system-font-replacer.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
