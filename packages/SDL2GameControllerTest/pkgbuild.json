@@ -1,7 +1,7 @@
 {
-    "package": "SDL2GameControllerTes",
+    "package": "SDL2GameControllerTest",
     "info": {
-        "title": "SDL2 Game Controller Tes",
+        "title": "SDL2 Game Controller Test",
         "author": "Daniel K. O.",
         "category": "tool",
         "version": "1.0",
@@ -22,7 +22,7 @@
         {
             "url": "https://github.com/dkosmari/SDL2-Game-Controller-Test/releases/download/v1.0/sdl2-game-controller-test.wuhb",
             "type": "update",
-            "dest": "/wiiu/apps/SDL2GameControllerTes/sdl2-game-controller-test.wuhb"
+            "dest": "/wiiu/apps/SDL2GameControllerTest/sdl2-game-controller-test.wuhb"
         }
     ],
     "changelog": "1.0 is the first release."
