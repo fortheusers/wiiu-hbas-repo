@@ -4,7 +4,7 @@
         "title": "RiiBootMii",
         "author": "SudoTronics",
         "category": "aroma",
-        "version": "1.1",
+        "version": "1.2",
         "url": "https://github.com/Sudachi-E/RiiBootMii",
         "license": "GPLv3",
         "description": "A Plugin that reboots your Wii U",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Sudachi-E/RiiBootMii/releases/download/V1.1/RiibootMii.wps",
+            "url": "https://github.com/Sudachi-E/RiiBootMii/releases/download/V1.2/RiibootMii.wps",
             "dest": "/wiiu/environments/aroma/plugins/RiibootMii.wps",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.1\\n- Added Soft Reboot support.\\n\\nInitial release"
+    "changelog": "v1.2\\n-  Support for Aroma Beta 26\\n\\nv1.1\\n- Added Soft Reboot support.\\n\\nInitial release"
 }
