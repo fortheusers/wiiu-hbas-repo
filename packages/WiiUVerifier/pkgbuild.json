@@ -1,0 +1,29 @@
+{
+    "package": "WiiUVerifier",
+    "info": {
+        "title": "Wii U Verifier",
+        "author": "Jamison Smith",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/JamiNeedsSleep/WiiUVerifier",
+        "license": "GPLv3",
+        "description": "Verify your real Wii U!",
+        "details": "This tool uses information from your Wii U to generate a hash that can be used to verify yourself as a real Wii U owner.\\nUse it with a Discord Bot in the supported Discord servers to verify yourself.\\nThe tool DOES require internet access.\\n\\nThank you to LotP for allowing me to use some parts of their description, and logo.\\n\\nSupported Discord Servers:\\n- MeloNX\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/JamiNeedsSleep/WiiUVerifier/releases/download/v0.1.0/WiiUVerifier.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiUVerifier/WiiUVerifier.wuhb"
+        }
+    ],
+    "changelog": "v0.1.0:\\nInitial release."
+}
