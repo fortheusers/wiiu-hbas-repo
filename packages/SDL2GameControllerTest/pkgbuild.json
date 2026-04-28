@@ -20,6 +20,22 @@
             "url": "screen.png"
         },
         {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/SDL2-Game-Controller-Test/refs/heads/main/assets/hbas/screenshot-1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/SDL2-Game-Controller-Test/refs/heads/main/assets/hbas/screenshot-2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/SDL2-Game-Controller-Test/refs/heads/main/assets/hbas/screenshot-3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/dkosmari/SDL2-Game-Controller-Test/refs/heads/main/assets/hbas/screenshot-4.png"
+        },
+        {
             "url": "https://github.com/dkosmari/SDL2-Game-Controller-Test/releases/download/v1.0/sdl2-game-controller-test.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/SDL2GameControllerTest/sdl2-game-controller-test.wuhb"
