@@ -13,11 +13,11 @@
     "assets": [
         {
             "type": "icon",
-            "url": "icon.png"
+            "url": "https://raw.githubusercontent.com/dkosmari/SDL2-Game-Controller-Test/refs/heads/main/assets/hbas/icon.png"
         },
         {
             "type": "banner",
-            "url": "screen.png"
+            "url": "https://raw.githubusercontent.com/dkosmari/SDL2-Game-Controller-Test/refs/heads/main/assets/hbas/banner.png"
         },
         {
             "type": "screenshot",
