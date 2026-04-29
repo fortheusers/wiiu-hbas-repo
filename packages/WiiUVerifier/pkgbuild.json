@@ -4,7 +4,7 @@
         "title": "Wii U Verifier",
         "author": "Jamison Smith",
         "category": "tool",
-        "version": "0.1.0",
+        "version": "0.1.5",
         "url": "https://github.com/JamiNeedsSleep/WiiUVerifier",
         "license": "GPLv3",
         "description": "Verify your real Wii U!",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/JamiNeedsSleep/WiiUVerifier/releases/download/v0.1.0/WiiUVerifier.wuhb",
+            "url": "https://github.com/JamiNeedsSleep/WiiUVerifier/releases/download/v0.1.5/WiiUVerifier.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/WiiUVerifier/WiiUVerifier.wuhb"
         }
     ],
-    "changelog": "v0.1.0:\\nInitial release."
+    "changelog": "v0.1.5\\nRelease Waywater!!\\n Added:\\n- Nothing Important\\n\\n Fixed:\\n- Request sending (Hash generation)\\n\\nv0.1.0:\\nInitial release."
 }
