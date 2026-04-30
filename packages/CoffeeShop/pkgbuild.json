@@ -10,11 +10,7 @@
         "description": "A mod manager for the Wii U. Browse, install and manage SDCafiine mods.",
         "details": "CoffeeShop lets you browse and install mods from community-hosted repositories directly on your Wii U.\\n\\nFeatures\\n- Browse and install mods from custom repositories\\n- Per-game mod list with icons, tags, and metadata\\n- Download queue with progress and error recovery\\n- Activate / deactivate mods without uninstalling\\n- Conflict detection between active mods\\n- Update badges when newer versions are available\\n- Settings tab with repo management, cache control, and log viewer\\n\\nRequirements\\n- Aroma installed\\n- SD card\\n- A config.json pointing to at least one community repo (see GitHub for details)"
     },
-<<<<<<< Updated upstream
-    "changelog": "v0.1.6\\nCoffeeShop v0.1.6\\n\\n Installation\\n1. Copy wiiu_mod_store.wuhb to SD:/wiiu/apps/coffeeshop/\\n2. Create SD:/wiiu/apps/coffeeshop/config.json with your repo URLs\\n3. Launch via Homebrew Launcher\\n\\n config.json\\njson\\n{\\n  \"repos\": [\\n    \"https://raw.githubusercontent.com/timkicker/coffeeshop-repo-template/main/repo.json\"\\n  ]\\n}\\n\\nv0.1.5\\n- Fixed issue with closing the app",
-=======
     "changelog": "v0.1.6\\n- Fixed timeout on large downloads\\n- Added cancel button (X) in download queue",
->>>>>>> Stashed changes
     "assets": [
         {
             "url": "https://github.com/timkicker/coffeeshop/releases/download/v0.1.6/wiiu_mod_store.wuhb",
