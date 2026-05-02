@@ -4,16 +4,16 @@
         "title": "CoffeeShop",
         "author": "timkicker",
         "category": "aroma",
-        "version": "0.1.6",
+        "version": "0.1.7",
         "url": "https://github.com/timkicker/coffeeshop",
         "license": "GPLv3",
         "description": "A mod manager for the Wii U. Browse, install and manage SDCafiine mods.",
-        "details": "CoffeeShop lets you browse and install mods from community-hosted repositories directly on your Wii U.\\n\\nFeatures\\n- Browse and install mods from custom repositories\\n- Per-game mod list with icons, tags, and metadata\\n- Download queue with progress and error recovery\\n- Activate / deactivate mods without uninstalling\\n- Conflict detection between active mods\\n- Update badges when newer versions are available\\n- Settings tab with repo management, cache control, and log viewer\\n\\nRequirements\\n- Aroma installed\\n- SD card\\n- A config.json pointing to at least one community repo (see GitHub for details)"
+        "details": "CoffeeShop lets you browse and install mods from community-hosted repositories directly on your Wii U.\\n\\nFeatures\\n- Browse and install mods from custom repositories\\n- Per-game mod list with icons, screenshots, tags, and metadata\\n- Tag filter and sort cycle (Default / Name / Version) on the Browse tab\\n- Concurrent download queue with per-job progress, cancel, and resume\\n- Optional SHA-256 verification of downloaded archives\\n- Atomic install -- failed extracts never leave a half-installed mod behind\\n- Activate / deactivate mods without uninstalling\\n- Conflict detection between active mods\\n- Update badges and one-press 'update all' for installed mods\\n- Region picker for games with multiple Title IDs (US/EU/JP)\\n- Settings tab with repo management, cache control, and an in-app log viewer\\n- Crash dump captured to SD on signal faults for post-mortem debugging\\n- UI state (active tab, sort mode, tag filter) persisted across launches\\n\\nRequirements\\n- Aroma installed\\n- SD card\\n- A config.json pointing to at least one community repo (see GitHub for details)"
     },
-    "changelog": "v0.1.6\\n- Fixed timeout on large downloads\\n- Added cancel button (X) in download queue",
+    "changelog": "v0.1.7\\n- Resumable downloads -- interrupted transfers pick up where they left off\\n- Concurrent download workers (2 parallel by default)\\n- Optional SHA-256 verification of downloaded archives\\n- Atomic install via staging directory + rename swap\\n- Tag filter (Y) and sort cycle (X) on the Browse tab\\n- Region picker for games with multiple Title IDs\\n- Update-all button (ZR) on the Installed tab\\n- In-app log viewer with severity color-coding\\n- Crash dump catcher writes crash.log on signal faults\\n- ZIP-bomb prevention in the archive extractor\\n- Hardened recursive delete (timeout, symlink-loop protection)\\n- UI state persistence (active tab, sort mode, tag filter)\\n- Many stability fixes from hardware testing",
     "assets": [
         {
-            "url": "https://github.com/timkicker/coffeeshop/releases/download/v0.1.6/wiiu_mod_store.wuhb",
+            "url": "https://github.com/timkicker/coffeeshop/releases/download/v0.1.7/wiiu_mod_store.wuhb",
             "dest": "/wiiu/apps/coffeeshop/wiiu_mod_store.wuhb",
             "type": "update"
         },
