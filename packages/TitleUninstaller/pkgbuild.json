@@ -1,0 +1,29 @@
+{
+    "package": "TitleUninstaller",
+    "info": {
+        "title": "Title Uninstaller",
+        "author": "SudoTronics",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/Sudachi-E/TitleUninstaller",
+        "license": "GPLv3",
+        "description": "A title uninstaller for the Wii U",
+        "details": "Browse, select, and uninstall game titles from USB storage or the NAND. It's designed as a faster, more capable alternative to the Wii U's built-in Data Management screen, with batch operations."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Sudachi-E/TitleUninstaller/releases/download/V1.0/TitleUninstaller.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/TitleUninstaller/TitleUninstaller.wuhb"
+        }
+    ],
+    "changelog": ""
+}
