@@ -24,6 +24,10 @@
         {
             "type": "banner",
             "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot1.png"
         }
     ]
 }
