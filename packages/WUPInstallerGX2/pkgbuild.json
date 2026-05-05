@@ -1,0 +1,29 @@
+{
+    "package": "WUPInstallerGX2",
+    "info": {
+        "title": "WUP Installer GX2",
+        "author": "zer00p",
+        "category": "tool",
+        "version": "1.4",
+        "url": "https://github.com/zer00p/wup-installer-gx2",
+        "license": "n/a",
+        "description": "WUP Installer GX2 zer00p Mod",
+        "details": "This a WUHB port of WUP Installer GX2 made for Aroma environment.\\n\\nCredits: A big thanks goes out to brienj for creating the original rpx port of WUP Installer GX2, and Gary for making the Wii U controller mod version, Fangal for creating the Aroma version.\\n\\nAlso to Yardape8000 for creating the wup installer y mod which WUP Installer GX2 was based on.  And of course dimok who created the original apps HBL and Loadiine which use the same base, as well as the original wupinstaller, and Maschell for creating the new Aroma environment and all the other amazing work he's done for the community. Big thanks to them as well."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/zer00p/wup-installer-gx2/releases/download/v1.4/wup_installer_gx2.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WUPInstallerGX2/wup_installer_gx2.wuhb"
+        }
+    ],
+    "changelog": "- looks in wudd dump directory (wudump)\\n- Add delete after install option"
+}
