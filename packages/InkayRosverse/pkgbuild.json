@@ -1,0 +1,24 @@
+{
+    "package": "InkayRosverse",
+    "info": {
+        "title": "Inkay (Ros\u00e9verse)",
+        "author": "Project Ros\u00e9 Team",
+        "category": "aroma",
+        "version": "3.0.0",
+        "url": "https://github.com/Project-Rose/Inkay-Roseverse",
+        "license": "GPLv3",
+        "description": "Inkay fork for Ros\u00e9verse (with Pretendo)",
+        "details": "Aroma must be updated to the latest version before installing, you can update Aroma from Aroma Updater.\\nRemember that when updating in the future from Aroma Updater, you must uncheck Inkay when prompted to update it to avoid reeplacing the current Inkay for Ros\u00e9verse with Pretendo\u00b4s default one.\\n\\nInkay (Ros\u00e9verse) replaces the default Miiverse service from Pretendo with Project Ros\u00e9\u00b4s Ros\u00e9verse, a revival with many features that is faithful to Miiverse pre-redesign, remember that this new revival is in active development and new features come every few weeks, for more information, FAQ, or help with issues, please join the Discord server linked in projectrose.cafe\\n\\nRemember to enable password cache to your account and try to set a default account. Might work after a restart, if issues continue join the Discord server previously mentioned.\\n\\nRos\u00e9verse works with Pretendo Network, you can restore Juxt by reinstalling the default Inkay from Pretendo Network."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
