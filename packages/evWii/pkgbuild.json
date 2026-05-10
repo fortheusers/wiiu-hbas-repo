@@ -1,0 +1,29 @@
+{
+    "package": "evWii",
+    "info": {
+        "title": "evWii",
+        "author": "GaryOderNichts",
+        "category": "aroma",
+        "version": "0.4",
+        "url": "https://github.com/GaryOderNichts/evwii",
+        "license": "GPLv2",
+        "description": "Wii U plugin to enhance the vWii mode",
+        "details": "This is a plugin for Aroma which tries to improve some of the Wii U's virtual Wii features.\\nIt works by patching features used for setting up the vWii mode while still in Wii U mode. This also includes DMCU patches.\\nNote that the plugin will not be active when booting vWii mode using the Boot Selector.\\n\\nFeatures\\nAllows enabling the 4 second power button press to force power off while in vWii mode.\\nAllows setting custom viewport values in the DMCU firmware. This can undo the forced cropping of overscan in vWii mode.\\n\\nSpecial Thanks\\n@vaguerant and @Ingunar for all of the vWii testing they have done for this!"
+    },
+    "changelog": "v0.4\\nUpdate to properly support latest Aroma versions (Thanks @Maschell)",
+    "assets": [
+        {
+            "url": "https://github.com/GaryOderNichts/evwii/releases/download/v0.4/evwii.wps",
+            "dest": "/wiiu/environments/aroma/plugins/evwii.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
