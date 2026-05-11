@@ -1,0 +1,35 @@
+{
+    "package": "Padcon",
+    "info": {
+        "title": "Padcon",
+        "author": "Maschell, Brawl345",
+        "category": "aroma",
+        "version": "3.0.0",
+        "url": "https://github.com/WiiDatabase/Padcon-Plugin-Mod",
+        "license": "GPLv3",
+        "description": "Turn Off/On WiiU Gamepad Display.",
+        "details": "This plugin for the Wii U Plugin System turns the Wii U GamePad screen off, but keeps it on as a controller. Alternatively, it can also be turned off completely. Button combos can be adjusted in the config menu.\\n\\nModified version of the Padcon plugin by Maschell.\\n\\nInstallation\\nInstall Aroma\\nCheck the Releases page and download the latest non-preview version of this plugin\\nExtract it to \"SD://wiiu/environments/aroma/plugins\"\\nDone!\\nUsage\\nYou have to HOLD the buttons for a second, not just click them!\\n\\nDefault Button Combo\\nZL + ZR + L + R + Plus: Disable GamePad screen, use as controller (press again to enable again)\\nZL + ZR + L + R + Minus: Power the GamePad down completely (need to power it on again to use it)\\nYou can change these button combos in the WUPS Config Menu (L + D-Pad Down + Minus). The plugin can also be disabled there."
+    },
+    "changelog": "v3.0.0\\nUpdate to be compatible with Aroma Beta 26 (thanks @Maschell)\\nNOTE: This was not tested in-depth, please report any issues.",
+    "assets": [
+        {
+            "url": "https://github.com/WiiDatabase/Padcon-Plugin-Mod/releases/download/v3.0.0/padcon-v3.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/padcon.wps",
+                    "dest": "/wiiu/environments/aroma/plugins/padcon.wps",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "package": "DRCSensorbar",
+    "info": {
+        "title": "DRC Sensorbar",
+        "author": "Brawl345",
+        "category": "aroma",
+        "version": "2.2",
+        "url": "https://github.com/WiiDatabase/DRC-Sensorbar",
+        "license": "MIT",
+        "description": "Enables sensor bar of the DRC permanenty",
+        "details": "This plugin for the WiiUPluginSystem enables the sensor bar of the GamePad (DRC) permanently.\\n\\nLimitations:\\nThe sensor bar is turned off when opening the HOME menu or when the GamePad is disconnected. It gets re-enabled when the HOME menu is closed/the GamePad is connected again. This is a system limitation and expected behavior\\nDoes not work in applets like the web browser - this is a limitation of the Plugin System\\nWhile using, remember that the cursor is not always shown on the GamePad - you should maybe use this together with another plugin, that can swap the screens (depending on the game/app)"
+    },
+    "changelog": "v2.2\\nUpdate to be compatible with Aroma Beta 26 (thanks @Maschell)",
+    "assets": [
+        {
+            "url": "https://github.com/WiiDatabase/DRC-Sensorbar/releases/download/v2.2/drc-sensorbar-v2.2.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/drc-sensorbar.wps",
+                    "dest": "/wiiu/environments/aroma/plugins/drc-sensorbar.wps",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
