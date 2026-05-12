@@ -1,0 +1,29 @@
+{
+    "package": "RoseverseInstaller",
+    "info": {
+        "title": "Roseverse Installer",
+        "author": "Project Ros\u00e9 Team",
+        "category": "_misc",
+        "version": "1.0.0",
+        "url": "https://github.com/Project-Rose/Roseverse-Installer",
+        "license": "MIT",
+        "description": "Installs Roseverse (keeps Pretendo!)",
+        "details": "WARNING! Make sure to have the latest version of Aroma installed!\\n\\nRoseverse Installer allows you to install Project Rose's Miiverse revival, called Roseverse, which is accurate to pre-redesign Miiverse, currently on the works for a web and Nintendo 3DS version, this replaces Juxt, keeps all of the other Pretendo functionality intact, but you can switch back to Pretendo when you need to, just take in mind that this is not recommended if you make active use of user communities (MK8, Wii Fit U) since they might desync.\\n\\nFor more information, and for help on our Discord server, visit miiverse.projectrose.cafe.\\n\\nFor help for Project Rose, or for our Nintendo TVii revival, install Rose Patcher instead and visit projectrose.cafe"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Project-Rose/Roseverse-Installer/releases/download/1.0.0/roseverse_installer.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/RoseverseInstaller/roseverse_installer.wuhb"
+        }
+    ],
+    "changelog": ""
+}
