@@ -22,7 +22,7 @@
         {
             "url": "https://github.com/Sudachi-E/TitleUninstaller/releases/download/V1.0/TitleUninstaller.wuhb",
             "type": "update",
-            "dest": "/wiiu/apps/TitleUninstaller/TitleUninstaller.wuhb"
+            "dest": "/wiiu/apps/TitleUninstaller.wuhb"
         }
     ],
     "changelog": ""
