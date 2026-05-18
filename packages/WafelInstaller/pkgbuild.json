@@ -1,0 +1,34 @@
+{
+    "package": "WafelInstaller",
+    "info": {
+        "title": "Wafel Installer",
+        "author": "zer00p",
+        "category": "tool",
+        "version": "0.6-rc",
+        "url": "https://github.com/zer00p/wafel_installer",
+        "license": "GPLv2",
+        "description": "Easy Install ISFShax, Stroopwafel, Aroma",
+        "details": "This app is designed to be run from the browser via https://wafel.xyz. It helps prepare (format and partition) your USB or SD card, then sets up Aroma + Stroopwafel + ISFShax.\\n\\nIt also includes options to manage Stroopwafel plugins, set up SDUSB or USB partitions, and uninstall them. \\nThis app can also be run directly from Aroma to add ISFShax + Stroopwafel and to manage plugins."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/zer00p/wafel_installer/releases/download/v0.6-rc/wafel_installer.rpx",
+            "type": "update",
+            "dest": "/wiiu/apps/WafelInstaller/wafel_installer.rpx"
+        },
+        {
+            "url": "https://github.com/zer00p/wafel_installer/releases/download/v0.6-rc/wafel_installer.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WafelInstaller/wafel_installer.wuhb"
+        }
+    ],
+    "changelog": ""
+}
