@@ -2,10 +2,10 @@
     "package": "aurorachatforWiiU",
     "info": {
         "title": "aurorachat for Wii U",
-        "author": "Funtum",
+        "author": "Unitendo",
         "category": "_misc",
-        "version": "0.5.3",
-        "url": "https://github.com/ItsFuntum/aurorachat-wiiu",
+        "version": "0.6.03",
+        "url": "https://github.com/Unitendo/aurorachat-wiiu",
         "license": "MIT",
         "description": "A chatting application.",
         "details": "A chatting application originally for the Nintendo 3DS and 2DS systems, now on Wii U.\\n\\nTo use the app, create an account or log in to an existing one.\\nUsers can send and receive real-time messages online. All messages are moderated, and users are expected to follow the rules. The Code of Conduct is available in the GitHub repository."
@@ -20,15 +20,15 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.5.3/aurorachat-wiiu.rpx",
+            "url": "https://github.com/Unitendo/aurorachat-wiiu/releases/download/v0.6.03/aurorachat-wiiu.rpx",
             "type": "update",
             "dest": "/wiiu/apps/aurorachatforWiiU/aurorachat-wiiu.rpx"
         },
         {
-            "url": "https://github.com/ItsFuntum/aurorachat-wiiu/releases/download/v0.5.3/aurorachat-wiiu.wuhb",
+            "url": "https://github.com/Unitendo/aurorachat-wiiu/releases/download/v0.6.03/aurorachat-wiiu.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/aurorachatforWiiU/aurorachat-wiiu.wuhb"
         }
     ],
-    "changelog": "v0.5.3\\nThis release brings new formatting to the versioning to coincide with the 3DS client (v0.5.3 instead of v0.0.5.3). It was supposed to be like this in the previous release but I messed up the tag.\\n\\n What's new\\n- Added a reconnect button when the user disconnects from the TCP server.- The \"Send\" button will be replaced when this happens.\\n- Adjusted the last rules page.\\n- Fixed the buttons being clickable when the rules pages were shown, even if they were hidden.\\n- Previously you could Sign Up/Sign In with an empty username and/or password, the process would fail but it would say that the account was banned. It will now tell you beforehand that they are empty.\\n\\nv0.0.5.2\\nThis release brings new formatting to the versioning to coincide with the 3DS client (v0.5.2 instead of v0.0.5.2).\\n\\n What's new\\n- Fixed several issues that caused the login to fail.- If you still have issues signing up or logging in, it should now display more information regarding why it failed.\\n- Chat is now scrollable with the D-PAD.\\n- Added themes from aurorachat on 3DS.- You can also reverse the themes, swapping the colors with the TV and GamePad.\\n- You can now view the rules by pressing the Y button when chatting.[^1]- There's also a QR Code for the Unitendo Discord server on the last page.\\n- Just like the 3DS and Wii, the Wii U now sends a tag showing the console you are on."
+    "changelog": "v0.6.03\\nChangelog:\\n- The client is now compatible with the aurorachat v0.6 server.\\n- Redesigned the GUI to match the 3DS client.\\n- Added auto-login. The account data is stored in SD:/wiiu/apps/aurorachatforWiiU/account.dat. The data is NOT encrypted. Please don't share it with anyone!\\n- Avatars will be shown to the left of a message. They indicate the platform the message was sent from (aurorachat or Discord), and if it's a system message.\\n- The position and scale of the GUI is now based on the TV resolution. You can now use aurorachat for Wii U with the TV in 720p and even 480p resolution!\\n- Added auto-scrolling. The chat will automatically scroll when a message is sent.\\n\\nv0.5.3\\nThis release brings new formatting to the versioning to coincide with the 3DS client (v0.5.3 instead of v0.0.5.3). It was supposed to be like this in the previous release but I messed up the tag.\\n\\n What's new\\n- Added a reconnect button when the user disconnects from the TCP server.- The \"Send\" button will be replaced when this happens.\\n- Adjusted the last rules page.\\n- Fixed the buttons being clickable when the rules pages were shown, even if they were hidden.\\n- Previously you could Sign Up/Sign In with an empty username and/or password, the process would fail but it would say that the account was banned. It will now tell you beforehand that they are empty.\\n\\nv0.0.5.2\\nThis release brings new formatting to the versioning to coincide with the 3DS client (v0.5.2 instead of v0.0.5.2).\\n\\n What's new\\n- Fixed several issues that caused the login to fail.- If you still have issues signing up or logging in, it should now display more information regarding why it failed.\\n- Chat is now scrollable with the D-PAD.\\n- Added themes from aurorachat on 3DS.- You can also reverse the themes, swapping the colors with the TV and GamePad.\\n- You can now view the rules by pressing the Y button when chatting.[^1]- There's also a QR Code for the Unitendo Discord server on the last page.\\n- Just like the 3DS and Wii, the Wii U now sends a tag showing the console you are on."
 }
