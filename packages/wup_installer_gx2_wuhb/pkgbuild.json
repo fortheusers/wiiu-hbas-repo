@@ -4,16 +4,16 @@
         "title": "WUP Installer GX2 (Aroma)",
         "author": "Fangal",
         "category": "tool",
-        "version": "1.3.1",
+        "version": "1.4",
         "url": "https://github.com/Fangal-Airbag/wup-installer-gx2",
         "license": "none",
         "description": "This a WUHB port of WUP Installer GX2",
         "details": "This a WUHB port of WUP Installer GX2 made for Aroma environment.\\n\\nCredits: A big thanks goes out to brienj for creating the original rpx port of WUP Installer GX2, and Gary for making the Wii U controller mod version.\\n\\nAlso to Yardape8000 for creating the wup installer y mod which WUP Installer GX2 was based on.  And of course dimok who created the original apps HBL and Loadiine which use the same base, as well as the original wupinstaller, and Maschell for creating the new Aroma environment and all the other amazing work he's done for the community. Big thanks to them as well."
     },
-    "changelog": "1.3.1\\n\\nAdds the home button denied icon when downloading a title",
+    "changelog": "v1.4\\nWhat's Changed\\n- Typo fix by @kyoforkshomebrews in https://github.com/Fangal-Airbag/wup-installer-gx2/pull/1\\n- Allows for installing games from the sd:/wudump directory on the SD card, and adds the option to delete installation files after installing a title to save space on the SD card. Credit to @zer00p for these features! https://github.com/Fangal-Airbag/wup-installer-gx2/pull/3\\n\\n New Contributors\\n- @kyoforkshomebrews made their first contribution in https://github.com/Fangal-Airbag/wup-installer-gx2/pull/1\\n- @zer00p made their first contribution in https://github.com/Fangal-Airbag/wup-installer-gx2/pull/3\\n\\n1.3.1\\n\\nAdds the home button denied icon when downloading a title",
     "assets": [
         {
-            "url": "https://github.com/Fangal-Airbag/wup-installer-gx2/releases/download/v1.3.1/wup_installer_gx2.wuhb",
+            "url": "https://github.com/Fangal-Airbag/wup-installer-gx2/releases/download/v1.4/wup_installer_gx2.wuhb",
             "dest": "/wiiu/apps/wup_installer_gx2/wup_installer_gx2.wuhb",
             "type": "update"
         },
