@@ -1,0 +1,29 @@
+{
+    "package": "wup_installer_gx2_wuhb",
+    "info": {
+        "title": "WUP Installer GX2 (Aroma)",
+        "author": "Fangal",
+        "category": "tool",
+        "version": "1.3.1",
+        "url": "https://github.com/Fangal-Airbag/wup-installer-gx2",
+        "license": "none",
+        "description": "This a WUHB port of WUP Installer GX2",
+        "details": "This a WUHB port of WUP Installer GX2 made for Aroma environment.\\n\\nCredits: A big thanks goes out to brienj for creating the original rpx port of WUP Installer GX2, and Gary for making the Wii U controller mod version.\\n\\nAlso to Yardape8000 for creating the wup installer y mod which WUP Installer GX2 was based on.  And of course dimok who created the original apps HBL and Loadiine which use the same base, as well as the original wupinstaller, and Maschell for creating the new Aroma environment and all the other amazing work he's done for the community. Big thanks to them as well."
+    },
+    "changelog": "1.3.1\\n\\nAdds the home button denied icon when downloading a title",
+    "assets": [
+        {
+            "url": "https://github.com/Fangal-Airbag/wup-installer-gx2/releases/download/v1.3.1/wup_installer_gx2.wuhb",
+            "dest": "/wiiu/apps/wup_installer_gx2/wup_installer_gx2.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
