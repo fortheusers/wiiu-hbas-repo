@@ -4,7 +4,7 @@
         "title": "Homebrew Loader",
         "author": "SudoTronics",
         "category": "aroma",
-        "version": "1.1",
+        "version": "1.2",
         "url": "https://github.com/Sudachi-E/Homebrew-Loader",
         "license": "GPLv3",
         "description": "Launch homebrew from the config menu",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Sudachi-E/Homebrew-Loader/releases/download/V1.1/HomebrewLoader.wps",
+            "url": "https://github.com/Sudachi-E/Homebrew-Loader/releases/download/V1.2/HomebrewLoader.wps",
             "dest": "/wiiu/environments/aroma/plugins/HomebrewLoader.wps",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.1\\nWii U Plugin changes :\\n- Support for Aroma Beta 26 and WUPS 0.9.1. (1)\\n\\nPlugin Fixes :\\n\\n- Fixed an issue that caused saved homebrew from failing to open sometimes.\\n\\nInitial release"
+    "changelog": "v1.2\\nWhat's Changed?\\n\\nI've made the decision to move the plugins functionality away from the Aroma Config Menu, reasons for this was that It caused unnecessary delay every time the config menu was opened and the more homebrew on the SD Card made the delay worse.\\n\\nThe plugin is now accessed as a separate menu using the button combo (default: L + R + D-Pad Down), which is configurable in the Aroma Config Menu.\\n\\nv1.1\\nWii U Plugin changes :\\n- Support for Aroma Beta 26 and WUPS 0.9.1. (1)\\n\\nPlugin Fixes :\\n\\n- Fixed an issue that caused saved homebrew from failing to open sometimes.\\n\\nInitial release"
 }
