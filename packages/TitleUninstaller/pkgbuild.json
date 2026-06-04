@@ -4,7 +4,7 @@
         "title": "Title Uninstaller",
         "author": "SudoTronics",
         "category": "tool",
-        "version": "1.0",
+        "version": "1.1",
         "url": "https://github.com/Sudachi-E/TitleUninstaller",
         "license": "GPLv3",
         "description": "A title uninstaller for the Wii U",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Sudachi-E/TitleUninstaller/releases/download/V1.0/TitleUninstaller.wuhb",
+            "url": "https://github.com/Sudachi-E/TitleUninstaller/releases/download/V1.1/TitleUninstaller.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/TitleUninstaller.wuhb"
         }
     ],
-    "changelog": ""
+    "changelog": "v1.1\\n- Added support for Wii Virtual Console titles."
 }
