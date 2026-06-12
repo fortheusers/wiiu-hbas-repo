@@ -4,7 +4,7 @@
         "title": "Spotify for Wii U",
         "author": "Nico Christmann",
         "category": "aroma",
-        "version": "bundle-latest",
+        "version": "1.4.2",
         "url": "https://github.com/Happynico7504/spotify-wiiu",
         "license": "MIT",
         "description": "Unofficial Spotify Connect for Wii U",
@@ -20,15 +20,9 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/bundle-latest/spotify-wiiu-setup-windows-x64.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
+            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.2/spotify-wiiu.wuhb",
+            "dest": "/wiiu/apps/SpotifyWiiU/spotify-wiiu.wuhb",
+            "type": "update"
         }
     ],
     "changelog": ""
