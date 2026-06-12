@@ -1,0 +1,33 @@
+{
+    "package": "SpotifyforWiiU",
+    "info": {
+        "title": "Spotify for Wii U",
+        "author": "Nico Christmann",
+        "category": "aroma",
+        "version": "1.4.4",
+        "url": "https://github.com/Happynico7504/spotify-wiiu",
+        "license": "MIT",
+        "description": "Unofficial Spotify Connect for Wii U",
+        "details": "An unofficial Spotify Connect client for the Nintendo Wii U, running under the Aroma homebrew environment.\\n\\nRequires a Spotify Premium account.\\n\\nNot affiliated with or endorsed by Spotify AB."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.4/spotify-wiiu.wuhb",
+            "dest": "/wiiu/apps/spotify-wiiu/spotify-wiiu.wuhb",
+            "type": "update"
+        }, {
+            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.4/spotify-cache-sweep.wps",
+            "dest": "/wiiu/environments/aroma/plugins/spotify-cache-sweep.wps",
+            "type": "update"
+        }
+    ],
+    "changelog": ""
+}
