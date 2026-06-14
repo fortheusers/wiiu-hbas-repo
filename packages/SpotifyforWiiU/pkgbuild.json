@@ -4,7 +4,7 @@
         "title": "Spotify for Wii U",
         "author": "Nico Christmann",
         "category": "aroma",
-        "version": "1.4.23",
+        "version": "1.4.24",
         "url": "https://github.com/Happynico7504/spotify-wiiu",
         "license": "MIT",
         "description": "Unofficial Spotify Connect for Wii U",
@@ -20,15 +20,15 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.23/spotify-wiiu.wuhb",
+            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.24/spotify-wiiu.wuhb",
             "dest": "/wiiu/apps/spotify-wiiu/spotify-wiiu.wuhb",
             "type": "update"
         },
         {
-            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.23/spotify-cache-sweep.wps",
+            "url": "https://github.com/Happynico7504/spotify-wiiu/releases/download/v1.4.24/spotify-cache-sweep.wps",
             "dest": "/wiiu/environments/aroma/plugins/spotify-cache-sweep.wps",
             "type": "update"
         }
     ],
-    "changelog": "v1.4.23\\n\\n\\nv1.4.19\\n"
+    "changelog": "v1.4.24\\n\\n\\nv1.4.23\\n\\n\\nv1.4.19\\n"
 }
