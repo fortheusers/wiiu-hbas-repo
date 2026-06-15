@@ -1,0 +1,35 @@
+{
+    "package": "Mupen64PlusU",
+    "info": {
+        "title": "Mupen64PlusU",
+        "author": "Miiyamoto255",
+        "category": "emu",
+        "version": "Mupen64PlusU",
+        "url": "https://github.com/Miiyamoto255/Mupen64PlusU/releases/tag/Mupen64PlusU",
+        "license": "GPLv3",
+        "description": "An N64 emulator",
+        "details": "Mupen64PlusU is a direct port of Mupen64Plus-Next for Wii U.\\n\\nFEATURES:\\n\\n60FPS\\nSave states\\nROMs up to 64MB\\nAll environments are supported!\\nFull Wii U GamePad support\\nSupport for heavy mods\\n\\nThank you!\\n\\n--Miiyamoto255--"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Miiyamoto255/Mupen64PlusU/releases/download/Mupen64PlusU/Mupen64PlusU1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "First release!!!\\n1.0.0"
+}
