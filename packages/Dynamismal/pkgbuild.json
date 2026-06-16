@@ -4,16 +4,16 @@
         "title": "Dynamismal",
         "author": "Big Stack of Hay",
         "category": "game",
-        "version": "1.2",
+        "version": "1.2.2",
         "url": "https://codeberg.org/BigStackOfHay/dynamismal",
         "license": "AGPLv3",
         "description": "Not your average platformer. Dynamismal is a challenging platformer with dynamic physics.",
         "details": "This is not your average platformer.\\nThe player is driven by dynamic physics, creating a unique challenge where you must carefully manage momentum and rotation. If that wasn't enough of a challenge, the levels also contain dynamic elements with seesaws, dominoes, seesaw dominoes and catapults. There are even obstacles that will kill on contact (pink) and super-elastic bouncy ones (purple)."
     },
-    "changelog": "v1.2\\nInitial Release for Wii U",
+    "changelog": "\\nv1.2.2\\nAdd splash screens\\nv1.2\\nInitial Release for Wii U",
     "assets": [
         {
-            "url": "https://codeberg.org/BigStackOfHay/dynamismal/releases/download/v1.2/dynamismal_wiiu.wuhb",
+            "url": "https://codeberg.org/BigStackOfHay/dynamismal/releases/download/v1.2.2/dynamismal_wiiu.wuhb",
             "dest": "/wiiu/apps/dynamismal/dynamismal_wiiu.wuhb",
             "type": "update"
         },
