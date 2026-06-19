@@ -1,0 +1,35 @@
+{
+    "package": "cafmediaplayer",
+    "info": {
+        "title": "Caf\u00e9MP",
+        "author": "whateveritwas",
+        "category": "tool",
+        "version": "0.5.1",
+        "url": "https://github.com/whateveritwas/cafemp",
+        "license": "none",
+        "description": "Experimental Media Player for the Nintendo Wii U",
+        "details": "Caf\u00e9MP is a lightweight, open-source media player for the Wii U, focused on basic media playback from the SD card. It supports most common video and audio formats, targeting up to 720p at 30 FPS.\\n\\nThis is a work-in-progress—expect occasional crashes, stutters, or other instability. I'm not a specialist in FFmpeg, Wii U homebrew, or C++."
+    },
+    "changelog": "v0.5.1\\n\\nWhat's new:\\n- Support for Tiramisu cfw\\n- Animated gifs\\n- General stability improvements\\n\\nv0.5.0\\n\\nWhat's new:\\n- New Ui\\n- Photo viewer\\n- Update Toolchain\\n- Video / Audio player hud updates\\n- Changing between multiple audio tracks in a video\\n\\nv0.4.6\\n\\nThis update includes various UI fixes and backend improvements.\\nThere is now also support for skipping in audio files and BASIC support for the pro controller!\\n\\nv0.4.5\\n\\nFixed audio buffers not clearing on startup when background music is disabled\\n\\nv0.4.1\\n\\nMinor ui changes and rendering speed up\\n\\nv0.4.0\\n\\nAdded simple audio player and updated player HUD.\\n\\nv0.3.2\\n\\nAdded contoller ui navigation ans splash screen\\n\\nv0.3.1\\n\\nAdded startup sound when loading from Wii U menu and ambiance music (https://freesound.org/people/LightMister/sounds/769925/) when in cafe mp main menu.\\n\\nv0.3.0\\n\\nCafemp is now multi threaded meaning better video playback capabilities. Maybe up to 720p@30fps. But it works!\\n\\nv0.2.0\\n\\nNew UI and support for most file types like mp4, mov, mkv ,avi\\n\\nv0.1.0\\n\\nAdded frameskip and icon",
+    "assets": [
+        {
+            "url": "https://github.com/whateveritwas/cafemp/releases/download/v0.5.1/cafemp.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "https://raw.githubusercontent.com/whateveritwas/cafemp/refs/heads/main/branding/store_icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "https://raw.githubusercontent.com/whateveritwas/cafemp/refs/heads/main/branding/store_screen.png"
+        }
+    ]
+}
