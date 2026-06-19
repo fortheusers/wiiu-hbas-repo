@@ -20,31 +20,9 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.2.0/cold_start-linux-3.2.0.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
             "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.2.0/cold_start-wiiu-3.2.0.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/ColdStart/cold_start-wiiu-3.2.0.wuhb"
-        },
-        {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.2.0/cold_start-windows-3.2.0.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
         }
     ],
     "changelog": ""
