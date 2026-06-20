@@ -1,14 +1,14 @@
 {
-    "package": "ColdStart",
+    "package": "coldstart-wiiu",
     "info": {
-        "title": "Cold Start",
+        "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "3.2.0",
+        "version": "3.3.0",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Topdown roguelike on five platforms",
-        "details": "roguelike survival with bombs, upgrades, parrying and a console where you can spawn a car and run enemies over. Runs on PC, Nintendo Switch and Wii U homebrew, and Android."
+        "details": "COLD START is a roguelike topdown survival with bombs, upgrades, parrying and a console where you can spawn a car and run enemies over. Runs on PC, Nintendo Switch and Wii U homebrew, and Android."
     },
     "assets": [
         {
@@ -20,9 +20,9 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.2.0/cold_start-wiiu-3.2.0.wuhb",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.3.0/cold_start-wiiu-3.3.0.wuhb",
             "type": "update",
-            "dest": "/wiiu/apps/ColdStart/cold_start-wiiu-3.2.0.wuhb"
+            "dest": "/wiiu/apps/ColdStart/cold_start-wiiu-3.3.0.wuhb"
         }
     ],
     "changelog": ""
