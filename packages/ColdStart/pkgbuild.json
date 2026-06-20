@@ -1,5 +1,5 @@
 {
-    "package": "coldstart-wiiu",
+    "package": "coldstart",
     "info": {
         "title": "COLD START",
         "author": "etonedemid",
@@ -18,6 +18,30 @@
         {
             "type": "banner",
             "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot4.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot5.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screenshot6.png"
         },
         {
             "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.3.0/cold_start-wiiu-3.3.0.wuhb",
