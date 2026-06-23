@@ -4,7 +4,7 @@
         "title": "Themiify",
         "author": "Fangal",
         "category": "tool",
-        "version": "1.0",
+        "version": "1.1",
         "url": "https://github.com/Themiify-hb/Themiify",
         "license": "GPLv3",
         "description": "Wii U Theme Installer and Manager",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Themiify-hb/Themiify/releases/download/v1.0/themiify.wuhb",
+            "url": "https://github.com/Themiify-hb/Themiify/releases/download/v1.1/themiify.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/Themiify/themiify.wuhb"
         }
     ],
-    "changelog": ""
+    "changelog": "v1.1\\nWhat's Changed\\n\\nMany small UI improvements & better error handling\\n\\nContributions:\\n\\n- Fix broken .gitmodules and wiiu-stdout by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/3\\n- Combined PR for 4 and 5 by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/6\\n- Rewrite of the theme preview carousel. by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/4\\n- Better error handling, and a bunch of other small changes. by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/5"
 }
