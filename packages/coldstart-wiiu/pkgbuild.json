@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "3.3.0",
+        "version": "3.3.1",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Topdown roguelike on five platforms",
@@ -44,10 +44,10 @@
             "url": "screenshot6.png"
         },
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.3.0/cold_start-wiiu-3.3.0.wuhb",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v3.3.1/cold_start-wiiu-3.3.1.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/ColdStart/cold_start-wiiu-3.3.0.wuhb"
         }
     ],
-    "changelog": ""
+    "changelog": "v3.3.1\\nCold Start 3.3.1\\n\\n- Wii U: ENet networking ported (online/LAN multiplayer).\\n- Android: on-screen controls baked to textures (big framerate win).\\n- Dialog: gamepad choice navigation; choices can branch on a variable.\\n- Fix: enemies and upgrade boxes no longer spawn inside collision zones.\\n- PC: GLES2 renderer + batching on Linux; smaller/translucent gamepad crosshairs.\\n\\nDownloads:\\n- Windows: cold_start-windows-3.3.1.zip\\n- Linux: cold_start-linux-3.3.1.zip\\n- Switch: cold-start-nx.nro\\n- Android: cold_start-android-3.3.1.apk\\n- Wii U: cold_start-wiiu-3.3.1.wuhb"
 }
