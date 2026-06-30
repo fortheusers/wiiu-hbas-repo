@@ -4,7 +4,7 @@
         "title": "Café-Xplorer",
         "author": "SudoTronics",
         "category": "tool",
-        "version": "1.6",
+        "version": "1.7",
         "url": "https://github.com/Sudachi-E/Cafe-Xplorer",
         "license": "GPLv3",
         "description": "A multi-purpose file manager",
@@ -12,12 +12,12 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.6/Cafe-Xplorer.wuhb",
+            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.7/Cafe-Xplorer.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/Cafe-Xplorer/Cafe-Xplorer.rpx"
         },
         {
-            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.6/Cafe-Xplorer.wuhb",
+            "url": "https://github.com/Sudachi-E/Cafe-Xplorer/releases/download/V1.7/Cafe-Xplorer.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/Cafe-Xplorer/Cafe-Xplorer.wuhb"
         },
@@ -58,5 +58,5 @@
             "url": "screen-6.png"
         }
     ],
-    "changelog": "v1.6\\nNew Features:\\n\\n- Added support for selecting multiple files for copy, move, and deletion.\\n\\nBug Fixes:\\n\\n- Fixed an issue where WFS drives were inaccessible when a Fat32 flash drive wasn't plugged in.\\n- QoL Improvements.\\n\\nv1.5\\nChanges :\\n- WFS and FAT32 drives are now both accessible.\\n- Minor UI changes.\\n\\nv1.4\\nBug fixes :\\n\\n- Fixed Wii Remote navigation issues.\\n\\nNew Features :\\n\\n- Added support for FAT32/exFAT USB drives. (2)\\n\\nHow to use FAT32/exFAT drives :\\n\\nThe Wii U system prioritizes Wii U formatted drives, which prevents external FAT32 and exFAT drives from appearing immediately in the file manager upon connection. To access the external file systems, a console reboot is necessary after plugging the drive in. Furthermore, access to associated WFS drive files will be temporarily inaccessible; the external drive must be removed and the Wii U rebooted to restore WFS file access.\\n\\nv1.3\\nNew Features :\\n\\n- Added support for viewing GIFs/PDF files\\n- Support for more video codecs (AVI, MKV, and MOV)\\n- Support for more audio codecs (WAV, OGG, and FLAC)\\n- Added support for viewing JPG/JPEG\\n- Wii U Pro Controller/Wii Remote navigation support (3)\\n- Minor UI/UX improvements to enhance the user experience\\n\\nv1.2\\n- Fixed crash when returning to Wii U Menu.\\n\\nv1.1\\nWhat's new :\\n\\n- Fixed HOME button exit to the suspended menu instead of exiting immediately.\\n- Added panning and zooming when viewing images (Left stick : panning / Right stick : zoom)\\n- Added access to the full Wii U file system.\\n- Can now open .rpx and .wuhb files directly on the SD Card and Wii U formatted drives.\\n- Minor UI/UX improvements for a better user experience."
+    "changelog": "v1.7\\nNew Features:\\n\\n• Auto mounting/dismounting drives.\\n• Added FTP Server.\\n\\nBug Fixes:\\n\\n• Fixed an issue where a multi-copy and paste operation remained active after completion.\\n• Minor UI update to improve readability.\\n\\nv1.6\\nNew Features:\\n\\n- Added support for selecting multiple files for copy, move, and deletion.\\n\\nBug Fixes:\\n\\n- Fixed an issue where WFS drives were inaccessible when a Fat32 flash drive wasn't plugged in.\\n- QoL Improvements.\\n\\nv1.5\\nChanges :\\n- WFS and FAT32 drives are now both accessible.\\n- Minor UI changes.\\n\\nv1.4\\nBug fixes :\\n\\n- Fixed Wii Remote navigation issues.\\n\\nNew Features :\\n\\n- Added support for FAT32/exFAT USB drives. (2)\\n\\nHow to use FAT32/exFAT drives :\\n\\nThe Wii U system prioritizes Wii U formatted drives, which prevents external FAT32 and exFAT drives from appearing immediately in the file manager upon connection. To access the external file systems, a console reboot is necessary after plugging the drive in. Furthermore, access to associated WFS drive files will be temporarily inaccessible; the external drive must be removed and the Wii U rebooted to restore WFS file access.\\n\\nv1.3\\nNew Features :\\n\\n- Added support for viewing GIFs/PDF files\\n- Support for more video codecs (AVI, MKV, and MOV)\\n- Support for more audio codecs (WAV, OGG, and FLAC)\\n- Added support for viewing JPG/JPEG\\n- Wii U Pro Controller/Wii Remote navigation support (3)\\n- Minor UI/UX improvements to enhance the user experience\\n\\nv1.2\\n- Fixed crash when returning to Wii U Menu.\\n\\nv1.1\\nWhat's new :\\n\\n- Fixed HOME button exit to the suspended menu instead of exiting immediately.\\n- Added panning and zooming when viewing images (Left stick : panning / Right stick : zoom)\\n- Added access to the full Wii U file system.\\n- Can now open .rpx and .wuhb files directly on the SD Card and Wii U formatted drives.\\n- Minor UI/UX improvements for a better user experience."
 }
