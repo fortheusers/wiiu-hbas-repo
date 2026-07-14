@@ -1,0 +1,34 @@
+{
+    "package": "StyleMiiU",
+    "info": {
+        "title": "StyleMiiU",
+        "author": "Juanen100",
+        "category": "aroma",
+        "version": "0.5.3",
+        "url": "https://github.com/Juanen100/StyleMiiU-Plugin",
+        "license": "GPLv3",
+        "description": "A plugin to easily load custom themes",
+        "details": "A plugin made for easy load of themes without needing to rely on SDCafiine.\\nNo system file is modified by this plugin.\\n\\nThis plugin can detect Men.pack, Men2.pack and cafe_barista_men.bfsar automatically to make the theme have any folder structure you desire. SDCaffine's file structure is still compatible with this plugin.\\nThe themes get loaded from SD:/wiiu/themes/ but, if it detects valid themes in the SD:/wiiu/sdcafiine/ folder and SD:/wiiu/themes/ folder doesn't exist, it will load the themes from the SDCafiine's folder.\\n\\nYou can also shuffle between different themes using the Shuffle Themes option and selecting the themes you can shuffle through, which will randomly get selected once you restart the console or exit to the menu from another app."
+    },
+    "changelog": "v0.5.3\\nSimplified theme enabled labels\\nConfig menu shows info about the last theme loaded\\nToggling the shuffle option will disable all enabled themes\\nBoolean options now use \"yes/no\" labels\\nFix Content folder overwriting Men, Men2 and cafe_barista_men when mashing up themes\\nOverall refactor of the codebase\\nAll of these changes were made by @dkosmari (#20)\\n\\nv0.5.1\\n- Update WUPS for Aroma Beta 26 compatibility\\n\\nv0.5.0\\n- Polishes and fixes spelling on the plugin menu\\n- Changes RNG system\\n- Adds the option to mashup different themes\\n- Adds a notification to display the current theme\\n\\nv0.4.4\\n- Parses the theme on application change for Themiify compatibility\\n- Relaunches the Wii U Menu instead of soft rebooting the console\\n- Change the seed to OSGetTime() for the shuffle themes option\\n\\nv0.4.3\\n- Remove the ability to load themes from SDCafiine's directory to avoid problems\\n- Fix a small bug when choosing a favorite theme while the plugin is disabled\\n\\n\\nv0.4.2\\n- Returns to ContentRedirectionModule as a dependency, leaving ThemeRedirectionModule behind for good (meaning if you have an older version of the plugin with ThemeRedirectionModule, you may now delete the module)\\n- Additional theme files like AllMessage.szs can be added within the /content/ folder on a theme like SD:/wiiu/themes/[ThemeName]/content/[TheLanguageToPatch]/Message/AllMessage.szs to provide more compatibility whilst leaving Men.pack, Men2.pack and cafe_barista_men.bfsar untouched and making them go wherever you want.\\n\\n\\nv0.4.1-hf\\nHotfix for 3 major bugs:\\n- Fixes a crash when selecting a theme on the first boot of the plugin\\n- Fixes a bootloop caused by the plugin being enabled and no theme being selected\\n- Fixes a small mistake when applying themes that don't have a music file\\n\\n\\nv0.4\\nThis release has the most important update of:\\n- Supporting any kind of folder structures, along side SDCafiine's own folder structure\\n- Some polish within the plugin menu\\n\\n\\nv0.3\\n- Renamed to StyleMiiU\\n- Added SDCafiine as a fallback if no theme folder is present\\n- Storage settings aren't nearly as messy as before\\n- Custom text on Available Themes options\\n\\n\\nv0.2\\n- Added a shuffle option to randomly shuffle themes",
+    "assets": [
+        {
+            "url": "https://github.com/ThemeCafe/StyleMiiU-Plugin/releases/download/0.5.3/stylemiiu.wps",
+            "dest": "/wiiu/environments/aroma/plugins/stylemiiu.wps",
+            "type": "update"
+        },
+        {
+            "url": "./emptyfile",
+            "dest": "/wiiu/themes/Place StyleMiiU Themes Here",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
