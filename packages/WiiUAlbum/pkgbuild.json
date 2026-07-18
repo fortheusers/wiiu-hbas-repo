@@ -1,0 +1,34 @@
+{
+    "package": "WiiUAlbum",
+    "info": {
+        "title": "Wii U Album",
+        "author": "SudoTronics",
+        "category": "aroma",
+        "version": "1.0",
+        "url": "https://github.com/Sudachi-E/WiiUAlbum",
+        "license": "GPLv3",
+        "description": "Manage screenshots/videos on your Wii U",
+        "details": "An album app for the Wii U. Browse, view, edit, and wirelessly transfer your screenshots and videos to a smart device.\\n\\nFeatures :\\n\\nview screenshots and videos stored in : /fs/vol/external01/wiiu/screenshots (Screenshotplugin) /fs/vol/external01/wiiu/videos (Screencaptureplugin)\\n\\nFilter by media type, application name, sort by date (newest/oldest)\\n\\nVideo Clipping : Trim videos with visual timeline and preview and export as a new video.\\n\\nImage Editor : Add customizable text to screenshots.\\n\\nQR Code Transfer : Scan QR code with a smart device to transfer media.\\nSupports single and multi-file transfers (up to 5 files)"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Sudachi-E/WiiUAlbum/releases/download/V1.0/WiiUAlbum.rpx",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiUAlbum/WiiUAlbum.rpx"
+        },
+        {
+            "url": "https://github.com/Sudachi-E/WiiUAlbum/releases/download/V1.0/WiiUAlbum.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiUAlbum/WiiUAlbum.wuhb"
+        }
+    ],
+    "changelog": ""
+}
