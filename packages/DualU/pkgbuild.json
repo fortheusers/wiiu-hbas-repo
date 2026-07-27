@@ -24,7 +24,7 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
+                    "path": "/Dual U/**/*",
                     "dest": "/",
                     "type": "update"
                 }
