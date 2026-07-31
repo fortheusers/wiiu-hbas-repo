@@ -1,0 +1,29 @@
+{
+    "package": "MiiTransfer",
+    "info": {
+        "title": "Mii Transfer",
+        "author": "jamesrhg",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/jamesrhg/mii-transfer",
+        "license": "GPLv3",
+        "description": "Transfer Miis from your Wii U to devices",
+        "details": "Transfer Miis created on your Wii U console into other devices (web browsers) that can be accessed locally. Just enter the URL shown once you start the app and your Miis will be shown, then click them to download their data (in .FFSD format), where you can use it on other websites such as the 3D web app Mii Creator (mii.nxw.pw) or to make renders/conversions with Mii Unsecure (mii-unsecure.ariankordi.net)\\n\\nSaved Miis, Miis from accounts in your console, and Miis from your Friend List (if available) are exported, however, you can also browse your Mii library directly inside the app, and select a Mii to view more details about it."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jamesrhg/mii-transfer/releases/download/v1.0.0/mii-transfer.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/MiiTransfer/mii-transfer.wuhb"
+        }
+    ],
+    "changelog": ""
+}
