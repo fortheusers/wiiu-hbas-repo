@@ -4,7 +4,7 @@
         "title": "Dual U",
         "author": "tech-will",
         "category": "aroma",
-        "version": "0.7",
+        "version": "0.9",
         "url": "https://github.com/tech-will/Dual-U",
         "license": "MIT",
         "description": "Connect 2 gamepads at the same time!",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/tech-will/Dual-U/releases/download/0.7/Dual.U.zip",
+            "url": "https://github.com/tech-will/Dual-U/releases/download/0.9/Dual.U.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v0.7\\nI added motion controls. You can enable it in the plugin config. There is two types, Mirrored (Merges the motion controls into the first gamepad) and Separate (Wii Remote). Separate (Wii Remote) simulates the secret motion controls setup in Splatoon Battle Dojo. See https://splatoonus.tumblr.com/post/120246428234/one-of-our-scientists-has-made-a-rather-stunning\\n\\nv0.6\\nI finally managed to fix video after like two months! Video is now clear on the second gamepad. You can now switch between gamepad video and TV video to display on the second gamepad. It's on the config menu and you can also now use a button combination to control it.\\n\\nv0.5\\nAdded a performance toggle in the plugin setting that partly fixed an issue where two gamepads would slow down the console. This only partly works because the Wii U needs to be in the Quick Start menu to work as a controller.\\n\\nv0.4\\nFixed version number in plugin and changed L Stick + R stick shortcut to change the controller mode.\\n\\nv0.3\\nAdded Rumble to the second gamepad.\\n\\nv0.2\\nFixed some bugs where some games didn't work with separate controllers. This release also added the ability to use the gamepad on the Wii U menu in Separate mode, so it no longer shows a greyed-out hand."
+    "changelog": "v0.9\\nI added controls for the FPS of the second gamepad. This helps reduce load from the GPU and can speed up game performance and load time.\\n\\nv0.7\\nI added motion controls. You can enable it in the plugin config. There is two types, Mirrored (Merges the motion controls into the first gamepad) and Separate (Wii Remote). Separate (Wii Remote) simulates the secret motion controls setup in Splatoon Battle Dojo. See https://splatoonus.tumblr.com/post/120246428234/one-of-our-scientists-has-made-a-rather-stunning\\n\\nv0.6\\nI finally managed to fix video after like two months! Video is now clear on the second gamepad. You can now switch between gamepad video and TV video to display on the second gamepad. It's on the config menu and you can also now use a button combination to control it.\\n\\nv0.5\\nAdded a performance toggle in the plugin setting that partly fixed an issue where two gamepads would slow down the console. This only partly works because the Wii U needs to be in the Quick Start menu to work as a controller.\\n\\nv0.4\\nFixed version number in plugin and changed L Stick + R stick shortcut to change the controller mode.\\n\\nv0.3\\nAdded Rumble to the second gamepad.\\n\\nv0.2\\nFixed some bugs where some games didn't work with separate controllers. This release also added the ability to use the gamepad on the Wii U menu in Separate mode, so it no longer shows a greyed-out hand."
 }
