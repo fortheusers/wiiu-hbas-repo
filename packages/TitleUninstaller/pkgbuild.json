@@ -4,7 +4,7 @@
         "title": "Title Uninstaller",
         "author": "SudoTronics",
         "category": "tool",
-        "version": "1.1",
+        "version": "1.2",
         "url": "https://github.com/Sudachi-E/TitleUninstaller",
         "license": "GPLv3",
         "description": "A title uninstaller for the Wii U",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Sudachi-E/TitleUninstaller/releases/download/V1.1/TitleUninstaller.wuhb",
+            "url": "https://github.com/Sudachi-E/TitleUninstaller/releases/download/V1.2/TitleUninstaller.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/TitleUninstaller.wuhb"
         }
     ],
-    "changelog": "v1.1\\n- Added support for Wii Virtual Console titles."
+    "changelog": "v1.2\\nNew features :\\n\\n- Added the ability to install titles (accessed moving the right analog stick left/right)\\n- Added support for uninstalling updates and DLC.\\n- Injected Virtual Console game are now supported.\\n- Added an option in settings to keep the screen awake.\\n\\nBug fixes :\\n\\n- Fixed an issue causing game size being misreported.\\n- Fixed some games appearing twice.\\n- Minor UI changes.\\n\\nv1.1\\n- Added support for Wii Virtual Console titles."
 }
