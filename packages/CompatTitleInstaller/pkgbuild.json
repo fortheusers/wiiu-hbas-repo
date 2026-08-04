@@ -29,7 +29,7 @@
             "zip": [
                 {
                     "path": "/compat_installer/*",
-                    "dest": "/wiiu/apps/compat_installer/",
+                    "dest": "/wiiu/apps/compat_installer",
                     "type": "update"
                 }
             ]
