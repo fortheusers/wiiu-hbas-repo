@@ -1,0 +1,46 @@
+{
+    "package": "WiiUStreamDeck",
+    "info": {
+        "title": "WiiU StreamDeck",
+        "author": "FarZenV2",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/FarZenDev/WiiUStreamDeck",
+        "license": "n/a",
+        "description": "Convert your GamPad too StreamDeck",
+        "details": "WiiUStreamDeck turns your Wii U GamePad into a customizable Stream Deck-style controller for your PC. Trigger macros, switch OBS scenes, launch applications, and control media directly from your GamePad. Give your Wii U a second life as a powerful streaming companion tool."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/FarZenDev/WiiUStreamDeck/releases/download/release/release-aroma.rar",
+            "type": "rar",
+            "rar": [
+                {
+                    "path": "/release-aroma/WiiUStreamDeck.wuhb",
+                    "dest": "/wiiu/apps/WiiUStreamDeck/WiiUStreamDeck.wuhb",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/FarZenDev/WiiUStreamDeck/releases/download/release/release-tiramisu.rar",
+            "type": "rar",
+            "rar": [
+                {
+                    "path": "/release-tiramisu/WiiUStreamDeck.rpx",
+                    "dest": "/wiiu/apps/WiiUStreamDeck/WiiUStreamDeck.rpx",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
