@@ -1,0 +1,29 @@
+{
+    "package": "DiizerU",
+    "info": {
+        "title": "DiizerU",
+        "author": "Cycl0o0",
+        "category": "_misc",
+        "version": "0.1.0-beta",
+        "url": "https://github.com/Cycl0o0/DiizerU",
+        "license": "Affero GPLv3",
+        "description": "A Deezer Premium client for Wii U.",
+        "details": "DiizerU is a homebrew Deezer client for the Nintendo Wii U. It pairs with your own Deezer account through a self-hostable Rust relay that decodes and streams audio straight to the console \u2014 album art, search, playlists and all."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Cycl0o0/DiizerU/releases/download/v0.1.0-beta/DiizerU.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/DiizerU/DiizerU.wuhb"
+        }
+    ],
+    "changelog": ""
+}
