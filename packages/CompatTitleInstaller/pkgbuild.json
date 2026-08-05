@@ -4,16 +4,16 @@
         "title": "vWii Compat Title Installer",
         "author": "DaThinkingChair",
         "category": "tool",
-        "version": "1.6",
+        "version": "2.0",
         "url": "https://github.com/Xpl0itU/vwii-compat-installer",
         "license": "GPLv2",
         "description": "Install the Homebrew Channel to the vWii",
         "details": "Install a channel to the vWii Menu from Wii U Mode. In its current state, it simply installs the Homebrew Channel.\\n\\nCredits to:\\n\\nDimok, smealum, others for iosuhax and Mocha CFW.\\nFIX94, this repo is largely based off of wuphax.\\n@Ingunar on GitHub, for the awesome icons\\nTheLordScruffy/mkwcat, for the original Compat Title Installer"
     },
-    "changelog": "1.6\\n\\nOnly align buffers to 0x40, not its size",
+    "changelog": "v2.0\\nCredits to @zer00p for this release, changelog:\\n- Add wad install functionality\\n- d2x cios download and install\\n- IOS80 Patcher\\n- usbloader gx + Forwarder Channel + Aroma Forwarder\\n- Homebrew Browser / LibreShop download\\n- Express Install / Uninstall for everything above\\n- Reinstall option for system titles (should be a more convenient replacement for the decaffinator, since it doesn't run into problems with the update block)\\n- (Experimental) Drive Inquiry Patch for the most common IOSes (the one from Gary, so the vWii is usable without disc drive)\\n\\n1.6\\n\\nOnly align buffers to 0x40, not its size",
     "assets": [
         {
-            "url": "https://github.com/Xpl0itU/vwii-compat-installer/releases/download/v1.6/compat_installer-Aroma.zip",
+            "url": "https://github.com/Xpl0itU/vwii-compat-installer/releases/download/v2.0/compat_installer-Aroma.zip",
             "type": "zip",
             "zip": [
                 {
@@ -24,7 +24,7 @@
             ]
         },
         {
-            "url": "https://github.com/Xpl0itU/vwii-compat-installer/releases/download/v1.6/compat_installer-HBL.zip",
+            "url": "https://github.com/Xpl0itU/vwii-compat-installer/releases/download/v2.0/compat_installer-HBL.zip",
             "type": "zip",
             "zip": [
                 {
