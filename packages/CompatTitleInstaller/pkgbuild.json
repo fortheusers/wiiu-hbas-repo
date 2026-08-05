@@ -1,0 +1,46 @@
+{
+    "package": "CompatTitleInstaller",
+    "info": {
+        "title": "vWii Compat Title Installer",
+        "author": "DaThinkingChair",
+        "category": "tool",
+        "version": "1.6",
+        "url": "https://github.com/Xpl0itU/vwii-compat-installer",
+        "license": "GPLv2",
+        "description": "Install the Homebrew Channel to the vWii",
+        "details": "Install a channel to the vWii Menu from Wii U Mode. In its current state, it simply installs the Homebrew Channel.\\n\\nCredits to:\\n\\nDimok, smealum, others for iosuhax and Mocha CFW.\\nFIX94, this repo is largely based off of wuphax.\\n@Ingunar on GitHub, for the awesome icons\\nTheLordScruffy/mkwcat, for the original Compat Title Installer"
+    },
+    "changelog": "1.6\\n\\nOnly align buffers to 0x40, not its size",
+    "assets": [
+        {
+            "url": "https://github.com/Xpl0itU/vwii-compat-installer/releases/download/v1.6/compat_installer-Aroma.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/compat_installer.wuhb",
+                    "dest": "/wiiu/apps/compat_installer/compat_installer.wuhb",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Xpl0itU/vwii-compat-installer/releases/download/v1.6/compat_installer-HBL.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/compat_installer/*",
+                    "dest": "/wiiu/apps/compat_installer",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
