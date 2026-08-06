@@ -1,0 +1,29 @@
+{
+    "package": "TCPGeckoPlugin",
+    "info": {
+        "title": "TCPGecko Plugin",
+        "author": "Katope",
+        "category": "aroma",
+        "version": "1.2.0",
+        "url": "https://github.com/PinkDiamondTeam/TCPGecko-Plugin",
+        "license": "GPLv3",
+        "description": "TCP Gecko server ported to a Wii U Aroma",
+        "details": "TCPGecko Plugin is a Wii U Aroma plugin that exposes a TCP Gecko-compatible server for development, debugging, memory inspection workflows.\\n\\nCredits\\nThis project is a fork of BullyWiiPlaza/tcpgecko, adapted for use as an Aroma plugin by Katope. This project also contains work from TCP Gecko and Wii U homebrew contributors; individual source files retain their applicable copyright and license notices.\\n\\nLicense\\nThis project is distributed under the GNU General Public License v3.0, matching the upstream project. Files containing additional notices remain subject to those notices. See LICENSE for the full terms.\\n\\nThis project is not affiliated with or endorsed by Nintendo."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/PinkDiamondTeam/TCPGecko-Plugin/releases/download/v1.2.0/TCPGeckoPlugin.elf",
+            "dest": "/wiiu/TCPGeckoPlugin/TCPGeckoPlugin.elf"
+        }
+    ],
+    "changelog": "Initial public release of TCPGecko Plugin for Aroma.\\n\\nHighlights:\\n\\nUpdated Aroma plugin build environment.\\nImproved title-switch cleanup and socket lifecycle.\\nPreserved global-buffer kernel-copy staging with chunked transfers.\\nAdded English and Japanese documentation."
+}
