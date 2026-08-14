@@ -1,0 +1,24 @@
+{
+    "package": "wuc24",
+    "info": {
+        "title": "wuc24",
+        "author": "waffulzz",
+        "category": "tool",
+        "version": "0.1",
+        "url": "https://github.com/waffulzz/wuc24",
+        "license": "n/a",
+        "description": "Update WiiConnect24 data from Wii U mode",
+        "details": "WiiLink still serves WiiConnect24 content to vWii consoles, but collecting it normally requires using a tool every time you boot vWii or waiting on the menu for hours. wuc24 automatically downloads the content from your NWC24 download list to SD card, copies it to NAND & fetches/sends your mailboxes.\\n\\nShould support all WiiConnect24 download functionality, with the exception of Mario Kart Wii competitions.\\n\\n!! Writes to vWii NAND !!\\n\\nContent disclosure: Claude was used in the development of this plugin."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "initial release - version 0.1"
+}
