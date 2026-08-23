@@ -1,0 +1,24 @@
+{
+    "package": "EZTVSwap",
+    "info": {
+        "title": "EZTVSwap",
+        "author": "Ignachob",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/Ignachobb/EZTVSwap",
+        "license": "GPLv3",
+        "description": "Swap HDMI/Analog output with a combo",
+        "details": "A Wii U Aroma plugin that swaps the TV video output between HDMI and an analog connection (Component, Composite or SCART) using a button combo.\\n\\nPerfect for quickly switching to a CRT TV (e.g. 480i over Component) and back, without digging into the system settings. The change is temporary \u2014 after a reboot the console returns to its normal system video mode.\\n\\nDefault combo: D-Pad Left + TV (on the GamePad), while in the Wii U Menu.\\n1st press -> switches to the analog mode (Component 480i @ 4:3 by default).\\n2nd press -> restores the original HDMI mode.\\nOpen the plugin config menu with L + D-Pad Down + Minus (GamePad / Pro Controller / Classic Controller)."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v.1.0.0 Initial Release"
+}
