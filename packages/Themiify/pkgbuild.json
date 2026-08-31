@@ -23,6 +23,22 @@
             "url": "https://github.com/ThemeCafe/Themiify/releases/download/v1.2.1/themiify.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/Themiify/themiify.wuhb"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.github.com/ThemeCafe/Themiify/refs/heads/main/hbas/screenshot-1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.github.com/ThemeCafe/Themiify/refs/heads/main/hbas/screenshot-2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.github.com/ThemeCafe/Themiify/refs/heads/main/hbas/screenshot-3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.github.com/ThemeCafe/Themiify/refs/heads/main/hbas/screenshot-4.png"
         }
     ],
     "changelog": "v1.2.1\\nWhat's Changed\\nFixes wut bug that was causing crashes with the WHBLog system.\\n\\n Contributions:\\n- Add screenshots and HBAS badge. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/18\\n- Fix download speed reporting. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/19\\n- Work around wut bug in whb log messages. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/20\\n\\nv1.2\\nWhat's Changed\\n\\nVarious large UI and QOL changes\\n\\n Contributions:\\n\\n- Docker build script and action. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/7\\n- Many UI changes. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/8\\n- Buttons adjustments by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/9\\n- Shuffle support, plus image loading optimizations. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/15\\n- StyleMiiU and some UI improvements by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/16\\n- QuickID lookup, BGM override, collapsing headers in Settings, SFX, better theme update check by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/17\\n\\nv.1.2-fix\\n[HBAS-specific issue] Fix outdated package contents\\n\\nv1.2\\nWhat's Changed\\n\\nVarious large UI and QOL changes\\n\\n Contributions:\\n\\n- Docker build script and action. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/7\\n- Many UI changes. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/8\\n- Buttons adjustments by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/9\\n- Shuffle support, plus image loading optimizations. by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/15\\n- StyleMiiU and some UI improvements by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/16\\n- QuickID lookup, BGM override, collapsing headers in Settings, SFX, better theme update check by @dkosmari in https://github.com/ThemeCafe/Themiify/pull/17\\n\\nv1.1\\nWhat's Changed\\n\\nMany small UI improvements & better error handling\\n\\nContributions:\\n\\n- Fix broken .gitmodules and wiiu-stdout by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/3\\n- Combined PR for 4 and 5 by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/6\\n- Rewrite of the theme preview carousel. by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/4\\n- Better error handling, and a bunch of other small changes. by @dkosmari in https://github.com/Themiify-hb/Themiify/pull/5"
