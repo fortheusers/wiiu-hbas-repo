@@ -1,0 +1,35 @@
+{
+    "package": "wibelight",
+    "info": {
+        "title": "wibelight",
+        "author": "doughEATER",
+        "category": "advanced",
+        "version": "1.0.1",
+        "url": "https://github.com/dougheater/wibelight",
+        "license": "GPLv3",
+        "description": "A modified version of Moonlight Wii U",
+        "details": "A fork of Moonlight Wii U by GaryOderNichts, itself a port of Moonlight Embedded \u2014 an open-source client for Sunshine and NVIDIA GameStream.\\n\\nMoonlight lets you stream your full collection of games and applications from your PC to other devices to play them remotely. wibelight extends this experience to the Wii U fully configurable through UI, custom themes, GamePad rumble support and color space & range controls."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dougheater/wibelight/releases/download/1.0.1/wibelight.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
