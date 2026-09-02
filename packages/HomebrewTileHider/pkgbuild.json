@@ -1,0 +1,24 @@
+{
+    "package": "HomebrewTileHider",
+    "info": {
+        "title": "Homebrew Tile Hider",
+        "author": "SudoTronics",
+        "category": "aroma",
+        "version": "1.0.0",
+        "url": "https://github.com/Sudachi-E/HomebrewMenuCompanionPlugin",
+        "license": "GPLv3",
+        "description": "Choose homebrew that shows on Wii U Menu",
+        "details": "An Aroma plugin that pairs with homebrew_on_menu_plugin by Maschell\\n\\nIt opens a overlay menu (opened via a button combo) that lets you enable/disable which homebrew apps appear as tiles in the Wii U Menu.\\n\\nUsage :\\n\\nOpen the menu with the configured button combo (default L + R + D-Pad Left; changeable in the Aroma config menu under Homebrew Menu Companion).\\n\\nA toggle the selected app Shown / Hidden\\n+ hide all apps at once\\nB close (relaunches the Wii U Menu if changes were made)\\nMinus rescan the SD card and reload .ignore\\nL / R jump to top / bottom of the list"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
