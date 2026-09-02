@@ -1,0 +1,35 @@
+{
+    "package": "RiiStream",
+    "info": {
+        "title": "RiiStream",
+        "author": "SudoTronics",
+        "category": "aroma",
+        "version": "1.0",
+        "url": "https://github.com/Sudachi-E/RiiStream",
+        "license": "GPLv3",
+        "description": "Stream Wii U Gamepad / TV screen to PC",
+        "details": "RiiStream streams your Wii U GamePad / TV screen to a PC over your local network. Choose the capture source (GamePad, TV or both) in the client, adjust resolution, port, and stream quality right in the plugin menu.\\n\\nOn the PC, Launch the client, start the stream on the Wii U using the button combo (left d-pad + X) by default, enter the Wii U IP address and port into the client (visible in the plugins config menu) and press connect to start the stream.\\n\\nNote : performance can be a hit or miss depending on what's being streamed, for example the Wii U Menu will be unstable while it works better when in games, some games may not work due to lack of GPU memory available for streaming (make sure to adjust the resolution and stream quality for each game when needed).\\n\\nWhen streaming is active, the plugin menu cannot be accessed, stop the stream using the button combo (left d-pad + X) to access the plugin menu again.\\n\\nA ethernet adaptor is recommend to reduce lag."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Sudachi-E/RiiStream/releases/download/V1.0/RiiStream-Client-Windows-x64.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
