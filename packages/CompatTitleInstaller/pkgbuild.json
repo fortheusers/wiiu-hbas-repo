@@ -34,6 +34,11 @@
                 }
             ]
         },
+	{
+		"url": "meta.xml",
+		"type": "update",
+		"dest": "/wiiu/apps/compat_installer/meta.xml"
+	},
         {
             "type": "icon",
             "url": "icon.png"
