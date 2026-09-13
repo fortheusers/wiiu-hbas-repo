@@ -1,0 +1,29 @@
+{
+    "package": "ScreenCapture",
+    "info": {
+        "title": "Screen Capture",
+        "author": "SudoTronics",
+        "category": "aroma",
+        "version": "1.0.0",
+        "url": "https://github.com/Sudachi-E/ScreenCapturePlugin",
+        "license": "GPLv3",
+        "description": "Capture video directly on your Wii U",
+        "details": "Record your Wii U GamePad/TV screen using the record button combo. Press the save combo and the last 30-45 seconds are saved to the SD card in \"sd:/wiiu/videos/\"\\n\\nFeatures :\\nCapture at your choice of resolution (428\u00d7240 to 854\u00d7480), keep the default resolution unless higher is necessary.\\nRecord the GamePad, TV, or both simultaneously (two separate files per save).\\nConfigurable buffer: 30 or 45 seconds always in memory (keep the default unless higher is needed).\\nTwo button combos - one to start/stop recording, one to save the recording.\\nAll settings adjustable from the Aroma config menu."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Sudachi-E/ScreenCapturePlugin/releases/download/V1.0.0/Screen_Capture.wps",
+            "dest": "/wiiu/environments/aroma/plugins/Screen_Capture.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release"
+}
