@@ -1,0 +1,29 @@
+{
+    "package": "AromaLauncher",
+    "info": {
+        "title": "Aroma Launcher",
+        "author": "PretenZeo",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/zeomtrygit/Aroma-Launcher",
+        "license": "MIT",
+        "description": "A legacy HBL-style frontend for Aroma.",
+        "details": "Aroma Launcher is an HBL-styled frontend build for the Aroma Environment. It supports launching WUHB and RPX applications, browsing legacy (but not launching) ELF files, put into the style and functionality of the legacy HBL. \\n\\nTHIS IS NOT A REPLACEMENT FOR AROMA APPLICATIONS! \\n\\nThis is designed to bring the look and feel of the classic HBL into the Aroma Environment."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/zeomtrygit/Aroma-Launcher/releases/download/v1.0.0/HBL_Wuhb_Port20.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/AromaLauncher/HBL_Wuhb_Port20.wuhb"
+        }
+    ],
+    "changelog": "Aroma Launcher V1.0.0\\n\\n-Initial Release\\n-Added WUHB listing and Launching\\n-Added RPX listing and Launching\\n-Added ELF listing\\n-Added WUHB and RPX metadata in listing\\n-Added Touchscreen controls\\n-Added App Validation for corrupt RPX and WUHB files\\n-Added App rescanning\\n-Added Credits\\n-Added an Easter Egg.... Go find it!"
+}
