@@ -4,7 +4,7 @@
         "title": "Wii U Album",
         "author": "SudoTronics",
         "category": "aroma",
-        "version": "1.0",
+        "version": "2.0",
         "url": "https://github.com/Sudachi-E/WiiUAlbum",
         "license": "GPLv3",
         "description": "Manage screenshots/videos on your Wii U",
@@ -20,15 +20,15 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Sudachi-E/WiiUAlbum/releases/download/V1.0/WiiUAlbum.rpx",
+            "url": "https://github.com/Sudachi-E/WiiUAlbum/releases/download/V2.0/WiiUAlbum.rpx",
             "type": "update",
             "dest": "/wiiu/apps/WiiUAlbum/WiiUAlbum.rpx"
         },
         {
-            "url": "https://github.com/Sudachi-E/WiiUAlbum/releases/download/V1.0/WiiUAlbum.wuhb",
+            "url": "https://github.com/Sudachi-E/WiiUAlbum/releases/download/V2.0/WiiUAlbum.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/WiiUAlbum/WiiUAlbum.wuhb"
         }
     ],
-    "changelog": ""
+    "changelog": "v2.0\\nNew Features :\\n\\n- Added dark mode.\\n\\nBug Fixes :\\n- Fixed crash at launch caused by a corrupted video thumbnail.\\n- Fixed not being able to seek when a video is paused.\\n- UI adjustments."
 }
