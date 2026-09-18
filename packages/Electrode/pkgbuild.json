@@ -1,0 +1,24 @@
+{
+    "package": "Electrode",
+    "info": {
+        "title": "Electrode",
+        "author": "Samtendo Network",
+        "category": "tool",
+        "version": "0.0.7",
+        "url": "https://github.com/SamtendoNetwork/Electrode",
+        "license": "GPLv3",
+        "description": "Aroma patcher for using Samtendo Network",
+        "details": "This is Electrode - the open-source patcher for using Samtendo Network! All changes are ephemeral, meaning you can quickly get rid of it if you'd like!\\n\\nWe support many games, from Splatoon, Super Smash Bros, Mario Kart 8, to even older apps like Wii U Chat!\\n\\nJoin our Discord here: https://discord.samtendo.net"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
