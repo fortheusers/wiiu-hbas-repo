@@ -1,0 +1,24 @@
+{
+    "package": "Nintendont",
+    "info": {
+        "title": "Nintendont",
+        "author": "FIX94",
+        "category": "loader",
+        "version": "1",
+        "url": "https://github.com/NikyPSRZ/NintendontWiiU",
+        "license": "n/a",
+        "description": "GameCube loader",
+        "details": "ONLY TESTED ON AROMA ENVIROMENT!!!!\\nUnofficial release of Nintendont, a GameCube loader for Wii.\\nThis release works on vWii mode using the GamePad to navigate trough the menus (or this is the wanted result, if this feature doesn't works it will be revised.)"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
