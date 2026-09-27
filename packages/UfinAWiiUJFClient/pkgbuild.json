@@ -1,0 +1,35 @@
+{
+    "package": "UfinAWiiUJFClient",
+    "info": {
+        "title": "Ufin - A Wii U JF Client",
+        "author": "antu2010",
+        "category": "_misc",
+        "version": "1.1.0",
+        "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client",
+        "license": "MIT",
+        "description": "A native Jellyfin media client for Wii U",
+        "details": "Ufin is a native Jellyfin client for the Nintendo Wii U, bringing your Jellyfin libraries to the console with a custom Wii U interface.\\n\\nBrowse movies, TV shows and music. Ufin supports server-transcoded 720p30 H.264 video, seeking, pause/resume, watched states, resume playback, audio/subtitle selection and video quality settings.\\n\\nMusic features album and artist browsing, artwork, playlists, queues, shuffle, volume control and a TV music visualizer.\\n\\nThe GamePad supports touchscreen browsing, Off-TV movie playback and media remote controls while video plays on the TV. Ufin also supports the Wii U Pro Controller, Wii Remote, Nunchuk and Classic Controller.\\n\\nThe UI includes dark/light modes, custom colors and animated backgrounds.\\n\\nUfin is still in beta and has been tested extensively on real Wii U hardware.\\n\\nAI disclaimer: Most of Ufin's code was AI-generated. The project author handled the architecture, features, design, integration, testing and real-hardware debugging.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.1.0/ufin.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
