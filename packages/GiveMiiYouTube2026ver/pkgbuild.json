@@ -1,0 +1,24 @@
+{
+    "package": "GiveMiiYouTube2026ver",
+    "info": {
+        "title": "GiveMiiYouTube (2026ver)",
+        "author": "PretendoNetwork",
+        "category": "_misc",
+        "version": "2.0",
+        "url": "https://github.com/PretendoNetwork/GiveMiiYouTube",
+        "license": "n/a",
+        "description": "GiveMiiYouTube (2026 Ver.)",
+        "details": "GiveMiiYouTube\\nSince October 27, 2022 the YouTube app for the Wii U has been discontinued and the app can no longer be accessed.\u2028To check if the service is available the YouTube app requests a service token from https://account.nintendo.net/v1/api/provider/service_token/ with a YouTube specific client id.\u2028This endpoint now responds with:\\n<errors>\\n<error>\\n<code>0123</code>\\n<message>Service has expired</message>\\n</error>\\n</errors>\\nThe app then checks if acquiring this token has been sucessful and if not it will display the error. The acquired token itself is not used.\u2028This is a Wii U Plugin System plugin for Aroma which just makes this request always return sucess and thus allowing the YouTube app to continue functioning.\\nSpecial Thanks to\\n@ashquarky for the awesome patcher framework which was taken from Nimble.\\nFor building, please check on GitHub."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Info about version 2.0\\n\\nOn November 1st, 2022 YouTube started returning response 404 for the WiiU useragent platform.\\nSince v2.0 this plugin patches the platform in the useragent for the YouTube app to NoU instead of WiiU, which bypasses this block."
+}
