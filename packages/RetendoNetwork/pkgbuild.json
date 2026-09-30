@@ -1,0 +1,28 @@
+{
+    "package": "RetendoNetwork",
+    "info": {
+        "title": "Retendo Network",
+        "author": "Alexii",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://www.dropbox.com/scl/fi/an09cxvy8immzf8bumtxe/retendo.zip?rlkey=vzpy8eoxn18uq4hpkk4dr5i2x&st=",
+        "license": "n/a",
+        "description": "Retendo is a network for online services",
+        "details": "Retendo is a custom revival network for the Wii U. It redirects network traffic to custom servers, restoring online functionality for games like Splatoon (with Splatfests), Super Mario Maker (with millions of archived levels), Minecraft, and Mario Kart 8. It also features \"Priiverse\", a custom implementation of the Miiverse social network with fully working in-game replies and notification badges. It includes a custom green icon."
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.0.0 The network launches with online support of games such as Mario kart 8, Splatoon and Super Mario Maker also a Friend List and SpotPass functionality, and a Miiverse revival service called Priiverse."
+}
