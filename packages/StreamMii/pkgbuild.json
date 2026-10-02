@@ -1,0 +1,24 @@
+{
+    "package": "StreamMii",
+    "info": {
+        "title": "StreamMii",
+        "author": "Funtum",
+        "category": "aroma",
+        "version": "1.2",
+        "url": "https://github.com/ItsFuntum/StreamMii",
+        "license": "GPLv3",
+        "description": "Stream your Wii U to another device.",
+        "details": "An Aroma plugin that streams your Wii U's TV or GamePad display to another device.\\n\\nStreamMii uses configurable LZ4 or JPEG compression to capture and stream your display over the local network. A Python receiver application is required and runs on a computer.\\n\\nThings to note:\\n- Streaming performance and frame rates are limited by the Wii U's hardware.\\n- Encoding is performed in software and may cause slowdowns.\\n- Some applications and applets, such as Miiverse, cannot be streamed.\\n- Some applications may produce different colors in the stream.\\n- If you experience performance issues, try lowering the capture resolution or disabling the plugin.\\n\\nMore information can be found in the plugin's repository."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.1\\nWhat's New\\n- Improved the plugin's config menu.\\n- The third octet in the Receiver's IP Address can now be set."
+}
