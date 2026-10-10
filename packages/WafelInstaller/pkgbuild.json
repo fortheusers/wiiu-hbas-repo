@@ -20,17 +20,6 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.7/guide.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
             "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.7/wafel_installer.rpx",
             "type": "update",
             "dest": "/wiiu/apps/WafelInstaller/wafel_installer.rpx"
