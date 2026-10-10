@@ -1,0 +1,53 @@
+{
+  "package": "Cobalt",
+  "info": {
+    "title": "Cobalt",
+    "author": "Ewan Croft",
+    "category": "tool",
+    "version": "0.7.0",
+    "url": "https://github.com/ewanc26/cobalt",
+    "license": "AGPL-3.0",
+    "description": "A Bluesky client for the Wii U",
+    "details": "A native Bluesky / AT Protocol client for the Nintendo Wii U, built for Aroma.\n\nRead your home timeline, threads, profiles, notifications and custom feeds; post, reply, quote and attach images; like and repost; search; mute and block. TV and GamePad are both first-class, including Off-TV Play.\n\nSign in with an app password, or through a hosted Wolfram OAuth node so your password never touches the console.\n\nOn first run, Cobalt asks you to scribble on the GamePad to make a private random seed (nothing can go online without one).\n\nCobalt can check this GitHub project for updates from its Updates screen. It only downloads when you press A."
+  },
+  "assets": [
+    {
+      "url": "https://github.com/ewanc26/cobalt/releases/download/v0.7.0/cobalt-0.7.0.wuhb",
+      "type": "update",
+      "dest": "/wiiu/apps/cobalt.wuhb"
+    },
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "banner",
+      "url": "screen.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen-0.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen-1.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen-2.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen-3.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen-4.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen-5.png"
+    }
+  ],
+  "changelog": "v0.7.0\nChanged\n\n- Cobalt now builds against Wolfram v0.30.0 (was v0.28.0). (#181)\n\nAdded\n\n- Lists scroll by dragging a finger up or down the GamePad screen, a row for every row's height dragged, on the timeline, threads, profiles, notifications, search, lists and their members, and the followers and following lists. A drag no longer also counts as a tap when it ends on a row. Wolfram's `wf_drag` does the tap-versus-drag work. Checked on the host; not on a Wii U (#181).\n\nv0.6.0\nChanged\n\n- Cobalt now builds against Wolfram v0.28.0 (was v0.27.0). (#179)\n\nAdded\n\n- Updates are signed. Each release's `update.json` gets a detached Ed25519 signature, `update.json.sig`, made by a GitHub Actions job with a key that exists only as a repository secret. Cobalt checks it against the public key built in before it reads the manifest, and refuses a release that has no signature or the wrong one, so a replaced release no longer passes on its SHA-256 alone. Wolfram's `wf_update_verify_signature` does the check. Releases up to 0.5.0 are unsigned (#138).\n\nv0.5.0\nChanged\n- The More menu (Y) now works on notifications and on profiles, not only on the timeline and a thread. On a profile it replaces X, Y and +, so followers, following and the next tab are menu entries and the footer is shorter; on a post it also has the post's own entries. On a notification it offers the profile, the post and refresh (#173).\n- Cobalt now builds against Wolfram v0.27.0 instead of its main branch, and the updater uses Wolfram's `wolfram/update.h` for the manifest, version comparison and SHA-256. My own copies of those are deleted, and a CI guard fails if they grow back. Behaviour is the same (#172).\n- Notifications now have a host test that the cursor and scroll survive opening a thread or profile and backing out, next to the timeline one. I could not reproduce the rewind in #110 on the host, so it stays open until it is confirmed on a console (#169).\n\nFixed\n- OAuth sign-in through a node can actually finish. The very last step, handing the node's session to Wolfram, was refused for every valid account by a Wolfram bug (wolfram#124), so Cobalt said \"The OAuth node returned an unusable session.\" every time. I found it with the end-to-end test this change adds (#162).\n\nAdded\n- A user guide: what each screen does and which button does it, with screenshots from the host renderer. `tools/check-guide.py` fails CI if it names an image that isn't there or forgets a Home entry (#165).\n- A Homebrew App Store listing, generated from the release: metadata, changelog, icon, banner and screenshots, checked in CI, with one command (`tools/submit-hbas.sh`) that opens the pull request on `fortheusers/wiiu-hbas-repo` in my name. Not submitted yet (#164).\n- A first-run seed. If there is no `entropy.bin` (a `.wuhb` installed without `make bundle`), Cobalt asks me to scribble on the GamePad, builds a seed from the touches, saves it and asks for a restart, instead of silently refusing to go online (#156).\n- Updates, from the Home menu. Cobalt checks this repository's latest release, shows the version and notes, and downloads only when you press A. The file is checked against the SHA-256 in the release, replaces `cobalt.wuhb` when you quit, and the old build is kept until the new one has started; an interrupted update is repaired on the next launch. `tools/publish.sh` now attaches the `.sha256` and an `update.json` manifest to each release. (#140)\n- The footer prompts are tappable. Tapping a hint pill on the GamePad presses the button it names, so \"A: thread\" opens the thread and \"Y: more\" opens the post menu without reaching for the pad. A prompt naming a range or a chord (`Up/Down: choose`) stays inert rather than half-applying, and an overlay that covers the footer — the post menu, the image viewer — keeps the tap. (#129)\n- A full-size image viewer. The post menu grows a \"View image\" entry when the selected post carries pictures, and the picture opens contain-fitted to the whole surface, centred, on both the TV and the GamePad. The author's alt text is drawn beneath the image when there is one, a post of several photographs says \"2 of 4\" in the corner and cycles with Left/Right, and B, A or a tap closes back to the screen it was opened from. The viewer holds copies of the post's image list, so a background refresh cannot rewrite the pictures out from under the person looking at them. (#132)\n- Who liked or reposted a post. The post menu grows \"Liked by (N)\" and \"Reposted by (N)\" entries when the post has either, opening the same avatar-row list the followers screen uses — A opens a profile, B returns to the screen the menu was opened from. Likes and reposts share one list (only one is on screen at a time), fetched through Wolfram's `getLikes`/`getRepostedBy` with the same paging as the other actor lists. (#132)\n- Browser-based AT Protocol OAuth sign-in through the hosted Wolfram OAuth node, with a short-lived pairing link that can be opened on another device. The PDS handles the account password and MFA; Cobalt never sees them. (#128)\n\nChanged\n- The OAuth pairing (begin, poll, the waiting loop) is Wolfram's `wf_oauth_pair_run` now, not Cobalt's own copy. A node that forgets the pairing ends the attempt at once instead of being polled for nine minutes, and quitting while it waits stops it (#162).\n- The README has a Using section with the controls, the build requirements now sit under Building, and the storage section no longer says app passwords are the only way to sign in. (#153)\n- A new mark: a cut stone replaces the ring-C on the icon and both splash screens, and the README has a logo and badges to match the other repositories. Both come from one generator, `tools/gen_assets.py`. (#144)\n- The docs no longer say OAuth is not planned. Cobalt has had browser OAuth sign-in through a Wolfram OAuth node since the OAuth sign-in change (#128, never released on its own); the README, AGENTS.md and the sign-in header comment now say so, and `docs/PARITY.md` re"
+}
