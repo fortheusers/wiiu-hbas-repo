@@ -1,0 +1,29 @@
+{
+    "package": "FiveNightsatEdwards",
+    "info": {
+        "title": "Five Nights at Edward's ",
+        "author": "Edward's Province",
+        "category": "game",
+        "version": "0.9.1",
+        "url": "https://github.com/Alex347XD/Five-Nights-at-Edward-s-U",
+        "license": "All Rights Reserved",
+        "description": "FNaF fan-game for the Wii U!",
+        "details": "Five Nights at Edward's is a fan-made survival horror game inspired by the mechanics and atmosphere of classic Five Nights-style games. The goal is simple: survive the night while managing limited resources and responding to unpredictable threats.\\n\\nWhat Makes It Different?\\nUnlike other projects, this project focuses on our original characters and Roblox UGC series: Edward the Devil, NomNom the Dino, Big the Boulder, And Smiley the Clown, giving fans a unique world and story you won\u2019t find anywhere else.\\n\\nDevelopment\\nThe game is currently almost finished, with just one visual update planned, but balance changes or other small modifications or patches may be released in the future.\\n\\nDisclaimer\\nThis is a fan-made project and is not affiliated with or endorsed by Scott Cawthon or the official Five Nights at Freddy's franchise.\\n\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Alex347XD/Five-Nights-at-Edward-s-U/releases/download/v0.9.1/FNaE_U.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/FiveNightsatEdwards/FNaE_U.wuhb"
+        }
+    ],
+    "changelog": ""
+}
