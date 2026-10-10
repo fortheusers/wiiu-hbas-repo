@@ -4,7 +4,7 @@
         "title": "Ufin - A Wii U JF Client",
         "author": "antu2010",
         "category": "_misc",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client",
         "license": "MIT",
         "description": "A native Jellyfin media client for Wii U",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.1.0/ufin.zip",
+            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.2.0/Ufin.v1.2.0.-.beta.zip",
             "type": "zip",
             "zip": [
                 {
