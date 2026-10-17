@@ -4,7 +4,7 @@
         "title": "Ufin - A Wii U JF Client",
         "author": "antu2010",
         "category": "_misc",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client",
         "license": "MIT",
         "description": "A native Jellyfin media client for Wii U",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.2.0/Ufin.v1.2.0.-.beta.zip",
+            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.2.1/Ufin.v1.2.1-.beta.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "v1.2.1\\nv1.2.1 beta\\n\\n- Fixed subtitles crashing/not displaying. 3 \\n- added an update checker for easy updating"
 }
