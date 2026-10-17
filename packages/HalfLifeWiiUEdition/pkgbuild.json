@@ -1,0 +1,35 @@
+{
+    "package": "HalfLifeWiiUEdition",
+    "info": {
+        "title": "Half-Life: Wii U Edition",
+        "author": "NanoBunTV",
+        "category": "game",
+        "version": "1.0.1",
+        "url": "https://github.com/NanoBunTV/Wii-U-Half-Life",
+        "license": "GPLv3",
+        "description": "A native port of the original Half-Life",
+        "details": "A native port of Half-Life to the Wii U, for the Aroma homebrew environment.\\n\\nAlso includes optional support for Blue Shift and Opposing Force.\\n\\nPlayable on a real Wii U. Most of the game runs at 60 FPS; big fights with many enemies can drop into the 50s.\\n\\nFor full features list and controls, check out the GitHub: github.com/NanoBunTV/Wii-U-Half-Life\\n\\nInstalling: Copy the `valve` folder from your Steam install (`Steam\\steamapps\\common\\Half-Life\\valve`, about 600 MB) to `sd:/wiiu/apps/halflife/`. Start Half-Life from the Wii U Menu. If the game files aren't found, it says so on screen.\\n\\nDisclosure: AI was used to assist in development."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/NanoBunTV/Wii-U-Half-Life/releases/download/v1.0.1/Wii-U-Half-Life-v1.0.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
