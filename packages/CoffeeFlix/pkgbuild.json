@@ -1,0 +1,51 @@
+{
+    "package": "CoffeeFlix",
+    "info": {
+        "title": "CoffeeFlix",
+        "author": "Roastedd",
+        "category": "tool",
+        "version": "2.3.2",
+        "url": "https://github.com/Roastedd/CoffeeFlix",
+        "license": "n/a",
+        "description": "YouTube, Twitch, Jellyfin, radio & more",
+        "details": "YouTube, Twitch, Jellyfin, internet radio, podcasts and your own videos, music, photos and books in one app made for the TV and the GamePad.\\n\\nYouTube: a Discover page and For you feed, subscriptions, channel pages, Shorts, live, playlists, comments, captions, playback speed and SponsorBlock. Works without an account, or sign in to sync history, Watch later and subscriptions.\\nJellyfin: continue watching, next up, subtitles and progress that syncs back. Quick Connect sign-in.\\nTwitch: live channels, search and a follow list.\\nRadio: 40,000+ stations. Podcasts: Apple's directory, with resume.\\nMy Media: videos, music, photos, CBZ and EPUB from the SD card, SMB shares and DLNA servers like Plex.\\n\\nUp to 1080p60 with hardware decoding. GamePad, Pro Controller, Wii Remote and touch. 11 languages, and updates itself from Settings > Updates. Needs Aroma.\\n\\nFree for noncommercial use (PolyForm Noncommercial 1.0.0). https://roastedd.github.io/CoffeeFlix/"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Roastedd/CoffeeFlix/releases/download/v2.3.2/coffeeflix-tiramisu.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Roastedd/CoffeeFlix/releases/download/v2.3.2/coffeeflix.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/CoffeeFlix/coffeeflix.wuhb"
+        },
+        {
+            "url": "https://github.com/Roastedd/CoffeeFlix/releases/download/v2.3.2/coffeeflix.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "v2.3.0\\n- YouTube comments, playback speed, and a Discover page based on what you watch and search\\n- Signed in: history, Watch later and subscriptions can sync with your YouTube account\\n- Auto quality now goes up to 1080p, plus a new 1080p 60 fps option\\n- Smoother Twitch, Jellyfin/Plex, DLNA and network-share streaming with longer buffering\\n- Podcasts load and play again\\n- Settings > Send logs: share your logs when reporting a problem on GitHub\\n- Better gamepad gestures, faster search"
+}
