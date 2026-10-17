@@ -1,0 +1,29 @@
+{
+    "package": "LBreakoutU",
+    "info": {
+        "title": "LBreakoutU",
+        "author": "thedharex",
+        "category": "game",
+        "version": "lanzamiento",
+        "url": "https://github.com/the-dharex/LBreakoutU",
+        "license": "MIT",
+        "description": "It's a port of LBreakoutHD for the Wii U",
+        "details": "LBreakoutU is an HD remake of the classic LBreakout2 breakout-style game. This version is a direct port to the Nintendo Wii U using the WUT (Wii U Toolchain) framework.\\n\\nIt includes native support for the Wii U GamePad, featuring full button controls, analog/D-Pad navigation, and touch screen support\u2014which is especially useful for both gameplay and the integrated Level Editor! Custom levels are fully supported and are saved directly to your SD card."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/the-dharex/LBreakoutU/releases/download/lanzamiento/lbreakouthd.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/LBreakoutU/lbreakouthd.wuhb"
+        }
+    ],
+    "changelog": ""
+}
