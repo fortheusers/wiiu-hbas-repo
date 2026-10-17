@@ -1,0 +1,40 @@
+{
+    "package": "MenuSortAroma",
+    "info": {
+        "title": "Menu Sort Aroma",
+        "author": "Yirr777",
+        "category": "tool",
+        "version": "1.3.0-aroma3",
+        "url": "https://github.com/Yirr777/menu_sort-aroma",
+        "license": "The Unlicense",
+        "description": "Alphabetically sort your Wii U Menu icon",
+        "details": "Unofficial Aroma port of Menu Sort (originally by Yardape8000 and doino-gretchenliev), rebuilt on wut + libmocha instead of the legacy Homebrew Launcher stack.\\n\\nAlphabetically sorts the icons on your Wii U Menu, per user account, including inside folders and homebrew icons injected by the Homebrew On Wii U Menu plugin. Folders, system icons (Disc, Settings, etc.), the Homebrew Launcher, and any title you list in dontmove.txt / dontmove_homebrew.txt stay in place.\\n\\nControls: B standard sort, A sort ignoring a leading \"The\", X/Y bad-naming-mode variants, + backup current order, - restore backup, L count items only.\\n\\nAlways back up (+) before your first sort. An automatic backup is also taken before every real sort. Supports up to 810 titles for compatibility with the 300-title-limit bypass.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Yirr777/menu_sort-aroma/releases/download/v1.3.0-aroma3/menu_sort-aroma-sdcard.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Yirr777/menu_sort-aroma/releases/download/v1.3.0-aroma3/menu_sort_aroma.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/MenuSortAroma/menu_sort_aroma.wuhb"
+        }
+    ],
+    "changelog": "v1.3.0-aroma3\\n- Raised the max sortable items from 300 to 810, for compatibility with the 300-title-limit bypass (thanks @sync-on-luma, PR #1).\\n- Moved the large working arrays off the thread stack into static storage so the higher limit can't overflow the stack. No behavior change.\\n"
+}
