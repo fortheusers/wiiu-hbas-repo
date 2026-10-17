@@ -1,0 +1,24 @@
+{
+    "package": "RecentApps",
+    "info": {
+        "title": "Recent Apps",
+        "author": "Super64",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/BatMANe-Super64/Recent-Apps",
+        "license": "GPLv3",
+        "description": "Aroma plugin - Recent Apps switcher",
+        "details": "Recent Apps is an Aroma plugin for the Wii U that displays HOME and up to nine recently used titles numbered. Select and launch titles from the on-screen menu, including during startup sequences."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
