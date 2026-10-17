@@ -1,0 +1,24 @@
+{
+    "package": "TeachU",
+    "info": {
+        "title": "TeachU",
+        "author": "RiyadTheCoder",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://teachu.replit.app",
+        "license": "n/a",
+        "description": "Make Learning Fun Again With TeachU",
+        "details": "TeachU is the first EVER modded Aroma Plugin w/ the intention of education.\\n\\nHow TeachU Works\\n------------------------------------------------------------------------\\n1. you Link your console\\n2. you create a set\\n3. students join via browser\\n4. when an action is detected or you disable the controller the controller stops working until the user manually answer the question  in the browser\\n5. the controllers is renabled\\n\\n\\n\\nWhy TeachU\\n--------------------------------------------------\\nWe know their are other services that are easier to use like Kahoot or Gimkit but TeachU is the true way to engage students because its games they enjoy and are connected to\\n\\n\\nCorny Slogin\\n-----------------------------------------------------\\nTeachMii TeachU Lets all Learn Wahoo!!!!!!!!!!!!!"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.0\\n-------------------------------------\\nAdded TeachU basic Capibilities\\n"
+}
