@@ -1,0 +1,35 @@
+{
+    "package": "SCPCBWiiUEdition",
+    "info": {
+        "title": "SCP:CB - Wii U Edition",
+        "author": "NanoBunTV",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/NanoBunTV/Wii-U-SCPCB",
+        "license": "n/a",
+        "description": "A native port of SCP Containment Breach",
+        "details": "A native port of SCP - Containment Breach (v1.3.11) to the Wii U, for the Aroma homebrew environment.\\n\\nEverything is included. SCP - Containment Breach is free and licensed under Creative Commons, so the game's files come with the port. You don't need anything else.\\n\\nFor full features list and controls, check out the GitHub: github.com/NanoBunTV/Wii-U-SCPCB\\n\\nDisclosure: AI was used to assist in development."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/NanoBunTV/Wii-U-SCPCB/releases/download/v1.0.0/Wii-U-SCPCB-v1.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
