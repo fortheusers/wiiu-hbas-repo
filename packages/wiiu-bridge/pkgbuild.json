@@ -1,0 +1,29 @@
+{
+  "package": "wiiu-bridge",
+  "info": {
+    "title": "WiiU Bridge",
+    "author": "Eremosisima",
+    "category": "aroma",
+    "version": "23.11.0",
+    "url": "https://github.com/Eremosisima/WiiU-Bridge-Plugin",
+    "license": "MIT",
+    "description": "DSU bridge plugin - allows controlling Wii U from external clients over network",
+    "details": "WiiU Bridge plugin for Aroma. Acts as a DSU (Device State Update) bridge, forwarding controller input from external clients (Android app or PC tools) to the Wii U system. Uses custom protocol (DSUC) over TCP on port 26760. For use with the WiiU Bridge Android client or companion tools from the repository."
+  },
+  "changelog": "v23.11.0\n- Full DSU protocol + GameCube adapter + merge mode\n- Multi-controller support and stability improvements",
+  "assets": [
+    {
+      "url": "https://github.com/Eremosisima/WiiU-Bridge-Plugin/releases/download/v23.11.0/wiiu_bridge_plugin.wps",
+      "dest": "/wiiu/environments/aroma/plugins/wiiu_bridge_plugin.wps",
+      "type": "update"
+    },
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "banner",
+      "url": "screen.png"
+    }
+  ]
+}
