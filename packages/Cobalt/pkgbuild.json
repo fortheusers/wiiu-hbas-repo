@@ -1,53 +1,53 @@
 {
-  "package": "Cobalt",
-  "info": {
-    "title": "Cobalt",
-    "author": "Ewan Croft",
-    "category": "tool",
-    "version": "0.11.1",
-    "url": "https://github.com/ewanc26/cobalt",
-    "license": "AGPL-3.0",
-    "description": "A Bluesky client for the Wii U",
-    "details": "A native Bluesky / AT Protocol client for the Nintendo Wii U, built for Aroma.\n\nRead your home timeline, threads, profiles, notifications and custom feeds; post, reply, quote and attach images; like and repost; search; mute and block. TV and GamePad are both first-class, including Off-TV Play.\n\nSign in with an app password, or through a hosted Wolfram OAuth node so your password never touches the console.\n\nOn first run, Cobalt asks you to scribble on the GamePad to make a private random seed (nothing can go online without one).\n\nCobalt can check this GitHub project for updates from its Updates screen. It only downloads when you press A."
-  },
-  "assets": [
-    {
-      "url": "https://github.com/ewanc26/cobalt/releases/download/v0.11.1/cobalt-0.11.1.wuhb",
-      "type": "update",
-      "dest": "/wiiu/apps/cobalt.wuhb"
+    "package": "Cobalt",
+    "info": {
+        "title": "Cobalt",
+        "author": "Ewan Croft",
+        "category": "tool",
+        "version": "0.12.0",
+        "url": "https://github.com/ewanc26/cobalt",
+        "license": "AGPL-3.0",
+        "description": "A Bluesky client for the Wii U",
+        "details": "A native Bluesky / AT Protocol client for the Nintendo Wii U, built for Aroma.\n\nRead your home timeline, threads, profiles, notifications and custom feeds; post, reply, quote and attach images; like and repost; search; mute and block. TV and GamePad are both first-class, including Off-TV Play.\n\nSign in with an app password, or through a hosted Wolfram OAuth node so your password never touches the console.\n\nOn first run, Cobalt asks you to scribble on the GamePad to make a private random seed (nothing can go online without one).\n\nCobalt can check this GitHub project for updates from its Updates screen. It only downloads when you press A."
     },
-    {
-      "type": "icon",
-      "url": "icon.png"
-    },
-    {
-      "type": "banner",
-      "url": "screen.png"
-    },
-    {
-      "type": "screenshot",
-      "url": "screen-0.png"
-    },
-    {
-      "type": "screenshot",
-      "url": "screen-1.png"
-    },
-    {
-      "type": "screenshot",
-      "url": "screen-2.png"
-    },
-    {
-      "type": "screenshot",
-      "url": "screen-3.png"
-    },
-    {
-      "type": "screenshot",
-      "url": "screen-4.png"
-    },
-    {
-      "type": "screenshot",
-      "url": "screen-5.png"
-    }
-  ],
-  "changelog": ""
+    "assets": [
+        {
+            "url": "https://github.com/ewanc26/cobalt/releases/download/v0.12.0/cobalt-0.12.0.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/cobalt.wuhb"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-0.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-4.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-5.png"
+        }
+    ],
+    "changelog": "v0.12.0\\nAdded\\n\\n- A video whose playlist is a master playlist shows the length of one variant (the lowest bandwidth), followed once, at most two playlist fetches per video. (102: https://github.com/ewanc26/cobalt/issues/102)\\n- Message requests can be accepted or declined. On Messages, Y lists the requests; A accepts the highlighted one, which joins the inbox and opens, and X declines it, which removes it from the list. Each is one press and one request, nothing is sent on entry, and a failure is shown and not retried. Groups are still open. (107)\\n- A video's poster shows its length, read from the video's HLS playlist with Wolfram's wf_embed_video_playlist_duration. The playlist is fetched off the frame loop, only when the poster is drawn, and once per playlist. A master or live playlist, or a failed fetch, shows no duration. Needs Wolfram's unreleased wf_embed_video_playlist_duration (on Wolfram main, PR 217); it is not in the pinned v0.41.0. (102)\\n\\n Changed\\n\\n- On the TV, the selected post in the timeline and thread shows as much of its text as fits in the right-hand column. A longer post ends in a \"More below\" line, and L and R scroll its text one line at a time. The list selection does not move while scrolling, and moving to another post starts its text at the top. The GamePad layout is unchanged. (111)\\n\\n Fixed\\n\\n- Going back to a thread fetches its conversation again. The return stack remembers which thread each screen showed, so after a nested unwind the outer thread no longer shows the inner conversation. (110)\\n- Backing out of a thread opened from a profile that was itself opened from a thread no longer bounces between the profile and the outer thread. Each screen returns to the one it came from, down to the timeline, through a return stack in place of the single return slots. The snapshot suite now walks that chain. (110)"
 }
