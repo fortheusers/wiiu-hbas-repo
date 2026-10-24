@@ -22,12 +22,12 @@
         {
             "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.7/wafel_installer.rpx",
             "type": "update",
-            "dest": "/wiiu/apps/WafelInstaller/wafel_installer.rpx"
+            "dest": "/wiiu/apps/wafel_installer/wafel_installer.rpx"
         },
         {
             "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.7/wafel_installer.wuhb",
             "type": "update",
-            "dest": "/wiiu/apps/WafelInstaller/wafel_installer.wuhb"
+            "dest": "/wiiu/apps/wafel_installer/wafel_installer.wuhb"
         }
     ],
     "changelog": ""
