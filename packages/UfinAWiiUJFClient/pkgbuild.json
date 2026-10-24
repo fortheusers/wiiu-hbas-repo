@@ -4,7 +4,7 @@
         "title": "Ufin - A Wii U JF Client",
         "author": "antu2010",
         "category": "_misc",
-        "version": "1.2.1",
+        "version": "1.3.0",
         "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client",
         "license": "MIT",
         "description": "A native Jellyfin media client for Wii U",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.2.1/Ufin.v1.2.1-.beta.zip",
+            "url": "https://github.com/antu2010/Ufin-A-Wii-U-Jellyfin-client/releases/download/v1.3.0/Ufin.v1.3.0.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v1.2.1\\nv1.2.1 beta\\n\\n- Fixed subtitles crashing/not displaying. 3 \\n- added an update checker for easy updating"
+    "changelog": "v1.3.0\\nUfin v1.3 — A major update!\\n\\nUfin v1.3 brings a redesigned Material 3 Expressive experience, lyrics and synced lyrics, improved music library and playlist management, a full Up Next queue, and new GamePad controls features for movies.\\n\\nit brings:\\n\\n- Material 3 Expressive with customization and animations\\n- Plain and synchronized lyrics\\n- Subtitle and language selection before playing 4 \\n- Library sorting and playlist management\\n- Up Next queue with reordering and quick-add\\n- Four visualizer styles,\\n- Liquid Glass refraction improvements\\n- HTTPS support, including self-signed certificates\\n- Video quality change while playing a movie/episode\\n\\nv1.2.1\\nv1.2.1 beta\\n\\n- Fixed subtitles crashing/not displaying. 3 \\n- added an update checker for easy updating"
 }
