@@ -4,7 +4,7 @@
         "title": "Wafel Installer",
         "author": "zer00p",
         "category": "tool",
-        "version": "1.7",
+        "version": "1.8",
         "url": "https://github.com/zer00p/wafel_installer",
         "license": "GPLv2",
         "description": "Easy Install ISFShax, Stroopwafel, Aroma",
@@ -20,15 +20,15 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.7/wafel_installer.rpx",
+            "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.8/wafel_installer.rpx",
             "type": "update",
             "dest": "/wiiu/apps/wafel_installer/wafel_installer.rpx"
         },
         {
-            "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.7/wafel_installer.wuhb",
+            "url": "https://github.com/zer00p/wafel_installer/releases/download/v1.8/wafel_installer.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/wafel_installer/wafel_installer.wuhb"
         }
     ],
-    "changelog": ""
+    "changelog": "v1.8\\nWhat's Changed\\n- Use HBAS to install iteself\\n- Link HBAS page\\n- Always recommend MLC check (except if it is confirmed failing)\\n- Add NAND Check guide"
 }
