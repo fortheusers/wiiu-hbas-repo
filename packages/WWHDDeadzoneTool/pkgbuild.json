@@ -1,0 +1,35 @@
+{
+    "package": "WWHDDeadzoneTool",
+    "info": {
+        "title": "WWHD Deadzone Tool",
+        "author": "Tot_sr",
+        "category": "tool",
+        "version": "1.2.0",
+        "url": "https://github.com/TotSpeedRuns/WWHD-Deadzone-Tool",
+        "license": "MIT",
+        "description": "Save and restore WWHD deadzone profiles",
+        "details": "Aroma plugin by Tot_sr for capturing and saving native GamePad and original Wii U Pro Controller calibration/deadzone settings in eight named profiles. The selected profile is automatically reapplied on supported game launches and maintained during play. Supports European and North American Wind Waker HD, TWWHD-GZ and the TWWHD Randomizer channel.\\n\\nRequires Aroma Beta 26 or newer; update Aroma and its modules before installing. Extract the release ZIP's wiiu folder to SD root and fully restart the Wii U. Open L + D-pad Down + Minus, then WWHD Deadzone Tool, select a profile and use Capture Deadzones. Do not install multiple plugin copies.\\n\\nHardware restoration verified on GZ and the randomizer; vanilla European testing was reported. Vanilla North American WWHD has not been separately hardware-tested. Captures existing calibration, not an automated drift test. Plugin code is MIT; WUPS retains LGPL-3.0.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/TotSpeedRuns/WWHD-Deadzone-Tool/releases/download/v1.2.0/WWHD-Deadzone-Tool-1.2.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "1.2.0 adds North American WWHD and the TWWHD Randomizer channel. Existing named profiles are retained and the selected calibration is shared across supported titles. Saved EUR/GZ GamePad and Pro Controller calibration was verified restoring in the randomizer."
+}
