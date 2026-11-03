@@ -1,0 +1,24 @@
+{
+    "package": "GZSetup",
+    "info": {
+        "title": "GZ Setup",
+        "author": "Tot_sr",
+        "category": "tool",
+        "version": "v140 beta",
+        "url": "https://github.com/TotSpeedRuns/TWWHD-GZ",
+        "license": "MIT",
+        "description": "Native practice tools for Wind Waker HD",
+        "details": "GZ Setup - Native Practice Tools For The Wind Waker HD\\n\\nCreates or repairs a separate TWWHD-GZ practice installation using your own installed European digital base game (version 0). Includes 803 route checkpoints, warps, inventory editing, trick trainers, Favorites and Frame Advance. Requires Aroma, signature patches, free SD space and space for a second game installation. Run Create/Repair, wait for completion, then fully power off/on before launching TWWHD-GZ. Original game and saves are not included.\\n\\nBeta: v140 has passed scoped Cemu tests; Wii U validation is pending. Save states remain experimental: full-world, cutscene and cross-launch slot coverage is incomplete. Tested post-void restores take about 8.5 seconds. Superswim/Fire Mountain performance remains under development.\\n\\nAuthor: Tot_sr.\\n\\nAI use: Co-written with AI. AI also used for: description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v140: Persistent Favorites grouped by area; Testing Tools and Misc menus; corrected turn directions; Triforce shard and bottle editing; MSS order fixes; Frame Advance input and air-gauge pause fixes. Scoped Cemu verification; Wii U validation pending."
+}
