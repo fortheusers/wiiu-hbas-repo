@@ -1,0 +1,29 @@
+{
+    "package": "ReefLatte",
+    "info": {
+        "title": "ReefLatte",
+        "author": "Ben Lawrence",
+        "category": "aroma",
+        "version": "1.0.0",
+        "url": "https://github.com/bentheminernz/reeflatte",
+        "license": "MIT",
+        "description": "Discord RPC without a computer!",
+        "details": "Show your Wii U presence on Discord without a desktop client!\\nInstall the plugin and register at https://latte.reefpresence.app!\\n\\nAI use: AI-assisted."
+    },
+    "assets": [
+        {
+            "type": "update",
+            "url": "https://github.com/Bentheminernz/ReefLatte/releases/download/1.0.0/ReefLatte.wps",
+            "dest": "/wiiu/environments/aroma/plugins/ReefLatte.wps"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
