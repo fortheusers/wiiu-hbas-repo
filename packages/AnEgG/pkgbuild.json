@@ -1,0 +1,29 @@
+{
+    "package": "AnEgG",
+    "info": {
+        "title": "An EgG",
+        "author": "Daniel Barros (LF)",
+        "category": "game",
+        "version": "0.1.0",
+        "url": "https://github.com/Danielreallydoesexist/An-EgG/",
+        "license": "n/a",
+        "description": "a stupid game about stupid eggs",
+        "details": "explore a stupid, vibe-coded desk filled with eggs. this desk makes no sense, like, why does a desk have caves and can be infiltrated by UNDEF!? (who, by the way, is NOT a real glitch. ...well, in lore it is BUT NOT IN THE CODING)\\n\\nexplore many biomes. scare eggs away because you fried their friends, give UNDEF meat to make him very, VERY hyperactive and memey, and do insane things to giraffes.\\n\\nAI use: AI-generated, not reviewed line by line. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Danielreallydoesexist/An-EgG/releases/download/v0.1.0/An-EgG-Cafe-Engine.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/AnEgG/An-EgG-Cafe-Engine.wuhb"
+        }
+    ],
+    "changelog": "0.1.0: created An EgG"
+}
