@@ -12,6 +12,11 @@
     },
     "assets": [
         {
+            "type": "update",
+            "url": "https://github.com/Bentheminernz/ReefLatte/releases/download/1.0.0/ReefLatte.wps",
+            "dest": "/wiiu/environments/aroma/plugins/ReefLatte.wps"
+        },
+        {
             "type": "icon",
             "url": "icon.png"
         },
