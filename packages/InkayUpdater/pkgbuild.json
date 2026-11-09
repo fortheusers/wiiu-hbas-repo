@@ -1,0 +1,29 @@
+{
+    "package": "InkayUpdater",
+    "info": {
+        "title": "Inkay Updater",
+        "author": "KaisenKai",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/sennecaelen/Inkay-Updater",
+        "license": "MIT",
+        "description": "Tool for updating Pretendo and Protarium",
+        "details": "A Wii U app that keeps Inkay up to date for Pretendo Network and Protarium Network, built for Aroma.\\n\\nSee every Aroma environment on your SD card in one list, with its network, installed Inkay version and whether an update is available. Pick Pretendo or Protarium per environment and install with one press of A.\\n\\nInkay is downloaded straight from the official Pretendo and Protarium GitHub releases. The download is checked first, and your old Inkay is put back if anything goes wrong.\\n\\nRestart your Wii U after updating so the new Inkay loads. You still need a Pretendo or Protarium account to go online.\\n\\nComes with original background music, which you can turn off with Y.\\n\\nAI use: AI-assisted. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sennecaelen/Inkay-Updater/releases/download/v1.0.1/inkay_updater.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/InkayUpdater/inkay_updater.wuhb"
+        }
+    ],
+    "changelog": ""
+}
