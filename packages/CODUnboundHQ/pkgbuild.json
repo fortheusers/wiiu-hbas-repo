@@ -1,0 +1,51 @@
+{
+    "package": "CODUnboundHQ",
+    "info": {
+        "title": "COD: Unbound HQ",
+        "author": "Project: Unbound Team",
+        "category": "tool",
+        "version": "hq-v1.0.2-r60",
+        "url": "https://github.com/tonytrawl/bo2-unbound",
+        "license": "n/a",
+        "description": "Call of Duty on your Wii U; but better.",
+        "details": "Unbound HQ is a Wii U homebrew app for keeping Black Ops II/Ghost Unbound current, managing local mods, and installing curated Aroma plugins.\\n\\nBlack Ops II Unbound is an extensive modification to the original game, it currently has:\\n- Crossplay [Wii U / Switch / Android / Xbox [UWP] / PC]\\n- Mod Support\\n- DLC ports [Currently with Nuketown Zombies and the Revolution map pack ported]\\n- A new MP mode, Project Kennel; where you have to survive endless waves of Dogs in a mixture of MW3's Survival Mode and Zombies.\\n- QoL additions, like an FOV selector and a Server Browser\\n- Performance patches for a better experience\\n\\nGhosts Unbound is still yet to be fixed, but will feature both Mod Support and a Server Browser at launch.\\n\\nWe don't ship the games with the HQ, you have to own either Black Ops II or Ghosts to use this application and ensure you have it's updates installed properly.\\n\\n\\nAI use: AI-assisted. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v1.0.2-r60/Unbound-HQ-v1.0.2-r60-sd.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v1.0.2-r60/Unbound-HQ.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/CODUnboundHQ/Unbound-HQ.wuhb"
+        },
+        {
+            "url": "https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v1.0.2-r60/Unbound_T6_Mod_Tool_Public_v2.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "When installed Core or selected map packs have updates, HQ opens the new update page automatically. Press A to update with your saved USB or NAND destination and language, X for options, or B to return to HQ.\\n\\nMap-pack-only updates leave your installed Core in place. Map packs are selected by default in the picker, and you can reinstall individual packs.\\n\\nPlay Supply Run during downloads and installs. Jump over ground obstacles and duck under seagulls and the Mob of the Dead plane."
+}
