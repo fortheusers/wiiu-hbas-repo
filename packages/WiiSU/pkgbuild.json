@@ -1,0 +1,34 @@
+{
+    "package": "WiiSU",
+    "info": {
+        "title": "WiiSU!",
+        "author": "Padino",
+        "category": "game",
+        "version": "0.1.0",
+        "url": "https://github.com/Padino/WiiSU",
+        "license": "MIT",
+        "description": "A port of the rythm game OSU! to Wii U",
+        "details": "A native C++17 rewrite of osu!standard for the Nintendo Wii U, using SDL2 and WUT.\\n\\nUnofficial and non-commercial. Not affiliated with or endorsed by ppy Pty Ltd."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Padino/WiiSU/releases/download/v0.1.0/WiiSU-v0.1.0.rpx",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiSU/WiiSU-v0.1.0.rpx"
+        },
+        {
+            "url": "https://github.com/Padino/WiiSU/releases/download/v0.1.0/WiiSU-v0.1.0.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiSU/WiiSU-v0.1.0.wuhb"
+        }
+    ],
+    "changelog": ""
+}
