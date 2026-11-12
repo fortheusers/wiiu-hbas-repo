@@ -1,0 +1,40 @@
+{
+    "package": "WiiUShutdown",
+    "info": {
+        "title": "WiiU-Shutdown",
+        "author": "Rayo600-1",
+        "category": "aroma",
+        "version": "1.0.0",
+        "url": "https://github.com/Rayo600-1/WiiUShutdown",
+        "license": "GPLv3",
+        "description": "A simple app that turns off your Wii U.",
+        "details": "A simple app that shutdown your Wii U.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Rayo600-1/WiiUShutdown/releases/download/1.0.0/WiiU-Shutdown.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Rayo600-1/WiiUShutdown/releases/download/1.0.0/WiiUShutdown.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiUShutdown/WiiUShutdown.wuhb"
+        }
+    ],
+    "changelog": ""
+}
