@@ -1,0 +1,35 @@
+{
+    "package": "WiiUFlashplayerEmu",
+    "info": {
+        "title": "WiiU Flashplayer Emu",
+        "author": "Charliebear31",
+        "category": "emu",
+        "version": "1.1",
+        "url": "https://github.com/Charliebear31/wiiuflashplayer-emu",
+        "license": "MIT",
+        "description": "Play Adobe Flash games on your WiiU!",
+        "details": "Flashplayer Emu brings Adobe Flash games to your WiiU. Powered by the open source Ruffle engine, it plays .swf games right on the console.\\n\\nIt runs ActionScript 1, 2 and 3 games, including 3D Stage3D games, with support for filters, masks, blend modes and video. Your progress is kept on the SD card through each game's save data.\\n\\nThe menu takes a picture of each game automatically, and lets you sort games into folders. Choose from three themes, Classic, Adobe Flash and Halloween, each with its own music.\\n\\nPlay with the GamePad touch screen as your mouse, or use the sticks, buttons, Wii Remote, Nunchuk, Classic Controller or Pro Controller.\\n\\nPlease note: not every game will work. The Wii U can only use 1 GB of DDR3 memory for games.\\n\\nYes this project was \"Vibecoded\" but fully safe to run on any WiiU.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Charliebear31/wiiuflashplayer-emu/releases/download/v1.1/wiiu.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "First release: play Flash games on Wii U"
+}
