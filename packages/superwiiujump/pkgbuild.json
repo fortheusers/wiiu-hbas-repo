@@ -1,0 +1,35 @@
+{
+    "package": "superwiiujump",
+    "info": {
+        "title": "super wii u jump",
+        "author": "isaacsg2019",
+        "category": "game",
+        "version": "wiiu_game",
+        "url": "https://github.com/isaacsg2019/super-wii-u-jump-aroma-only-/releases",
+        "license": "MIT",
+        "description": "saves from nand fail",
+        "details": "this game is about saving the wii u from nand fail\\n\\nAI use: AI-generated, not reviewed line by line. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/isaacsg2019/super-wii-u-jump-aroma-only-/releases/download/wiiu_game/wii.u.jump.1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
