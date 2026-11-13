@@ -1,0 +1,29 @@
+{
+    "package": "PixelFaceAICompanion",
+    "info": {
+        "title": "Pixel-Face AI Companion",
+        "author": "SimpleApps",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/Hendrik03/pixel-face-wiiu",
+        "license": "MIT",
+        "description": "A pixel face that chats on the GamePad",
+        "details": "Pixel-Face is a little painted face living on your Wii U GamePad. It breathes, blinks, follows your finger with its eyes and moves its mouth while it answers.\\n\\nAsk it anything: type on the on-screen keyboard, and the question goes to any OpenAI-compatible endpoint:  Google Gemini and OpenRouter works directly, LM Studio or Ollama in your LAN too.  The answer streams back word by word, the face picks a matching expression - happy,  surprised, sleepy, in love, annoyed.  A Mumble voice babbles along.\\n\\nFeatures: German/English interface, context of the last questions, adjustable thinking level, token budget and temperature, voice on/off, log viewer. Settings live in pixel.cfg on the SD card and can be edited on a PC.\\n\\nAI use: Mostly AI-generated. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Hendrik03/pixel-face-wiiu/releases/download/1.0.0/pixel-face.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/PixelFaceAICompanion/pixel-face.wuhb"
+        }
+    ],
+    "changelog": ""
+}
