@@ -1,0 +1,57 @@
+{
+    "package": "VisualBoyAdvanceGX",
+    "info": {
+        "title": "Visual Boy Advance GX",
+        "author": "dborth",
+        "category": "emu",
+        "version": "3.0.6",
+        "url": "https://github.com/dborth/vbagx",
+        "license": "GPLv2",
+        "description": "GB, GBC, GBA emulator",
+        "details": "Visual Boy Advance GX is a Game Boy / Game Boy Color / Game Boy Advance emulator for the Wii U, built on VBA-M and the shared libgui UI/driver framework.\\n\\nAI use: Human-written."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dborth/vbagx/releases/download/3.0.6/VisualBoyAdvanceGX-3.0.6-GameCube.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/vbagx/releases/download/3.0.6/VisualBoyAdvanceGX-3.0.6-Wii.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/vbagx/releases/download/3.0.6/VisualBoyAdvanceGX-3.0.6-WiiU.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
