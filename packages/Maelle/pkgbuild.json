@@ -1,0 +1,34 @@
+{
+    "package": "Maelle",
+    "info": {
+        "title": "Maelle",
+        "author": "michyprima",
+        "category": "emu",
+        "version": "1.2",
+        "url": "https://github.com/michyprima/Maelle",
+        "license": "GPLv3",
+        "description": "A fast and feature rich DS emulator",
+        "details": "Your whole DS library, on the big screen.\\n\\nMaelle turns your Wii U into a Nintendo DS and DSi powerhouse. Built for speed from the ground up, it runs the DS's processors as native code and draws 3D on the Wii U's GPU, so even the most demanding 3D games run at full speed and look sharper than they ever did on the original hardware.\\n\\nPlay on your TV, on the GamePad, or on both at once. Widescreen or 4:3, it fits. Remap any button, set your own hotkeys, and jump back in with save states.\\n\\nAnd it doesn't stop at DS. Maelle plays DSi software and DSiWare, Game Boy Advance games, and Game Boy and Game Boy Color classics through MiGoomba, with rumble and real-time clocks included.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/michyprima/Maelle/releases/download/v1.1/maelle.elf",
+            "dest": "/wiiu/Maelle/Maelle.elf"
+        },
+        {
+            "url": "https://github.com/michyprima/Maelle/releases/download/v1.2/maelle.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/Maelle/maelle.wuhb"
+        }
+    ],
+    "changelog": ""
+}
