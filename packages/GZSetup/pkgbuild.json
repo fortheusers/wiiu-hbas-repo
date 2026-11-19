@@ -22,11 +22,11 @@
         {
             "type": "zip",
             "url": "https://github.com/TotSpeedRuns/TWWHD-GZ/releases/download/v186-setup-game181/TWWHD-GZ-Setup-v186-Game-v181.zip",
-            "zip": {
+            "zip": [{
                 "path": "/wiiu/**/*",
                 "dest": "/wiiu",
                 "type": "update"
-            }
+            }]
         }
     ],
     "changelog": "v140: Persistent Favorites grouped by area; Testing Tools and Misc menus; corrected turn directions; Triforce shard and bottle editing; MSS order fixes; Frame Advance input and air-gauge pause fixes. Scoped Cemu verification; Wii U validation pending."
