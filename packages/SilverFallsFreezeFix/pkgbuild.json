@@ -1,0 +1,24 @@
+{
+    "package": "SilverFallsFreezeFix",
+    "info": {
+        "title": "Silver Falls Freeze Fix",
+        "author": "Kaito-san",
+        "category": "aroma",
+        "version": "Release",
+        "url": "https://github.com/kaitosan135/SilverFallsFreezeFix",
+        "license": "GPLv3",
+        "description": "Restarts on Silver Falls freeze.",
+        "details": "DISCLAIMER: Made with Grok AI.\\n\\nRestarts the Wii U when a Silver Falls game freezes. It is designed to accompany HaltFix.\\n\\nSilver Falls games do not crash like a traditional Wii U game (PPCHalt); instead, they cease all video refreshing, but keep the audio moving. Since it is technically not PPCHalt, HaltFix fails to trigger, forcing you to have to force shutdown the console. This plugin aims to do what HaltFix fails to do for the following titles:\\nSilver Falls: White Inside Its Umbra\\nSilver Falls: Undertakers\\nSilver Falls: Ghoul Busters (the officially unreleased WUP)\\n\\nWhen a Silver Falls game freezes, Silver Falls Freeze Fix detects it, intercepts it, displays a message, then cleanly restarts the console to save you of the hassle of having to hold down the power button even with HaltFix installed."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v0.1: Initial release."
+}
