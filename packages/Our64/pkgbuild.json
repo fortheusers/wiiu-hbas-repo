@@ -1,0 +1,35 @@
+{
+    "package": "Our64",
+    "info": {
+        "title": "Our64",
+        "author": "Ch0nbo",
+        "category": "emu",
+        "version": "1.0.1",
+        "url": "https://github.com/Ch0nbo/Our64",
+        "license": "GPLv2",
+        "description": "Nintendo 64 emulator for Aroma",
+        "details": "Built on Not64 (the CPU recompiler) and GLideN64 (the graphics, with a new Wii U backend).\\n\\nMain Features:\\n- Up to 4 players (GamePad, Pro Controller, Classic Controller, Wii Remote + Nunchuk)\\n- Save states + auto-resume\\n- Controller Pak, Rumble Pak, and Transfer Pak support (can read Game Boy saves from RetroArch & VC injects)\\n\\nNo games are included. Put your own .z64, .n64 or .v64 files in sd:/wiiu/our64/roms.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Ch0nbo/Our64/releases/download/v1.0.1/Our64-1.0.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
