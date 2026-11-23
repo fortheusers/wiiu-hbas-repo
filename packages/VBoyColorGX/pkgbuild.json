@@ -1,0 +1,40 @@
+{
+    "package": "VBoyColorGX",
+    "info": {
+        "title": "VBoy Color GX",
+        "author": "cmyksoda",
+        "category": "emu",
+        "version": "2.0.2",
+        "url": "https://github.com/cmyksoda/vbcgx",
+        "license": "GPLv3",
+        "description": "Virtual Boy emulator that adds color",
+        "details": "VBoy Color GX is a Wii U port of VBoy Color, a Virtual Boy emulator that adds color. It uses a modified version of Tantric's FCE Ultra GX frontend for a clean, familiar way to browse and load games.\\n\\nAI use: AI-assisted."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/cmyksoda/vbcgx/releases/download/v2.0.2/vbcgx-wiiu.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/VBoyColorGX/vbcgx-wiiu.wuhb"
+        },
+        {
+            "url": "https://github.com/cmyksoda/vbcgx/releases/download/v2.0.2/vbcgx.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
