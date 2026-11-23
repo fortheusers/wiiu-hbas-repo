@@ -1,0 +1,40 @@
+{
+    "package": "WiiUTransferTools",
+    "info": {
+        "title": "Wii U Transfer Tools",
+        "author": "El Diuca",
+        "category": "aroma",
+        "version": "2.0.3",
+        "url": "https://github.com/supermafari007/WiiU-Transfer-Tools",
+        "license": "MIT",
+        "description": "Install WUP packages via LAN or USB",
+        "details": "Wii U Transfer Tools is a dark-themed WUP package installer for Aroma designed to install your backups without filling up or constantly removing your SD card.\\n\\nKey Features:\\n- Two Installation Sources: Install directly over your local network from a Windows PC (with a dark GUI, live speed monitor, and auto-discovery) or hot-plug a FAT32 USB flash drive into the front ports without disconnecting your rear USB storage.\\n- Zero-SD Mode (NetFSA): Uses Aroma's Mocha payload and multi-core double buffering to stream packages directly to a temporary folder on your target USB drive or internal NAND, installing and cleaning up automatically. Also includes a classic Direct-Sync SD cache mode.\\n- Batch Queue: Select and install multiple games, updates, and DLCs in a single run.\\n- Dual-Screen Native UI: Full 720p TV and 480p GamePad touch support, plus Pro Controller compatibility.\\n\\nNote: Always unplug FAT32 drives before exiting to the Wii U Menu.\\n\\nAI use: AI-assisted. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/supermafari007/WiiU-Transfer-Tools/releases/download/v2.0.3/WiiU_Transfer.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiUTransferTools/WiiU_Transfer.wuhb"
+        },
+        {
+            "url": "https://github.com/supermafari007/WiiU-Transfer-Tools/releases/download/v2.0.3/WiiU_Transfer_Tools_Pack_Completo_v2.0.3.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
