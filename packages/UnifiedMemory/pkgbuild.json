@@ -1,0 +1,25 @@
+{
+    "package": "UnifiedMemory",
+    "info": {
+        "title": "Unified Memory",
+        "author": "desonect",
+        "category": "aroma",
+        "version": "1.0.0",
+        "url": "https://github.com/desonect/UnifiedMemory",
+        "license": "MIT",
+        "description": "Use multiple WFS USB storage drives simultaneously on Wii U.",
+        "details": "A 100% RAM-only Aroma (WUPS) plugin that lets you use multiple WFS USB storage devices at the same time on Nintendo Wii U (e.g., Internal NAND + SDUSB + an external USB drive).\n\nFeatures:\n- Bypasses the Wii U Menu multi-USB prompt (hooks nn::spm::GetStorageList strictly on Wii U Menu Title IDs).\n- Preserves System Settings -> Data Management so all connected storage drives remain visible.\n- Adds a WUPS Config Menu (L + Down + Minus -> Unified Memory) to choose USB 1 or USB 2 as the install target for title installers.\n- Zero NAND or kernel modifications; each drive remains an independent WFS volume."
+    },
+    "changelog": "v1.0.0\nInitial release: Wii U Menu multi-USB bypass and WUPS Config Menu USB install target selector.",
+    "assets": [
+        {
+            "url": "https://github.com/desonect/UnifiedMemory/releases/download/v1.0.0/UnifiedMemory.wps",
+            "dest": "/wiiu/environments/aroma/plugins/UnifiedMemory.wps",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        }
+    ]
+}
