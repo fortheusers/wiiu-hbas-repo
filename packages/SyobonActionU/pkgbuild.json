@@ -1,0 +1,24 @@
+{
+    "package": "SyobonActionU",
+    "info": {
+        "title": "Syobon Action U",
+        "author": "PortBREW",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/PortBREW/Syobon-Action-U",
+        "license": "MIT",
+        "description": "Port of Syobon Action to Wii U.",
+        "details": "A full port of Syobon Action (the OpenSyobonAction fork) to the Nintendo Wii U with QoL features like an English translation and widescreen.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
