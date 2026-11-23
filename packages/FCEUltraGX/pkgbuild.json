@@ -1,0 +1,90 @@
+{
+    "package": "FCEUltraGX",
+    "info": {
+        "title": "FCE Ultra GX",
+        "author": "dbort",
+        "category": "emu",
+        "version": "4.0.5",
+        "url": "https://github.com/dborth/fceugx",
+        "license": "GPLv2",
+        "description": "NES emulator for Wii U",
+        "details": "FCE Ultra GX is a Nintendo Entertainment System / Famicom emulator for the Wii U, built on FCEUX and the shared libgui UI/driver framework.\\n\\nAI use: Human-written."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dborth/fceugx/releases/download/4.0.5/FCEUltraGX-4.0.5-GameCube.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/fceugx/releases/download/4.0.5/FCEUltraGX-4.0.5-Wii.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/fceugx/releases/download/4.0.5/FCEUltraGX-4.0.5-WiiU.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/fceugx/releases/download/4.0.5/FCEUltraGX-Channel-Installer.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/fceugx/releases/download/4.0.5/FCEUltraGX-Cheat-Files.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/fceugx/releases/download/4.0.5/FCEUltraGX-vWii-Channel-Installer.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
