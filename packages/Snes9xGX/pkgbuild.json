@@ -1,0 +1,90 @@
+{
+    "package": "Snes9xGX",
+    "info": {
+        "title": "Snes9x GX",
+        "author": "dborth",
+        "category": "emu",
+        "version": "5.0.6",
+        "url": "https://github.com/dborth/snes9xgx",
+        "license": "GPLv2",
+        "description": "Super Nintendo emulator for Wii U",
+        "details": "Snes9x GX is a Super Nintendo / Super Famicom emulator for the Nintendo Wii U, built on Snes9x and the shared libgui UI/driver framework.\\n\\nAI use: Human-written."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dborth/snes9xgx/releases/download/5.0.6/Snes9xGX-5.0.6-GameCube.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/snes9xgx/releases/download/5.0.6/Snes9xGX-5.0.6-Wii.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/snes9xgx/releases/download/5.0.6/Snes9xGX-5.0.6-WiiU.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/snes9xgx/releases/download/5.0.6/Snes9xGX-Channel-Installer.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/snes9xgx/releases/download/5.0.6/Snes9xGX-Cheat-Files.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/dborth/snes9xgx/releases/download/5.0.6/Snes9xGX-vWii-Channel-Installer.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
