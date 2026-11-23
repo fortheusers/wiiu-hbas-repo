@@ -1,0 +1,46 @@
+{
+    "package": "DonutCfortheWiiU",
+    "info": {
+        "title": "Donut.C for the Wii U",
+        "author": "Rayo600-1",
+        "category": "_misc",
+        "version": "1.1.0",
+        "url": "https://github.com/Rayo600-1/Donut-For-Wii-U",
+        "license": "n/a",
+        "description": "This is an app that shows a donut in 3D",
+        "details": "This app uses the Donut.c from https://www.a1k0n.net/2021/01/13/optimizing-donut.html\\nI ported to the wii u\\n\\nAI use: AI-assisted."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Rayo600-1/Donut-For-Wii-U/releases/download/1.1.0/Elf.zip.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Rayo600-1/Donut-For-Wii-U/releases/download/1.1.0/Wuhb.and.RPX.zip.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "1.0.0\\nFrist Realese:\\nI put some text my watermark and a credit to the creator of donut.c"
+}
