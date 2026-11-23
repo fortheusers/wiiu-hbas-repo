@@ -1,0 +1,34 @@
+{
+    "package": "PatchBay",
+    "info": {
+        "title": "PatchBay",
+        "author": "JacksonHoggard",
+        "category": "tool",
+        "version": "1.1.0",
+        "url": "https://github.com/JacksonHoggard/patchbay",
+        "license": "MIT",
+        "description": "SDCafiine mod manager",
+        "details": "Browse and install SDCafiine mods from GameBanana and CoffeeShop-format repos, combine mods into one modpack, enable, disable, and update mods. Aroma and Tiramisu.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/JacksonHoggard/patchbay/releases/download/v1.1.0/patchbay.rpx",
+            "type": "update",
+            "dest": "/wiiu/apps/PatchBay/patchbay.rpx"
+        },
+        {
+            "url": "https://github.com/JacksonHoggard/patchbay/releases/download/v1.1.0/patchbay.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/PatchBay/patchbay.wuhb"
+        }
+    ],
+    "changelog": ""
+}
