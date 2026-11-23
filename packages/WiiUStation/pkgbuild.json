@@ -1,0 +1,29 @@
+{
+    "package": "WiiUStation",
+    "info": {
+        "title": "WiiUStation",
+        "author": "cassiojsl",
+        "category": "emu",
+        "version": "1.0.4",
+        "url": "https://github.com/cassiojsl/WiiUStation",
+        "license": "GPLv2",
+        "description": "PS1 emulator for the Wii U",
+        "details": "PlayStation (PS1) emulator for the Wii U, based on PCSX-ReARMed.\\n\\nA standalone app for the Aroma environment (.wuhb). The emulator core is PCSX-ReARMed, linked into the app through the libretro API, so RetroArch is not needed. The menu, video, controllers, covers and saves are WiiUStation's own.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/cassiojsl/WiiUStation/releases/download/v1.0.4/WiiUStation.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/WiiUStation/WiiUStation.wuhb"
+        }
+    ],
+    "changelog": ""
+}
