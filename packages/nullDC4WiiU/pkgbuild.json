@@ -1,0 +1,29 @@
+{
+    "package": "nullDC4WiiU",
+    "info": {
+        "title": "nullDC4WiiU",
+        "author": "perfcrash",
+        "category": "emu",
+        "version": "0.800-U2.2",
+        "url": "https://github.com/nulldc4wiiu/nulldc_wiiu",
+        "license": "MIT",
+        "description": "A native Dreamcast emulator for Wii U!",
+        "details": "A native Dreamcast emulator for Wii U, based on nullDC.\\n\\nIncludes an interactive interface that will evolve over time, a built-in VMU emulator, a controller selector, and various other settings.\\nRuns natively on the Wii U.\\n\\nNative GX2 & Multi-Core Architecture: Hardware-accelerated PowerVR2 rendering on Wii U's GX2 API, SH-4 PowerPC JIT with fastmem, dual-core graphics intake/vertex conversion, and dedicated audio mixing with per-voice AICA low-pass filtering.\\n\\n\\n\\nAI use: Co-written with AI. AI also used for: description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/nulldc4wiiu/nulldc_wiiu/releases/download/v0.800-U2.2/nulldc.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/nullDC4WiiU/nulldc.wuhb"
+        }
+    ],
+    "changelog": "\u2022 In-Game HOME Menu: Pause anytime to manage save states, swap discs, toggle fast-forward, or exit cleanly to the Wii U Menu without freezing.\\n\u2022 Saves & Multi-Disc: 4 save state slots per game (with undo support) and live disc swapping for multi-disc titles.\\n\u2022 GamePad Features: Built-in VMU screen display, real-time FPS counter, and touchscreen or Wii Remote aiming for light gun games (House of the Dead 2, Confidential Mission, etc.).\\n\u2022 Controls & Graphics: Custom button remapping with turbo, rumble support (Puru Puru Pack), aspect ratio options (4:3 / 16:9), video cable modes, and stability fixes."
+}
