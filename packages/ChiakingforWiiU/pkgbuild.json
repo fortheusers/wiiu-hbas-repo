@@ -1,0 +1,34 @@
+{
+    "package": "ChiakingforWiiU",
+    "info": {
+        "title": "Chiaki-ng for Wii U",
+        "author": "MysticFlipFlop",
+        "category": "_misc",
+        "version": "gui-103-vibration-update",
+        "url": "https://github.com/MysticFlipFlop/chiaki-ng-wii-u",
+        "license": "Affero GPLv3",
+        "description": "Next-Generation of Chiaki but for Wii U",
+        "details": "Have you ever wanted to remote play your PS4 or PS5 to your Wii U? No? i don't care\\nHere is the third public release of my chiaki-ng port for Wii U.\\n\\nYou can:\\n- Play with low latency (cant go lower because of ps4's encoding speed, should be faster on ps5)\\n- Zoom the screen\\n- Voice chat with your f o l k s\\n- Use a corner of your gamepad to emulate a Dualshock Touchpad\\n- Stream resolutions like 720p and 540p at 60 fps (540p60 5M recommended)\\n- Get rid of the SHARE button\\n- Enable or disable vsync to improve your latency\\n- Register your console without editing files\\n- Enable vibration (experimental, needs testing, my gamepad is broken)\\n- Choose between 3 remote play modes: Audio and video, audio only, no video/audio output\\n\\nFor the third public release you can't:\\n- Open apps with copyrighted content like Youtube because your wii u will freeze and explode\\n- Use gyroscope"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/MysticFlipFlop/chiaki-ng-wii-u/releases/download/gui-103-vibration-update/chiaki-wiiu.rpx",
+            "type": "update",
+            "dest": "/wiiu/apps/ChiakingforWiiU/chiaki-wiiu.rpx"
+        },
+        {
+            "url": "https://github.com/MysticFlipFlop/chiaki-ng-wii-u/releases/download/gui-103-vibration-update/chiaki-wiiu.wuhb",
+            "type": "update",
+            "dest": "/wiiu/apps/ChiakingforWiiU/chiaki-wiiu.wuhb"
+        }
+    ],
+    "changelog": "Changes compared to the previous version:\\n- Vibration added (experimental / i need testers with this implementation because my gamepad is broken)\\n- Fixed issue with Chiaki freezing after pressing Home button and resuming with vsync disabled \ud83e\udd40\\n- Fixed visual bugs on the TV screen\\n- Now the connection screen is black and not a green so green that could burn your eyes\\n- Fixed issue with audio desyncing (if Chiaki detects there's an audio desync of more than 150 ms, it will resync)\\n- There's a new X button in settings to close ... settings.\\n(Feature requested by Alan_2k from my Discord server) Added option in settings named: MODO, where it gives you 3 presets:\\n-- Normal: Stream video and audio\\n-- Sin video: Stream audio only\\n-- Sin video/audio: Use your gamepad as a simple and heavy 0.5kg Dualshock (no audio or video output)\\n\\nKnown issues:\\n- If you try to open an app with copyrighted content, chiaki will crash and your wii u will explode\\n- Gyroscope not implemented"
+}
