@@ -1,0 +1,30 @@
+{
+    "package": "AnEgG",
+    "info": {
+        "title": "An EgG",
+        "author": "Danielreallydoesexist",
+        "category": "game",
+        "version": "0.1.0",
+        "url": "https://github.com/Danielreallydoesexist/An-EgG",
+        "license": "MIT",
+        "description": "Throw eggs. Do stupid quests.",
+        "details": "An EgG is a Wii U game about doing stupid things with eggs on an infinite desk. Throw, fry, scare, and collect them while you complete ridiculous quests. Explore caves, portals, pinball land, and other biomes, buy weird items, and press the button that definitely does not summon UNDEF. Supports TV and GamePad, save files, and Aroma. Suggested age 13+: includes giraffe butchering and meat imagery. Developed with substantial AI assistance under the creator's direction and testing.",
+        "binary": "/wiiu/apps/AnEgG/An-EgG-Cafe-Engine.wuhb"
+    },
+    "changelog": "v0.1.0: Initial Wii U release.",
+    "assets": [
+        {
+            "url": "https://github.com/Danielreallydoesexist/An-EgG/releases/download/v0.1.0/An-EgG-Cafe-Engine.wuhb",
+            "dest": "/wiiu/apps/AnEgG/An-EgG-Cafe-Engine.wuhb",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
