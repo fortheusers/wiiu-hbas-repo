@@ -20,11 +20,6 @@
             "url": "screen.png"
         },
         {
-            "type": "update",
-            "url": "https://github.com/michyprima/Maelle/releases/download/v1.1/maelle.elf",
-            "dest": "/wiiu/Maelle/Maelle.elf"
-        },
-        {
             "url": "https://github.com/michyprima/Maelle/releases/download/v1.2/maelle.wuhb",
             "type": "update",
             "dest": "/wiiu/apps/Maelle/maelle.wuhb"
